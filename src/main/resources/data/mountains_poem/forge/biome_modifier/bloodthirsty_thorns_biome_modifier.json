@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:sanguine_desert",
+    "mountains_poem:ancient_battlefields",
+    "mountains_poem:under_rock_hill",
+    "mountains_poem:sanguine_valley"
+  ],
+  "features": "mountains_poem:bloodthirsty_thorns",
+  "step": "vegetal_decoration"
+}

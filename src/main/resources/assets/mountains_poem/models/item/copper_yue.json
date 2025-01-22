@@ -1,0 +1,7 @@
+{
+  "parent": "mountains_poem:custom/copper_yues",
+  "textures": {
+    "2": "mountains_poem:block/copper_yue",
+    "particle": "mountains_poem:item/peach_blossom_stick"
+  }
+}

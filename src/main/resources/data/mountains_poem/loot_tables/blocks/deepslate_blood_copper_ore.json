@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/deepslate_blood_copper_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:deepslate_blood_copper_ore"
+        }
+      ]
+    }
+  ]
+}

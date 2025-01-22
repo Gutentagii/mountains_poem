@@ -1,0 +1,7 @@
+{
+  "asset_id": "mountains_poem:sacrifice",
+  "description": {
+    "translate": "trim_pattern.mountains.poem.sacrifice"
+  },
+  "template_item": "mountains_poem:sacrifice_armor_trim_smithing_template"
+}

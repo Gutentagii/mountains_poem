@@ -1,0 +1,174 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Jufu",
+    "mobLabel": "",
+    "mobModelTexture": "ao_yin.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.5,
+    "modelHeight": 1.6,
+    "modelShadowSize": 0.8,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -1454165,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -9818076,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.35,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 45,
+    "health": 30,
+    "xpAmount": 3,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:jufu_ambient"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:jufu_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:jufu_death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "onMobTickUpdate": {
+      "name": "JufuDangShiTiGengXinKeShi"
+    },
+    "onPlayerCollidesWith": {
+      "name": "JufuDangWanJiaYuGaiShiTiFaShengPengZhuangShi"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"102\" y=\"-6\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:QingGenBird</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityParrot</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPhantom</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"climb_powder_snow\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "jufu.geo.json",
+    "groupName": "head_1",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "swim",
+    "animation6": "",
+    "animation7": "sprint",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "sprint",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": true,
+    "enable8": false,
+    "enable9": false,
+    "enable10": true,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": true,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Stone",
+    "rangedAttackInterval": 80,
+    "rangedAttackRadius": 15.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 2,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "grove"
+      },
+      {
+        "value": "cherry_grove"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

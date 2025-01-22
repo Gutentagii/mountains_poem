@@ -1,0 +1,141 @@
+{
+  "_fv": 66,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": true,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BOOK"
+            },
+            "weight": 7,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Token"
+            },
+            "weight": 4,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:KnowledgeBambooSlips"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.WRITABLE_BOOK"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ChickenTotemScrolls"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:PiglinTotemScrolls"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ChangfuTotemScrolls"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BoshiTotemScrolls"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "entities/imperial_examination_ghost",
+    "namespace": "mod"
+  }
+}

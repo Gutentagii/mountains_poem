@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "mountains_poem:bloodcopperplate"
+  },
+  "base": {
+    "item": "mountains_poem:copper_yue"
+  },
+  "result": {
+    "item": "mountains_poem:blood_copper_yue"
+  },
+  "template": {
+    "item": "mountains_poem:blood_copper_upgrade_smithing_template"
+  }
+}

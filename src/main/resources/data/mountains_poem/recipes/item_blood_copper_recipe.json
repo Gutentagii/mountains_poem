@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:blood_copper_ingot"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:bloodcopperplate",
+    "count": 1
+  }
+}

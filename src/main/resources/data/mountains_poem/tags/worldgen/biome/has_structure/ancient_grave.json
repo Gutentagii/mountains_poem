@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "plains",
+    "sunflower_plains",
+    "savanna_plateau",
+    "mountains_poem:yanforest",
+    "mountains_poem:pan_forest",
+    "forest"
+  ]
+}

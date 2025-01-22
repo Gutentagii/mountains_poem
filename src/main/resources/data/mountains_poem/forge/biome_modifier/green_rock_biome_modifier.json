@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:green_rock_mountains",
+  "features": "mountains_poem:green_rock",
+  "step": "underground_ores"
+}

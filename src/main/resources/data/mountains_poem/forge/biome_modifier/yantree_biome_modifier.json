@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:yanforest",
+    "mountains_poem:old_growth_yan_forest"
+  ],
+  "features": "mountains_poem:yantree",
+  "step": "surface_structures"
+}

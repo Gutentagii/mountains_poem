@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:mountains_poem:under_flowers"
+      },
+      {
+        "value": "TAG:mountains_poem:under_flowers"
+      },
+      {
+        "value": "TAG:mountains_poem:under_flowers"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:MooncakeCrust"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnbakedUnderFlowerMooncake"
+    },
+    "name": "item_under_flower_mooncake",
+    "namespace": "mod"
+  }
+}

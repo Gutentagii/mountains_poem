@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "mountains_poem:shatang_planks"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:shatang_button",
+    "count": 1
+  }
+}

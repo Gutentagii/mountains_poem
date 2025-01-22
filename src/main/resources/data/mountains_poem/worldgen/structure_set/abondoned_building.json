@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mountains_poem:abondoned_building",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 13,
+    "salt": 426008996
+  }
+}

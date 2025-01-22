@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:whitejade"
+    },
+    "title": {
+      "translate": "advancements.collect_jade.title"
+    },
+    "description": {
+      "translate": "advancements.collect_jade.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect_jade_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:tokenmaker",
+      "mountains_poem:sdfgh",
+      "mountains_poem:jade_bowl_maker",
+      "mountains_poem:jade_cong_make_1",
+      "mountains_poem:zhuyu_1",
+      "mountains_poem:jadeblocksmake",
+      "mountains_poem:jader",
+      "mountains_poem:jades_1",
+      "mountains_poem:jade_carvers",
+      "mountains_poem:item_jade_ring"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

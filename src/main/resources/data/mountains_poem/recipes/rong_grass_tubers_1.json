@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:pureed_rong_grass_tuber"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:rong_grass_tuber",
+    "count": 2
+  }
+}

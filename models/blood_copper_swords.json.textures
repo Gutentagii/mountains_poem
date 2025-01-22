@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "copper_sword"
+      },
+      "name": "default"
+    },
+    "under": {
+      "map": {
+        "0": "chinese_sword"
+      },
+      "name": "under"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 220,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SanguineSand"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SanguineGlass"
+    },
+    "name": "sanguine_glass",
+    "namespace": "mod"
+  }
+}

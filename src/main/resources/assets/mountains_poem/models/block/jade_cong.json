@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/jade_cong",
+  "textures": {
+    "all": "mountains_poem:block/jade_cong",
+    "particle": "mountains_poem:block/jade_cong",
+    "0": "mountains_poem:block/jade_cong"
+  },
+  "render_type": "solid"
+}

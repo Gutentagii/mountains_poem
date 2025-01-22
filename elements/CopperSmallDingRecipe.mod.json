@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": "CUSTOM:WroughtPatternSmallDing"
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperSmallDing"
+    },
+    "name": "copper_small_ding_recipe",
+    "namespace": "mod"
+  }
+}

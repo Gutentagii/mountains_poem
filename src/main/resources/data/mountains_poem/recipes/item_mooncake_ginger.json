@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:crops/ginger"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "mountains_poem:mooncake_crust"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:unbaked_mooncake_ginger",
+    "count": 1
+  }
+}

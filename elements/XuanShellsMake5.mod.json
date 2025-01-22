@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:tall_flowers"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "TAG:minecraft:tall_flowers"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "TAG:minecraft:tall_flowers"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "TAG:minecraft:tall_flowers"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VitalityXuanShells"
+    },
+    "name": "xuan_shells_make_5",
+    "namespace": "mod"
+  }
+}

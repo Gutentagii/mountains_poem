@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:RongGrassTuber"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:BakedRongGrassTuber"
+    },
+    "name": "baked_rong_grass_tuber_3",
+    "namespace": "mod"
+  }
+}

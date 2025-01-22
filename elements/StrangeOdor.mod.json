@@ -1,0 +1,21 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Strange Odor",
+    "splashName": "Splash Potion of Strange Odor",
+    "lingeringName": "Lingering Potion of Strange Odor",
+    "arrowName": "Arrow of Strange Odor",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:StrongOdor"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

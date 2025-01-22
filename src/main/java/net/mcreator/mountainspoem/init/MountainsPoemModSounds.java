@@ -1,0 +1,92 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.mountainspoem.init;
+
+import net.mcreator.mountainspoem.MountainsPoemMod;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class MountainsPoemModSounds {
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MountainsPoemMod.MODID);
+	public static final RegistryObject<SoundEvent> XUAN_TORT = REGISTRY.register("xuan_tort", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "xuan_tort")));
+	public static final RegistryObject<SoundEvent> LEI = REGISTRY.register("lei", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lei")));
+	public static final RegistryObject<SoundEvent> BOSHI = REGISTRY.register("boshi", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "boshi")));
+	public static final RegistryObject<SoundEvent> RED_RU = REGISTRY.register("red_ru", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "red_ru")));
+	public static final RegistryObject<SoundEvent> WHITE_MONKEYS = REGISTRY.register("white_monkeys", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "white_monkeys")));
+	public static final RegistryObject<SoundEvent> HUJIUWEI = REGISTRY.register("hujiuwei", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hujiuwei")));
+	public static final RegistryObject<SoundEvent> GU_EAGLE = REGISTRY.register("gu_eagle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "gu_eagle")));
+	public static final RegistryObject<SoundEvent> FEI_BULL_STEP = REGISTRY.register("fei_bull_step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fei_bull_step")));
+	public static final RegistryObject<SoundEvent> FEI_BULL = REGISTRY.register("fei_bull", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fei_bull")));
+	public static final RegistryObject<SoundEvent> SOUTH_GOD_HURT = REGISTRY.register("south_god_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_god_hurt")));
+	public static final RegistryObject<SoundEvent> SOUTH_GOD_ATTACK = REGISTRY.register("south_god_attack", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_god_attack")));
+	public static final RegistryObject<SoundEvent> SOUTH_GOD_DEAD = REGISTRY.register("south_god_dead", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_god_dead")));
+	public static final RegistryObject<SoundEvent> SOUTH_GOD_STEP = REGISTRY.register("south_god_step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_god_step")));
+	public static final RegistryObject<SoundEvent> SOUTH_GOD = REGISTRY.register("south_god", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_god")));
+	public static final RegistryObject<SoundEvent> SKYTEMPLE = REGISTRY.register("skytemple", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "skytemple")));
+	public static final RegistryObject<SoundEvent> ZUO_COWS = REGISTRY.register("zuo_cows", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zuo_cows")));
+	public static final RegistryObject<SoundEvent> MINGQU = REGISTRY.register("mingqu", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "mingqu")));
+	public static final RegistryObject<SoundEvent> MINGQU_AMBIENT = REGISTRY.register("mingqu_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "mingqu_ambient")));
+	public static final RegistryObject<SoundEvent> QINGGEN = REGISTRY.register("qinggen", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "qinggen")));
+	public static final RegistryObject<SoundEvent> HUI_AMBIENT = REGISTRY.register("hui_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hui_ambient")));
+	public static final RegistryObject<SoundEvent> SOUTH_M_GOD_2 = REGISTRY.register("south_m_god_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "south_m_god_2")));
+	public static final RegistryObject<SoundEvent> HALBERD = REGISTRY.register("halberd", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "halberd")));
+	public static final RegistryObject<SoundEvent> CHANGFU_BIRD = REGISTRY.register("changfu_bird", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "changfu_bird")));
+	public static final RegistryObject<SoundEvent> QING_GENG = REGISTRY.register("qing_geng", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "qing_geng")));
+	public static final RegistryObject<SoundEvent> HUN_HORSE = REGISTRY.register("hun_horse", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hun_horse")));
+	public static final RegistryObject<SoundEvent> FEN_BIRD = REGISTRY.register("fen_bird", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fen_bird")));
+	public static final RegistryObject<SoundEvent> LUAN_BIRD = REGISTRY.register("luan_bird", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "luan_bird")));
+	public static final RegistryObject<SoundEvent> LUFISH = REGISTRY.register("lufish", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lufish")));
+	public static final RegistryObject<SoundEvent> SG2_HURT = REGISTRY.register("sg2_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "sg2_hurt")));
+	public static final RegistryObject<SoundEvent> MONKEY_HURT = REGISTRY.register("monkey_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "monkey_hurt")));
+	public static final RegistryObject<SoundEvent> ZHONGSHAN = REGISTRY.register("zhongshan", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhongshan")));
+	public static final RegistryObject<SoundEvent> ZHONGSHAN_HURT = REGISTRY.register("zhongshan_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhongshan_hurt")));
+	public static final RegistryObject<SoundEvent> ZHONGSHAN_DEALTH = REGISTRY.register("zhongshan_dealth", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhongshan_dealth")));
+	public static final RegistryObject<SoundEvent> FENGHUANG = REGISTRY.register("fenghuang", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fenghuang")));
+	public static final RegistryObject<SoundEvent> FENGHUANG_HURT = REGISTRY.register("fenghuang_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fenghuang_hurt")));
+	public static final RegistryObject<SoundEvent> FENGHUANG_DEALTH = REGISTRY.register("fenghuang_dealth", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "fenghuang_dealth")));
+	public static final RegistryObject<SoundEvent> LEI_2 = REGISTRY.register("lei_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lei_2")));
+	public static final RegistryObject<SoundEvent> ZHENG1 = REGISTRY.register("zheng1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zheng1")));
+	public static final RegistryObject<SoundEvent> ZHENG_2 = REGISTRY.register("zheng_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zheng_2")));
+	public static final RegistryObject<SoundEvent> AO_YIN1 = REGISTRY.register("ao_yin1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "ao_yin1")));
+	public static final RegistryObject<SoundEvent> AO_YIN2 = REGISTRY.register("ao_yin2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "ao_yin2")));
+	public static final RegistryObject<SoundEvent> CARVED_SHELLS = REGISTRY.register("carved_shells", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "carved_shells")));
+	public static final RegistryObject<SoundEvent> MONKEY_AMBIENT = REGISTRY.register("monkey_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "monkey_ambient")));
+	public static final RegistryObject<SoundEvent> LEI_AMBIENT = REGISTRY.register("lei_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lei_ambient")));
+	public static final RegistryObject<SoundEvent> LEI_HURT = REGISTRY.register("lei_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lei_hurt")));
+	public static final RegistryObject<SoundEvent> LEI_DEATH = REGISTRY.register("lei_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "lei_death")));
+	public static final RegistryObject<SoundEvent> HUN_HORSE_AMBIENT = REGISTRY.register("hun_horse_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hun_horse_ambient")));
+	public static final RegistryObject<SoundEvent> HUN_HORSE_DEATH = REGISTRY.register("hun_horse_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hun_horse_death")));
+	public static final RegistryObject<SoundEvent> QING_GENG_DEATH = REGISTRY.register("qing_geng_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "qing_geng_death")));
+	public static final RegistryObject<SoundEvent> QING_GENG_HURT = REGISTRY.register("qing_geng_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "qing_geng_hurt")));
+	public static final RegistryObject<SoundEvent> YAN_FOREST = REGISTRY.register("yan_forest", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "yan_forest")));
+	public static final RegistryObject<SoundEvent> THE_UNDER_PORTAL_AMBIENT = REGISTRY.register("the_under_portal_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "the_under_portal_ambient")));
+	public static final RegistryObject<SoundEvent> LONG_CHI_AMBIENT = REGISTRY.register("long_chi_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "long_chi_ambient")));
+	public static final RegistryObject<SoundEvent> LONG_CHI_DEATH = REGISTRY.register("long_chi_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "long_chi_death")));
+	public static final RegistryObject<SoundEvent> LONG_CHI_HURT = REGISTRY.register("long_chi_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "long_chi_hurt")));
+	public static final RegistryObject<SoundEvent> ZHI_AMBIENT = REGISTRY.register("zhi_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhi_ambient")));
+	public static final RegistryObject<SoundEvent> ZHI_DEATH = REGISTRY.register("zhi_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhi_death")));
+	public static final RegistryObject<SoundEvent> ZHI_HURT = REGISTRY.register("zhi_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhi_hurt")));
+	public static final RegistryObject<SoundEvent> ZHU_HUAI_AMBIENT = REGISTRY.register("zhu_huai_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhu_huai_ambient")));
+	public static final RegistryObject<SoundEvent> ZHU_HUAI_HURT = REGISTRY.register("zhu_huai_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhu_huai_hurt")));
+	public static final RegistryObject<SoundEvent> ZHU_HUAI_DEATH = REGISTRY.register("zhu_huai_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "zhu_huai_death")));
+	public static final RegistryObject<SoundEvent> JUFU_AMBIENT = REGISTRY.register("jufu_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "jufu_ambient")));
+	public static final RegistryObject<SoundEvent> JUFU_DEATH = REGISTRY.register("jufu_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "jufu_death")));
+	public static final RegistryObject<SoundEvent> JUFU_HURT = REGISTRY.register("jufu_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "jufu_hurt")));
+	public static final RegistryObject<SoundEvent> HANGED_GHOST_AMBIENT = REGISTRY.register("hanged_ghost_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "hanged_ghost_ambient")));
+	public static final RegistryObject<SoundEvent> UNDER_PORTAL = REGISTRY.register("under_portal", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "under_portal")));
+	public static final RegistryObject<SoundEvent> MEAT_SAUCE = REGISTRY.register("meat_sauce", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "meat_sauce")));
+	public static final RegistryObject<SoundEvent> RING_HEAD_SWORD_WAVE = REGISTRY.register("ring_head_sword_wave", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "ring_head_sword_wave")));
+	public static final RegistryObject<SoundEvent> BRONZE_SHAPING = REGISTRY.register("bronze_shaping", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "bronze_shaping")));
+	public static final RegistryObject<SoundEvent> BRONZE_DEVOURER_STEP = REGISTRY.register("bronze_devourer_step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "bronze_devourer_step")));
+	public static final RegistryObject<SoundEvent> BRONZE_DEVOURER_HURT = REGISTRY.register("bronze_devourer_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "bronze_devourer_hurt")));
+	public static final RegistryObject<SoundEvent> BRONZE_DEVOURER_AMBIENT = REGISTRY.register("bronze_devourer_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "bronze_devourer_ambient")));
+	public static final RegistryObject<SoundEvent> BRONZE_DEVOURER_DEAD = REGISTRY.register("bronze_devourer_dead", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "bronze_devourer_dead")));
+	public static final RegistryObject<SoundEvent> ITEM_EQUIP_BRONZE = REGISTRY.register("item_equip_bronze", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "item_equip_bronze")));
+	public static final RegistryObject<SoundEvent> ITEM_EQUIP_UNDER_IRON = REGISTRY.register("item_equip_under_iron", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "item_equip_under_iron")));
+	public static final RegistryObject<SoundEvent> ITEM_EQUIP_BLOOD_COPPER = REGISTRY.register("item_equip_blood_copper", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "item_equip_blood_copper")));
+	public static final RegistryObject<SoundEvent> ITEM_EQUIP_HANFU = REGISTRY.register("item_equip_hanfu", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mountains_poem", "item_equip_hanfu")));
+}

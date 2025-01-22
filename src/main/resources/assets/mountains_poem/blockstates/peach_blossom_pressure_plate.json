@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "mountains_poem:block/peach_blossom_pressure_plate"
+    },
+    "powered=true": {
+      "model": "mountains_poem:block/peach_blossom_pressure_plate_down"
+    }
+  }
+}

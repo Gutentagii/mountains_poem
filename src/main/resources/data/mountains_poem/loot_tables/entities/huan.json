@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mutton",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mountains_poem:entities/huan"
+}

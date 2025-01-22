@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:eggs"
+      },
+      {
+        "value": "TAG:forge:chopped_green_onion"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "CUSTOM:CookedChangfuChicken"
+      },
+      {
+        "value": "CUSTOM:CopperDou"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChangfuChickenSauce"
+    },
+    "name": "item_changfu_chicken_sauce",
+    "namespace": "mod"
+  }
+}

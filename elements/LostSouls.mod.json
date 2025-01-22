@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lost Souls",
+    "icon": "lost_souls.png",
+    "color": {
+      "value": -15500954,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "LostSoulsXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

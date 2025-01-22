@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:coarse_salt_block"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:coarse_salt",
+    "count": 9
+  }
+}

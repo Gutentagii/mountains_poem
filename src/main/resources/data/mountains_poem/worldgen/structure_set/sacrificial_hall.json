@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mountains_poem:sacrificial_hall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 33,
+    "separation": 17,
+    "salt": 159055543
+  }
+}

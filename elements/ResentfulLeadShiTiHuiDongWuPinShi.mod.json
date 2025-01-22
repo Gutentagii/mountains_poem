@@ -1,0 +1,7 @@
+{
+  "_fv": 66,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"-47\" y=\"46\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"projectile_shoot_from_entity\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"projectile\"><block type=\"projectiles_arrow\"><field name=\"projectile\">CUSTOM:GhostCordage</field><field name=\"fire\">FALSE</field><field name=\"particles\">FALSE</field><field name=\"pickup\">DISALLOWED</field><value name=\"damage\"><block type=\"math_number\"><field name=\"NUM\">3</field></block></value><value name=\"knockback\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"piercing\"><block type=\"math_number\"><field name=\"NUM\">0.2</field></block></value><value name=\"shooter\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"speed\"><block type=\"math_number\"><field name=\"NUM\">1.4</field></block></value><value name=\"inaccuracy\"><block type=\"math_number\"><field name=\"NUM\">0.1</field></block></value><next><block type=\"itemstack_shrink\"><value name=\"item\"><block type=\"itemstack_to_mcitem\"/></value><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></next></block></next></block></xml>"
+  }
+}

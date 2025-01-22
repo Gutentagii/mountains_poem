@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:the_southern_mountain_jade_pendant"
+    },
+    "title": {
+      "translate": "advancements.offer_some_treasures_to_the_mountain_god.title"
+    },
+    "description": {
+      "translate": "advancements.offer_some_treasures_to_the_mountain_god.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "offer_some_treasures_to_the_mountain_god_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:make_sacrificial_table"
+}

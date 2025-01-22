@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "river",
+  "features": "mountains_poem:algae_jade_block",
+  "step": "underground_ores"
+}

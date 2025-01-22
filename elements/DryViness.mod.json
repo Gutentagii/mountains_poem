@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 660,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "TAG:mountains_poem:viness"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:DryVines"
+    },
+    "name": "dry_viness",
+    "namespace": "mod"
+  }
+}

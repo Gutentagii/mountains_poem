@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:sanguine_desert",
+    "mountains_poem:ancient_battlefields"
+  ],
+  "features": "mountains_poem:under_iron_ore",
+  "step": "underground_ores"
+}

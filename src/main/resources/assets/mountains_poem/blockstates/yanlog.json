@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mountains_poem:block/yanlog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mountains_poem:block/yanlog"
+    },
+    "axis=z": {
+      "model": "mountains_poem:block/yanlog",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "de "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:cooked_lei_meat"
+    },
+    "b": {
+      "tag": "c:crops/garlic"
+    },
+    "c": {
+      "item": "mountains_poem:copper_dou"
+    },
+    "d": {
+      "item": "mountains_poem:chopped_green_onion"
+    },
+    "e": {
+      "tag": "c:crops/ginger"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:lei_meat_sauce",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mountains_poem:dark_taiga",
+    "old_growth_pine_taiga"
+  ],
+  "spawners": {
+    "type": "mountains_poem:zhi",
+    "weight": 9,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "mountains_poem:custom/jufu_humerus_glaives",
+  "textures": {
+    "2": "mountains_poem:block/jufu_humerus_sword",
+    "3": "mountains_poem:block/jufu_humerus_sword_handle",
+    "particle": "mountains_poem:item/jufu_humerus_sword"
+  }
+}

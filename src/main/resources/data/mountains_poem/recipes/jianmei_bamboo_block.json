@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "mountains_poem:jianmeibamboo"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bamboo_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mountains_poem:papermaking_board_crafting",
+  "ingredients": [
+    {
+      "item": "mountains_poem:bamboo_mesh"
+    }
+  ],
+  "output": {
+    "item": "mountains_poem:bamboo_mesh_with_paper_pulp",
+    "count": 1
+  }
+}

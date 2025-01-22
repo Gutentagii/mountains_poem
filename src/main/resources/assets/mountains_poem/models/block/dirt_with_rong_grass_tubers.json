@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/dirt_with_tubers",
+    "up": "mountains_poem:block/dirt_with_tubers",
+    "north": "mountains_poem:block/dirt_with_tubers",
+    "east": "mountains_poem:block/dirt_with_tubers",
+    "south": "mountains_poem:block/dirt_with_tubers",
+    "west": "mountains_poem:block/dirt_with_tubers",
+    "particle": "mountains_poem:block/dirt_with_tubers"
+  },
+  "render_type": "solid"
+}

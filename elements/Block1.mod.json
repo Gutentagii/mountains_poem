@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SacrificialTable"
+      }
+    ],
+    "information": [
+      "The sacrificial table is the main block of the sacrificial process, and should be placed below the gui basket, above the hollow mud bricks."
+    ]
+  }
+}

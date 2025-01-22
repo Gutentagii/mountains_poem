@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:brown_lei_mane"
+    },
+    "title": {
+      "translate": "advancements.a_bread.title"
+    },
+    "description": {
+      "translate": "advancements.a_bread.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_bread_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:brown_leimanes_1"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

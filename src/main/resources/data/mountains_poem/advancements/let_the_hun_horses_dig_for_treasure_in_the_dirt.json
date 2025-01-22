@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:golden_xun_leaves_berries"
+    },
+    "title": {
+      "translate": "advancements.let_the_hun_horses_dig_for_treasure_in_the_dirt.title"
+    },
+    "description": {
+      "translate": "advancements.let_the_hun_horses_dig_for_treasure_in_the_dirt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "let_the_hun_horses_dig_for_treasure_in_the_dirt_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:bumped_by_a_water_horse"
+}

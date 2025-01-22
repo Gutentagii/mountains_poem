@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "mountains_poem:elder_loong_armor_trim_smithing_template"
+    },
+    "c": {
+      "item": "mountains_poem:under_dirt"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:elder_loong_armor_trim_smithing_template",
+    "count": 2
+  }
+}

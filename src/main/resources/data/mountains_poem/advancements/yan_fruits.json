@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:yan_fruit"
+    },
+    "title": {
+      "translate": "advancements.yan_fruits.title"
+    },
+    "description": {
+      "translate": "advancements.yan_fruits.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yan_fruits_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:yan_fruit"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:golden_yan_fruit"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

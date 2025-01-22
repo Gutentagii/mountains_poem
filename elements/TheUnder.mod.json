@@ -1,0 +1,68 @@
+{
+  "_fv": 66,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SanguineDesert"
+      },
+      {
+        "value": "CUSTOM:YanForests"
+      },
+      {
+        "value": "CUSTOM:UnderRockHill"
+      },
+      {
+        "value": "CUSTOM:SanguineValley"
+      },
+      {
+        "value": "CUSTOM:UnderWastes"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:UnderDirt"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "TheUnderDangWanJiaJinRuWeiDuShi"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:UnderRockBricks"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:TheUnderWorld"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "CUSTOM:the_under_portal_ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Death Jade Pendant",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "texture": "death_jade_pendant",
+    "portalTexture": "the_under",
+    "enablePortal": true
+  }
+}

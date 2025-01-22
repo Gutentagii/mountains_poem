@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "yan.png",
+    "width": 16,
+    "height": 16,
+    "title": "Yan",
+    "author": "Gutentagii"
+  }
+}

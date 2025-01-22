@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:ancient_battlefields",
+  "features": "mountains_poem:under_rock_gold_ore",
+  "step": "underground_ores"
+}

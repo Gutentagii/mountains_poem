@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mountains_poem:ginger"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "mountains_poem:ginger_slices"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

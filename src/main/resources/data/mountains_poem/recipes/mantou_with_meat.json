@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:cooked_meat"
+    },
+    "b": {
+      "tag": "mountains_poem:mantou"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:mantou_with_meat",
+    "count": 3
+  }
+}

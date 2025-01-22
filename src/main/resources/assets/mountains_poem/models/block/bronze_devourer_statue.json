@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/bronze_devourer_statue",
+  "textures": {
+    "all": "mountains_poem:block/bronze_devourer_statue",
+    "particle": "mountains_poem:block/bronze_devourer_statue",
+    "0": "mountains_poem:block/bronze_devourer_statue"
+  },
+  "render_type": "solid"
+}

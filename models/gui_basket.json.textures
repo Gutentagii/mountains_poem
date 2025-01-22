@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gui_basket"
+      },
+      "name": "default"
+    },
+    "wheat": {
+      "map": {
+        "0": "gui_basket2"
+      },
+      "name": "wheat"
+    },
+    "rice": {
+      "map": {
+        "0": "gui_basket3"
+      },
+      "name": "rice"
+    }
+  }
+}

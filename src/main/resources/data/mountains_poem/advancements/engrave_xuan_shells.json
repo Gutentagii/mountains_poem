@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:teeth_graver"
+    },
+    "title": {
+      "translate": "advancements.engrave_xuan_shells.title"
+    },
+    "description": {
+      "translate": "advancements.engrave_xuan_shells.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "engrave_xuan_shells_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

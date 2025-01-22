@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " ab",
+    " ba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:jufu_humerus"
+    },
+    "b": {
+      "item": "mountains_poem:water_horse_mane"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:jufu_humerus_glaive",
+    "count": 1
+  }
+}

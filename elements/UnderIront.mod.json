@@ -1,0 +1,92 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "under1",
+    "enableBody": false,
+    "textureBody": "under2",
+    "enableLeggings": true,
+    "textureLeggings": "under3",
+    "enableBoots": true,
+    "textureBoots": "under4",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "armorTextureFile": "white",
+    "helmetName": "Under Iron Helmet",
+    "bodyName": "Under Iron Chestplate",
+    "leggingsName": "Under Iron leggings",
+    "bootsName": "Under Iron boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelblood_copper_armor",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "ao_yin.png",
+    "bodyModelName": "Modelblood_copper_armor",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "ao_yin.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 44,
+    "damageValueHelmet": 8,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 10,
+    "enchantability": 24,
+    "toughness": 2.5,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "CUSTOM:halberd"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UnderIrons"
+      }
+    ]
+  }
+}

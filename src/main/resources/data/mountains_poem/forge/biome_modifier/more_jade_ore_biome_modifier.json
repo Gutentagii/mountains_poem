@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:yanforest",
+  "features": "mountains_poem:more_jade_ore",
+  "step": "surface_structures"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/engraved_xuan_shell_f_sm_1e"
+  }
+}

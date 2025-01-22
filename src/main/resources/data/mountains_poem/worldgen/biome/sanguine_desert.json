@@ -1,0 +1,72 @@
+{
+  "has_precipitation": false,
+  "temperature": 1.7,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -5730233,
+    "grass_color": -5666230,
+    "sky_color": -6750208,
+    "fog_color": -6750208,
+    "water_color": -15268603,
+    "water_fog_color": -15989760
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "mountains_poem:hanged_ghost",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mountains_poem:under_ghost",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "mountains_poem:sanguine_desert_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

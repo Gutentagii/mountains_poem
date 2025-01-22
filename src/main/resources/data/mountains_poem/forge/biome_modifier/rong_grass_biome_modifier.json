@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_mountain",
+  "features": "mountains_poem:rong_grass",
+  "step": "vegetal_decoration"
+}

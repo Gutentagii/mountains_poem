@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/wooden_mesh_with_paper_pulp"
+  }
+}

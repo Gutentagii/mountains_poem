@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 9,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Manufacturingblock"
+    },
+    "name": "gilded_copper_block_item",
+    "namespace": "mod"
+  }
+}

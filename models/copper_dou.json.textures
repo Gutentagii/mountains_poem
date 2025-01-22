@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "copper_dou_side",
+        "missing": "copper_dou_side"
+      },
+      "name": "default"
+    }
+  }
+}

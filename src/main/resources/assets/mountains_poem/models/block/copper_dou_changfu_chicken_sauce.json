@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/copper_dou_2",
+  "textures": {
+    "all": "mountains_poem:block/copper_dou_side",
+    "particle": "mountains_poem:block/copper_zun_bottom",
+    "0": "mountains_poem:block/copper_dou_side_2",
+    "1": "mountains_poem:block/changfu_chicken_sauce"
+  },
+  "render_type": "cutout_mipped"
+}

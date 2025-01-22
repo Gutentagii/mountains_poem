@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/copper"
+    },
+    "b": {
+      "item": "mountains_poem:wrought_pattern_dou"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:copper_dou",
+    "count": 1
+  }
+}

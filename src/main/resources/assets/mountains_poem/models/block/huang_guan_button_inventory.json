@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "mountains_poem:block/huangguan_planks",
+    "texture": "mountains_poem:block/huangguan_planks"
+  },
+  "render_type": "solid"
+}

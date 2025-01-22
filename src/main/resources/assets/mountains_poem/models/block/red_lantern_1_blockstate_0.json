@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/lantern",
+  "textures": {
+    "all": "mountains_poem:block/red_lantern",
+    "particle": "mountains_poem:block/red_lantern",
+    "2": "mountains_poem:block/red_lantern",
+    "3": "mountains_poem:block/lantern_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

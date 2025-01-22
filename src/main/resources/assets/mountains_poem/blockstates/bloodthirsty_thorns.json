@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "mountains_poem:block/bloodthirsty_thorns"
+    },
+    "half=lower": {
+      "model": "mountains_poem:block/bloodthirsty_thorns_bottom"
+    }
+  }
+}

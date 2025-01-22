@@ -1,0 +1,55 @@
+{
+  "_fv": 66,
+  "_type": "blockstates",
+  "definition": {
+    "block": "GuiBasket",
+    "blockstateList": [
+      {
+        "texture": "gui_basket2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "gui_basket:wheat",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 14.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "gui_basket3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "gui_basket:rice",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

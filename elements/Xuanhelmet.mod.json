@@ -1,0 +1,92 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "xuan_helmet",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "armorTextureFile": "xuan",
+    "helmetName": "Xuan Helmet",
+    "bodyName": "Xuanhelmet胸甲",
+    "leggingsName": "Xuanhelmet护腿",
+    "bootsName": "Xuanhelmet靴子",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "xuan_layer.png",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 20,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_turtle"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Xuanscale"
+      }
+    ]
+  }
+}

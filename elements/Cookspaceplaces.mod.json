@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.WITHER_ROSE"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnderDirt"
+    },
+    "name": "cookspaceplaces",
+    "namespace": "mod"
+  }
+}

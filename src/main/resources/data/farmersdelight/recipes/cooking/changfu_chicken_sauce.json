@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "mountains_poem:copper_dou"
+  },
+  "cookingtime": 400,
+  "experience": 8.0,
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "mountains_poem:changfu_chicken"
+    },
+    {
+      "tag": "forge:chopped_green_onion"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "mountains_poem:changfu_chicken_sauce"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Boshileather"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "CUSTOM:Boshileather"
+      },
+      {
+        "value": "TAG:forge:tools/shields"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "TAG:forge:tools/shields"
+      },
+      {
+        "value": "CUSTOM:Boshileather"
+      },
+      {
+        "value": "TAG:minecraft:axes"
+      },
+      {
+        "value": "CUSTOM:Boshileather"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TriumphXuanShells"
+    },
+    "name": "xuan_shells_make_3",
+    "namespace": "mod"
+  }
+}

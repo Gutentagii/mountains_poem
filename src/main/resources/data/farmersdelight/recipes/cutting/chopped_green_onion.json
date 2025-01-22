@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mountains_poem:green_onion"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "mountains_poem:chopped_green_onion"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

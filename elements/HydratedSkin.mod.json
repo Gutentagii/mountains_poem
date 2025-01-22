@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Hydrated Skin",
+    "icon": "hydrated_skin.png",
+    "color": {
+      "value": -16737793,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "HydratedSkinXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

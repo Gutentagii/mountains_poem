@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/pan_log_top",
+    "up": "mountains_poem:block/pan_log_top",
+    "north": "mountains_poem:block/pan_logs",
+    "east": "mountains_poem:block/pan_logs",
+    "south": "mountains_poem:block/pan_logs",
+    "west": "mountains_poem:block/pan_logs",
+    "particle": "mountains_poem:block/pan_log_top"
+  },
+  "render_type": "solid"
+}

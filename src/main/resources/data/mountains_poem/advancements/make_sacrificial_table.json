@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:sacrificial_table"
+    },
+    "title": {
+      "translate": "advancements.make_sacrificial_table.title"
+    },
+    "description": {
+      "translate": "advancements.make_sacrificial_table.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_sacrificial_table_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "mountains_poem:sacrificial_table"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:xuan_shells_make_1",
+      "mountains_poem:xuan_shells_make_2",
+      "mountains_poem:xuan_shells_make_3",
+      "mountains_poem:xuan_shells_make_4",
+      "mountains_poem:xuan_shells_make_5",
+      "mountains_poem:xuan_shells_make_6",
+      "mountains_poem:xuan_shells_make_7",
+      "mountains_poem:sm_jade_1",
+      "mountains_poem:sm_jade_2",
+      "mountains_poem:cm_jade_9"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

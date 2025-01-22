@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "crimson_forest",
+  "spawners": {
+    "type": "mountains_poem:crimson_xuan_tortoise",
+    "weight": 2,
+    "minCount": 4,
+    "maxCount": 6
+  }
+}

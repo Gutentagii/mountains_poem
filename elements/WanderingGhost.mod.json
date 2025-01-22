@@ -1,0 +1,204 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Wandering Ghost",
+    "mobLabel": "",
+    "mobModelTexture": "wandering_ghost.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.0,
+    "modelHeight": 2.1,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -7303056,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -6177610,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": "CUSTOM:UnbakedMooncakeGinger"
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.2,
+    "armorBaseValue": 0.0,
+    "trackingRange": 32,
+    "followRange": 25,
+    "health": 40,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "whenMobIsHurt": {
+      "name": "WanderingGhostDangShiTiShouShangShi"
+    },
+    "onRightClickedOn": {
+      "name": "WanderingGhostYouJiShiTiShi"
+    },
+    "whenThisMobKillsAnother": {
+      "name": "WanderingGhostDangGaiShiTiShaSiLingGeShiTi"
+    },
+    "onMobTickUpdate": {
+      "name": "WanderingGhostDangShiTiGengXinKeShi"
+    },
+    "onInitialSpawn": {
+      "name": "WanderingGhostShiTiChuShiShengChengShi"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"68\" y=\"-43\"><next><block type=\"attack_with_range\"><field name=\"speed\">1.2</field><field name=\"range\">2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">1.2</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:FenghuangPhoenix</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:LoongHeadHorseBodyGod</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:SouthSecondMountainsGod</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:SouthMountainGod</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"restrict_sun\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "wandering_ghost.geo.json",
+    "groupName": "head2",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "",
+    "animation4": "attack",
+    "animation5": "walk",
+    "animation6": "walk",
+    "animation7": "walk",
+    "animation8": "wak",
+    "animation9": "",
+    "animation10": "sprint",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": true,
+    "enable6": true,
+    "enable7": true,
+    "enable8": true,
+    "enable9": false,
+    "enable10": true,
+    "breedable": true,
+    "tameable": true,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": true,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "GhostCordage",
+    "rangedAttackInterval": 40,
+    "rangedAttackRadius": 10.0,
+    "height": 2.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 6,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SanguineDesert"
+      },
+      {
+        "value": "CUSTOM:YanForests"
+      },
+      {
+        "value": "CUSTOM:UnderRockHill"
+      },
+      {
+        "value": "CUSTOM:JianmeiBambooJungle"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomForest"
+      },
+      {
+        "value": "CUSTOM:DarkTaiga"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

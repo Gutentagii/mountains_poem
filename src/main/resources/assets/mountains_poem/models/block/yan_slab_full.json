@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "mountains_poem:block/yan_plank",
+    "bottom": "mountains_poem:block/yan_plank",
+    "top": "mountains_poem:block/yan_plank",
+    "side": "mountains_poem:block/yan_plank"
+  },
+  "render_type": "solid"
+}

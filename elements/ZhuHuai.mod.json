@@ -1,0 +1,172 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Zhu Huai",
+    "mobLabel": "",
+    "mobModelTexture": "zhu_huai.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.9,
+    "modelHeight": 1.7,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -7175089,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -15132391,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 4,
+    "attackKnockback": 0.2,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 54,
+    "health": 40,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:zhu_huai_ambient"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:zhu_huai_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:zhu_huai_death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"61\" y=\"-117\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.5</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityVillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityWanderingTrader</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityVindicator</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "zhu_huai.geo.json",
+    "groupName": "head_1",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "swim",
+    "animation6": "",
+    "animation7": "sprint",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "sprint",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": true,
+    "enable8": false,
+    "enable9": false,
+    "enable10": true,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": true,
+    "eyeHeight": false,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:RawBoshiLeg"
+      },
+      {
+        "value": "Items.MUTTON"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 8,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "grove"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

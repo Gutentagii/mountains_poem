@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1.8,
+  "cookingtime": 180,
+  "ingredient": {
+    "item": "mountains_poem:qing_geng_meat"
+  },
+  "result": "mountains_poem:cooked_qing_geng_meat"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/copper_dou_boyi_meat_sauce",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:boyi_meat_sauce"
+        }
+      ]
+    }
+  ]
+}

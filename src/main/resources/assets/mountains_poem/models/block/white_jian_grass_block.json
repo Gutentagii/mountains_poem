@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/white_jian_grass_block_top",
+    "up": "mountains_poem:block/white_jian_grass_block_top",
+    "north": "mountains_poem:block/white_jian_grass_block",
+    "east": "mountains_poem:block/white_jian_grass_block",
+    "south": "mountains_poem:block/white_jian_grass_block",
+    "west": "mountains_poem:block/white_jian_grass_block",
+    "particle": "mountains_poem:block/white_jian_grass_block_top"
+  },
+  "render_type": "solid"
+}

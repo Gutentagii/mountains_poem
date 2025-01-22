@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:raw_lufish"
+  },
+  "result": "mountains_poem:cooked_lufish"
+}

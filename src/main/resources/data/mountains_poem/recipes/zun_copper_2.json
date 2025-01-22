@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:zun_bottle"
+    },
+    {
+      "item": "mountains_poem:boyi_totem_scrolls"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:copper_zun_bottle_boyi",
+    "count": 1
+  }
+}

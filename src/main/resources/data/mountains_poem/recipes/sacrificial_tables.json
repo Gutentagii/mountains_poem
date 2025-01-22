@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "eae"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:reinforced_deepslate"
+    },
+    "b": {
+      "tag": "mountains_poem:sacrificial_table_recipe_1"
+    },
+    "c": {
+      "item": "mountains_poem:jade_block"
+    },
+    "d": {
+      "tag": "mountains_poem:sacrificial_table_recipe_2"
+    },
+    "e": {
+      "tag": "mountains_poem:dark_stairs"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:sacrificial_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:cloth"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:brown_cloth",
+    "count": 1
+  }
+}

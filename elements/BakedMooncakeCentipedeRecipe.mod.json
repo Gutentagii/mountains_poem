@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:UnbakedMooncakeCentipede"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:MooncakeCentipede"
+    },
+    "name": "baked_mooncake_centipede_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:long_chi_meat",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mountains_poem:entities/long_chi_1"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops"
+    },
+    {
+      "tag": "minecraft:hoes"
+    },
+    {
+      "tag": "forge:crops"
+    },
+    {
+      "tag": "minecraft:shovels"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "tag": "minecraft:shovels"
+    },
+    {
+      "tag": "forge:crops"
+    },
+    {
+      "tag": "minecraft:hoes"
+    },
+    {
+      "tag": "forge:crops"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:harvest_xuan_shells",
+    "count": 1
+  }
+}

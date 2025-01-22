@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "mountains_poem:block/newjiang_planks",
+    "particle": "mountains_poem:block/newjiang_planks"
+  },
+  "render_type": "solid"
+}

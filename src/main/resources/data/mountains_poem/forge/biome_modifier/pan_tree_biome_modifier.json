@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:shatang_forest",
+    "jungle",
+    "birch_forest",
+    "dark_forest"
+  ],
+  "features": "mountains_poem:pan_tree",
+  "step": "surface_structures"
+}

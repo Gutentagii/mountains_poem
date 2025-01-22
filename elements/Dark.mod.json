@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "dark.png",
+    "width": 16,
+    "height": 16,
+    "title": "Dark",
+    "author": "Gutentagii"
+  }
+}

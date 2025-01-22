@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UnbakedMooncakeHoney"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:MooncakeHoney"
+    },
+    "name": "baked_mooncake_honey_recipe_2",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "mountains_poem:shatang_fruit"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:golden_shatang_fruit",
+    "count": 5
+  }
+}

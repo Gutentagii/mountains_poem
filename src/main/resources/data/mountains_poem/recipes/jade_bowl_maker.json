@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "mountains_poem:jade"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:deleted_mod_element",
+    "count": 3
+  }
+}

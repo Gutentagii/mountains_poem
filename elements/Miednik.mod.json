@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Copper Smith",
+    "pointOfInterest": {
+      "value": "CUSTOM:Manufacturingblock"
+    },
+    "actionSound": {
+      "value": "block.copper.hit"
+    },
+    "hat": "Full",
+    "professionTextureFile": "shepherd.png",
+    "zombifiedProfessionTextureFile": "shepherd.png"
+  }
+}

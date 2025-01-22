@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UnbakedUnderFlowerMooncake"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UnderFlowerMooncake"
+    },
+    "name": "baked_under_flower_mooncake_recipe_2",
+    "namespace": "mod"
+  }
+}

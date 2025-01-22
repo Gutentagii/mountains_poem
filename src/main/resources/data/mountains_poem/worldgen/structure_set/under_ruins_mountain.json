@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mountains_poem:under_ruins_mountain",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 179142174
+  }
+}

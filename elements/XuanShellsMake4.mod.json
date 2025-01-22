@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:crops"
+      },
+      {
+        "value": "TAG:minecraft:hoes"
+      },
+      {
+        "value": "TAG:forge:crops"
+      },
+      {
+        "value": "TAG:minecraft:shovels"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "TAG:minecraft:shovels"
+      },
+      {
+        "value": "TAG:forge:crops"
+      },
+      {
+        "value": "TAG:minecraft:hoes"
+      },
+      {
+        "value": "TAG:forge:crops"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HarvestXuanShells"
+    },
+    "name": "xuan_shells_make_4",
+    "namespace": "mod"
+  }
+}

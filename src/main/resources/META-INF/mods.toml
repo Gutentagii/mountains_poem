@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="mountains_poem"
+version="1.6.0"
+displayName="Mountain's Poem"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mountains-poem"
+logoFile="logo.png"
+credits="Gutentagii,Призмарин,nightmaredene"
+authors="Gutentagii"
+description="Mountain's poem is a mod that with plenty of Chinesemobs and classic plants,.,and more!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.mountains_poem]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mountains_poem]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mountains_poem]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mountains_poem]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

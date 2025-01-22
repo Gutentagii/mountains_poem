@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:xuan_shells"
+    },
+    "b": {
+      "item": "mountains_poem:red_cloth_piece"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:xuanhelmet_helmet",
+    "count": 1
+  }
+}

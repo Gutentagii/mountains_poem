@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.SADDLE"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondWaterHorseArmor"
+    },
+    "name": "water_horse_armor_3",
+    "namespace": "mod"
+  }
+}

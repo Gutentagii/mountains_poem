@@ -1,0 +1,12 @@
+{
+  "type": "mountains_poem:drying_board_crafting",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:paper_mesh"
+    }
+  ],
+  "output": {
+    "item": "minecraft:paper",
+    "count": 3
+  }
+}

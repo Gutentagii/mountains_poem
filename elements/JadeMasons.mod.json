@@ -1,0 +1,403 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:JadeMason"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 42,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 30,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:AlgaeJade"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 24,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:InferiorJade"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:JadeMason"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JadePaste"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JadePasteBucket"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Iuikhuan"
+            },
+            "countOffer": 32,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Jadepiece"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:JadeMason"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TheSouthernMountainJadePendant"
+            },
+            "countOffer": 6,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TheSecondSouthernMountainJadePendant"
+            },
+            "countOffer": 6,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TheNinthCentralMountainJadePendant"
+            },
+            "countOffer": 6,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:JadeMason"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countOffer": 14,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AlgaeJade"
+            },
+            "countOffer": 32,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:AlgaeJade"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Jadepiece"
+            },
+            "countOffer": 32,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 24,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Token"
+            },
+            "countOffer": 32,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:JadeMason"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": "CUSTOM:UnderRockBricks"
+            },
+            "countPrice2": 6,
+            "offer": {
+              "value": "CUSTOM:JadeCarver"
+            },
+            "countOffer": 3,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 11,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JinyuJade"
+            },
+            "countOffer": 8,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JadeCong"
+            },
+            "countOffer": 3,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AlgaeJadeBlock"
+            },
+            "countOffer": 8,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

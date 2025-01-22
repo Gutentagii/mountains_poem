@@ -1,0 +1,174 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Wood Worms",
+    "mobLabel": "",
+    "mobModelTexture": "wood_worms_1.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 0.19999999999999998,
+    "modelHeight": 0.1,
+    "modelShadowSize": 0.1,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -7501495,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10326996,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 1,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 20,
+    "followRange": 7,
+    "health": 2,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "CUSTOM:WoodsWorms"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "onInitialSpawn": {
+      "name": "Woodwormss"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"154\" y=\"-161\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:PanLog</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:PanPlanks</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:PanWood</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:HuangGuanLog</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:HuangGuanPlanks</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:HuangGuanWood</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Yanlog</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:YanPlanks</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Yanwood</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ShatangLog</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ShatangPlanks</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ShatangWood</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BIRCH_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#0</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#2</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#3</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG#0</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHERRY_SAPLING</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG#3</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.MANGROVE_PROPAGULE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#3</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#5</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.JUNGLE_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#4</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG2#0</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#4</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.ACACIA_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG2#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#5</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.DARK_OAK_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.OAK_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#0</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.MANGROVE_LOG</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.MANGROVE_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.MANGROVE_PLANKS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHERRY_LOG</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHERRY_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHERRY_PLANKS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CRIMSON_STEM</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CRIMSON_PLANKS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CRIMSON_HYPHAE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CRIMSON_FUNGUS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.PLANKS#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LOG#1</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SPRUCE_WOOD</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.WARPED_STEM</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.WARPED_HYPHAE</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.WARPED_PLANKS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.WARPED_FUNGUS</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHORUS_PLANT</field></block></value><next><block type=\"break_blocks\"><field name=\"speed\">1</field><field name=\"y_max\">2</field><field name=\"condition\">null,null</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CHORUS_FLOWER</field></block></value><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityEnderman</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "woodworm.geo.json",
+    "groupName": "bone4",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "",
+    "animation4": "",
+    "animation5": "",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": false,
+    "enable4": false,
+    "enable5": false,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": false,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:PanLog"
+      },
+      {
+        "value": "CUSTOM:ShatangLog"
+      },
+      {
+        "value": "Blocks.LOG#0"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 1,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 5,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

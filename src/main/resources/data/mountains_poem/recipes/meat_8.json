@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:long_chi_meat"
+  },
+  "result": "mountains_poem:cooked_long_chi_meat"
+}

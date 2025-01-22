@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld",
+    "#mountains_poem:is_under"
+  ]
+}

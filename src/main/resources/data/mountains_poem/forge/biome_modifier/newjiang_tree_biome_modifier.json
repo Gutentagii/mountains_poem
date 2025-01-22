@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:newjiangforest",
+  "features": "mountains_poem:newjiang_tree",
+  "step": "underground_structures"
+}

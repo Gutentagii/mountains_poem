@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:lei_mane"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

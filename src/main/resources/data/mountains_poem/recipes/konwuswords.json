@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  a",
+    "ba ",
+    "cd "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:bloodcopperplate"
+    },
+    "b": {
+      "item": "mountains_poem:red_cloth_piece"
+    },
+    "c": {
+      "item": "mountains_poem:newjiangstick"
+    },
+    "d": {
+      "item": "mountains_poem:jadepiece"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:bloodcoppersword",
+    "count": 1
+  }
+}

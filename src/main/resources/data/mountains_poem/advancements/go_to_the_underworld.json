@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:under_grass_block"
+    },
+    "title": {
+      "translate": "advancements.go_to_the_underworld.title"
+    },
+    "description": {
+      "translate": "advancements.go_to_the_underworld.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "go_to_the_underworld_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:big_grave"
+}

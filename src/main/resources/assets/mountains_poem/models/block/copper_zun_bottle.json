@@ -1,0 +1,11 @@
+{
+  "parent": "mountains_poem:custom/copper_zun_blank",
+  "textures": {
+    "all": "mountains_poem:block/copper_zun_top",
+    "particle": "mountains_poem:block/copper_zun_top",
+    "0": "mountains_poem:block/copper_zun_bottom",
+    "1": "mountains_poem:block/copper_zun_top",
+    "3": "mountains_poem:block/copper_zun_top_b"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "mountains_poem:jade"
+    },
+    "b": {
+      "tag": "mountains_poem:southern_mountains_sign_item"
+    },
+    "c": {
+      "item": "mountains_poem:token"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:the_southern_mountain_jade_pendant",
+    "count": 1
+  }
+}

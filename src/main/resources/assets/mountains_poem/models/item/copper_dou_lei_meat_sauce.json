@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/lei_meat_sauce"
+  },
+  "render_type": "translucent"
+}

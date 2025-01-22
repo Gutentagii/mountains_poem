@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:dip_oil_vines"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:dip_oil_vines_plate",
+    "count": 1
+  }
+}

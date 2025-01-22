@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/under_rock_bricks_top",
+    "up": "mountains_poem:block/under_rock_bricks_top",
+    "north": "mountains_poem:block/under_rock_bricks",
+    "east": "mountains_poem:block/under_rock_bricks",
+    "south": "mountains_poem:block/under_rock_bricks",
+    "west": "mountains_poem:block/under_rock_bricks",
+    "particle": "mountains_poem:block/under_rock_bricks_top"
+  },
+  "render_type": "solid"
+}

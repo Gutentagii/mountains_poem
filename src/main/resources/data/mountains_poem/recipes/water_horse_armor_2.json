@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:saddle"
+    },
+    "c": {
+      "item": "minecraft:red_wool"
+    },
+    "d": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:iron_water_horse_armor",
+    "count": 1
+  }
+}

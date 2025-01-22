@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/wu_tiao_grass",
+  "textures": {
+    "all": "mountains_poem:block/wu_tiao_grass",
+    "particle": "mountains_poem:block/wu_tiao_grass",
+    "0": "mountains_poem:block/wu_tiao_grass",
+    "1": "mountains_poem:block/wu_tiao_grass"
+  },
+  "render_type": "cutout"
+}

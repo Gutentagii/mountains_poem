@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:golden_water_horse_armor"
+    },
+    "title": {
+      "translate": "advancements.bumped_by_a_water_horse.title"
+    },
+    "description": {
+      "translate": "advancements.bumped_by_a_water_horse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "bumped_by_a_water_horse_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "mountains_poem:water_horse_armor_1",
+      "mountains_poem:water_horse_armor_2",
+      "mountains_poem:water_horse_armor_3",
+      "mountains_poem:water_horse_armor_a",
+      "mountains_poem:water_horse_armor_b",
+      "mountains_poem:jufu_humerus_glalive",
+      "mountains_poem:water_horse_armor_4",
+      "mountains_poem:water_horse_armor_5"
+    ]
+  },
+  "parent": "mountains_poem:provoke_jufu"
+}

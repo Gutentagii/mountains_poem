@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:YanFruit"
+      },
+      {
+        "value": "CUSTOM:YanFruit"
+      },
+      {
+        "value": "CUSTOM:YanFruit"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldenYanFruit"
+    },
+    "name": "golden_yan_fruit",
+    "namespace": "mod"
+  }
+}

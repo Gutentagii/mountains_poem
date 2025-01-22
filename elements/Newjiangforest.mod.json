@@ -1,0 +1,182 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Jiang Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "grassColor": {
+      "value": -6836400,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -11440072,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -11686230,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10446184,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.30000000000000004,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.2,
+      "max": 0.55
+    },
+    "genHumidity": {
+      "min": -1.5,
+      "max": 0.0
+    },
+    "genContinentalness": {
+      "min": 0.1,
+      "max": 0.3
+    },
+    "genErosion": {
+      "min": 0.05,
+      "max": 0.45
+    },
+    "genWeirdness": {
+      "min": -1.0001,
+      "max": 0.7
+    },
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 14,
+    "treeStem": {
+      "value": "CUSTOM:Newjianglog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Newjiangleave"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "PlainsTallGrass",
+      "Caves",
+      "FrozenTopLayer",
+      "Ores"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "MOUNTAIN",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 11,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 3,
+        "maxGroup": 3,
+        "weight": 11,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombieVillager"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 3,
+        "maxGroup": 3,
+        "weight": 18,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 14,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 12,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

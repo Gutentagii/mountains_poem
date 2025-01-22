@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Carnelian"
+      },
+      {
+        "value": "TAG:mountains_poem:long_chi_symbol_item"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EngravedXuanShellsLongChi"
+    },
+    "name": "engraved_xuan_shells_6",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "advancements.pigman.title"
+    },
+    "description": {
+      "translate": "advancements.pigman.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pigman_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

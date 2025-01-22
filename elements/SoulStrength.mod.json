@@ -1,0 +1,24 @@
+{
+  "_fv": 66,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Soul Strength",
+    "type": "ARMOR_FEET",
+    "rarity": "RARE",
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "TAG:forge:armors/boots"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

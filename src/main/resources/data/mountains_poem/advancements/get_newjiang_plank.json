@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "get_newjiang_plank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:newjiang_planks"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:newjiang_planks_wood_recipe",
+      "mountains_poem:newjiang_stairs_recipe",
+      "mountains_poem:newjiang_slab_recipe",
+      "mountains_poem:newjiang_stick_recipe",
+      "mountains_poem:newjiang_fence_recipe",
+      "mountains_poem:newjiang_button_recipe",
+      "mountains_poem:newjiang_fence_gate_recipe",
+      "mountains_poem:newjiang_pressure_plate_recipe"
+    ]
+  },
+  "parent": "mountains_poem:collect_newjiang_wood"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountains_poem:block/under_rock_brick_slab"
+    },
+    "type=top": {
+      "model": "mountains_poem:block/under_rock_brick_slab_top"
+    },
+    "type=double": {
+      "model": "mountains_poem:block/under_rock_brick_slab_full"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "mountains_poem:green_rock_mountains",
+  "spawners": {
+    "type": "mountains_poem:zheng",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

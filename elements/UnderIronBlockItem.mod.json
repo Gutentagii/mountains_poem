@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnderIronBlock"
+    },
+    "name": "under_iron_block_item",
+    "namespace": "mod"
+  }
+}

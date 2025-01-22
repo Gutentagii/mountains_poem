@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:gu_eagle",
+    "piglin",
+    "piglin_brute",
+    "zombified_piglin",
+    "#mountains_poem:ghost"
+  ]
+}

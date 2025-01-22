@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "vegatable.png",
+    "width": 16,
+    "height": 16,
+    "title": "Vegetable",
+    "author": "Gutentagii"
+  }
+}

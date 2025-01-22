@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountains_poem:block/pan_slab"
+    },
+    "type=top": {
+      "model": "mountains_poem:block/pan_slab_top"
+    },
+    "type=double": {
+      "model": "mountains_poem:block/pan_slab_full"
+    }
+  }
+}

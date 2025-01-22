@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aab",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "mountains_poem:wrought_pattern_dagger_axe"
+    },
+    "c": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:copper_dagger_axe",
+    "count": 1
+  }
+}

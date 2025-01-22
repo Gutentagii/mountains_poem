@@ -1,0 +1,50 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:RedLantern"
+      },
+      {
+        "value": "CUSTOM:WhiteLantern"
+      },
+      {
+        "value": "CUSTOM:BlueLantern"
+      },
+      {
+        "value": "CUSTOM:CyanLantern"
+      },
+      {
+        "value": "CUSTOM:LightBlueLantern"
+      },
+      {
+        "value": "CUSTOM:OrangeLantern"
+      },
+      {
+        "value": "CUSTOM:YellowLantern"
+      },
+      {
+        "value": "CUSTOM:GreenLantern"
+      },
+      {
+        "value": "CUSTOM:LimeLantern"
+      },
+      {
+        "value": "CUSTOM:PurpleLantern"
+      },
+      {
+        "value": "CUSTOM:GrayLantern"
+      },
+      {
+        "value": "CUSTOM:LightGrayLantern"
+      },
+      {
+        "value": "CUSTOM:MagentaLantern"
+      }
+    ],
+    "information": [
+      "A very common lighting tool that can be lit with a torch and turned off with a shovel or sword."
+    ]
+  }
+}

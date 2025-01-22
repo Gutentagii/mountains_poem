@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:scute"
+    },
+    "b": {
+      "item": "mountains_poem:xuan_scale"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:xuan_shells",
+    "count": 2
+  }
+}

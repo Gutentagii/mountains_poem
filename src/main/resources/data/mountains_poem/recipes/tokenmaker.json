@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:red_cloth_piece"
+    },
+    {
+      "item": "mountains_poem:mp_jade_ring"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:token",
+    "count": 1
+  }
+}

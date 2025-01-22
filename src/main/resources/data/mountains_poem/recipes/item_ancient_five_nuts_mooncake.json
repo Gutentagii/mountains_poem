@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fdg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:torchflower_seeds"
+    },
+    "b": {
+      "item": "minecraft:pitcher_pod"
+    },
+    "c": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    },
+    "e": {
+      "item": "mountains_poem:mooncake_crust"
+    },
+    "f": {
+      "item": "mountains_poem:rong_grass_tuber"
+    },
+    "g": {
+      "item": "mountains_poem:scarlet_thorn"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:unbaked_ancient_five_nuts_mooncake",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "mountains_poem:block/peach_blossom_planks",
+    "bottom": "mountains_poem:block/peach_blossom_planks",
+    "top": "mountains_poem:block/peach_blossom_planks",
+    "side": "mountains_poem:block/peach_blossom_planks"
+  },
+  "render_type": "solid"
+}

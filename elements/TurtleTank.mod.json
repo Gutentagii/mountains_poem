@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "You Are So Pretty,My Chicken!",
+    "achievementDescription": "Name the Changfu chicken.",
+    "achievementIcon": {
+      "value": "Items.EGG"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 3,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Monkeys"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"37\" y=\"53\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Evil Qi Resistance",
+    "splashName": "Splash Potion of Evil Qi Resistance",
+    "lingeringName": "Lingering Potion of Evil Qi Resistance",
+    "arrowName": "Arrow of Evil Qi Resistance",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:GuResistance"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

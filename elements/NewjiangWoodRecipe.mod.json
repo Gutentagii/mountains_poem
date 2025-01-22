@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Newjianglog"
+      },
+      {
+        "value": "CUSTOM:Newjianglog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Newjianglog"
+      },
+      {
+        "value": "CUSTOM:Newjianglog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NewjiangWood"
+    },
+    "name": "newjiang_wood_recipe",
+    "namespace": "mod"
+  }
+}

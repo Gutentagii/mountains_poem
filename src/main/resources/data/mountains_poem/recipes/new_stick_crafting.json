@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "tag": "mpoems:newjiang_woods"
+  },
+  "result": "mountains_poem:newjiangstick"
+}

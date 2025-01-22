@@ -1,0 +1,181 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Long Chi",
+    "mobLabel": "",
+    "mobModelTexture": "long_chi.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.8,
+    "modelHeight": 1.2,
+    "modelShadowSize": 1.0,
+    "mountedYOffset": 0.3,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -5332895,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -7840204,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 40,
+    "health": 36,
+    "xpAmount": 8,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:long_chi_ambient"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:long_chi_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:long_chi_death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "whenMobDies": {
+      "name": "LongChiDead"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"100\" y=\"-1\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:WoodWorms</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntitySalmon</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntitySpider</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityFox</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "long_chi.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "",
+    "animation4": "attack",
+    "animation5": "swim",
+    "animation6": "",
+    "animation7": "sprint",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "sprint",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": true,
+    "enable8": false,
+    "enable9": false,
+    "enable10": true,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": false,
+    "eyeHeight": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "CUSTOM:RongGrassTuber"
+      },
+      {
+        "value": "CUSTOM:PureedRongGrassTuber"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 2.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 4,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "meadow"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:WroughtPatternDou"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WroughtPatternDou"
+    },
+    "name": "item_wrought_pattern_dou",
+    "namespace": "mod"
+  }
+}

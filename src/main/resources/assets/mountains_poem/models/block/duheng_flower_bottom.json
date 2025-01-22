@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mountains_poem:block/wutiao_flower_bottom",
+    "particle": "mountains_poem:block/wutiao_flower_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,689 @@
+{
+  "xuan_tort": {
+    "subtitle": "subtitles.xuan_tort",
+    "sounds": [
+      {
+        "name": "mountains_poem:rubka-dereva-toporom-29632",
+        "stream": false
+      }
+    ]
+  },
+  "lei": {
+    "subtitle": "subtitles.lei",
+    "sounds": [
+      {
+        "name": "mountains_poem:lei",
+        "stream": false
+      }
+    ]
+  },
+  "boshi": {
+    "subtitle": "subtitles.boshi",
+    "sounds": [
+      {
+        "name": "mountains_poem:boshi",
+        "stream": false
+      }
+    ]
+  },
+  "red_ru": {
+    "subtitle": "subtitles.red_ru",
+    "sounds": [
+      {
+        "name": "mountains_poem:red_ru",
+        "stream": false
+      }
+    ]
+  },
+  "white_monkeys": {
+    "subtitle": "subtitles.white_monkeys",
+    "sounds": [
+      {
+        "name": "mountains_poem:monkey",
+        "stream": false
+      }
+    ]
+  },
+  "hujiuwei": {
+    "subtitle": "subtitles.hujiuwei",
+    "sounds": [
+      {
+        "name": "mountains_poem:white_fox",
+        "stream": false
+      }
+    ]
+  },
+  "gu_eagle": {
+    "subtitle": "subtitles.gu_eagle",
+    "sounds": [
+      {
+        "name": "mountains_poem:gu_diao",
+        "stream": false
+      }
+    ]
+  },
+  "fei_bull_step": {
+    "subtitle": "subtitles.fei_bull_step",
+    "sounds": [
+      {
+        "name": "mountains_poem:feibell_step",
+        "stream": false
+      }
+    ]
+  },
+  "fei_bull": {
+    "subtitle": "subtitles.fei_bull",
+    "sounds": [
+      {
+        "name": "mountains_poem:fei_bell_u",
+        "stream": false
+      }
+    ]
+  },
+  "south_god_hurt": {
+    "subtitle": "subtitles.south_god_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:south_god_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "south_god_attack": {
+    "subtitle": "subtitles.south_god_attack",
+    "sounds": [
+      {
+        "name": "mountains_poem:south_god_attack",
+        "stream": false
+      }
+    ]
+  },
+  "south_god_dead": {
+    "subtitle": "subtitles.south_god_dead",
+    "sounds": [
+      {
+        "name": "mountains_poem:south_god_dead",
+        "stream": false
+      }
+    ]
+  },
+  "south_god_step": {
+    "subtitle": "subtitles.south_god_step",
+    "sounds": [
+      {
+        "name": "mountains_poem:south_god_step",
+        "stream": false
+      }
+    ]
+  },
+  "south_god": {
+    "subtitle": "subtitles.south_god",
+    "sounds": [
+      {
+        "name": "mountains_poem:south_god",
+        "stream": false
+      }
+    ]
+  },
+  "skytemple": {
+    "sounds": [
+      {
+        "name": "mountains_poem:sky",
+        "stream": false
+      }
+    ]
+  },
+  "zuo_cows": {
+    "subtitle": "subtitles.zuo_cows",
+    "sounds": [
+      {
+        "name": "mountains_poem:zuo_cow_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "mingqu": {
+    "subtitle": "subtitles.mingqu",
+    "sounds": [
+      {
+        "name": "mountains_poem:mingqu",
+        "stream": false
+      }
+    ]
+  },
+  "mingqu_ambient": {
+    "subtitle": "subtitles.mingqu_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:split",
+        "stream": false
+      }
+    ]
+  },
+  "qinggen": {
+    "subtitle": "subtitles.qinggen",
+    "sounds": [
+      {
+        "name": "mountains_poem:qingen",
+        "stream": false
+      }
+    ]
+  },
+  "hui_ambient": {
+    "subtitle": "subtitles.hui_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:hui",
+        "stream": false
+      }
+    ]
+  },
+  "south_m_god_2": {
+    "sounds": [
+      {
+        "name": "mountains_poem:sg2",
+        "stream": false
+      }
+    ]
+  },
+  "halberd": {
+    "sounds": [
+      {
+        "name": "mountains_poem:halberd",
+        "stream": false
+      }
+    ]
+  },
+  "changfu_bird": {
+    "subtitle": "subtitles.changfu_bird",
+    "sounds": [
+      {
+        "name": "mountains_poem:changfu",
+        "stream": false
+      }
+    ]
+  },
+  "qing_geng": {
+    "subtitle": "subtitles.qing_geng",
+    "sounds": [
+      {
+        "name": "mountains_poem:qing_geng",
+        "stream": false
+      }
+    ]
+  },
+  "hun_horse": {
+    "subtitle": "subtitles.hun_horse",
+    "sounds": [
+      {
+        "name": "mountains_poem:hun_horse",
+        "stream": false
+      }
+    ]
+  },
+  "fen_bird": {
+    "sounds": [
+      {
+        "name": "mountains_poem:fen",
+        "stream": false
+      }
+    ]
+  },
+  "luan_bird": {
+    "sounds": [
+      {
+        "name": "mountains_poem:luan_bird",
+        "stream": false
+      }
+    ]
+  },
+  "lufish": {
+    "subtitle": "subtitles.lufish",
+    "sounds": [
+      {
+        "name": "mountains_poem:lufish",
+        "stream": false
+      }
+    ]
+  },
+  "sg2_hurt": {
+    "sounds": [
+      {
+        "name": "mountains_poem:sg2_death",
+        "stream": false
+      }
+    ]
+  },
+  "monkey_hurt": {
+    "subtitle": "subtitles.monkey_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:monkey_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zhongshan": {
+    "subtitle": "subtitles.zhongshan",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhongshan",
+        "stream": false
+      }
+    ]
+  },
+  "zhongshan_hurt": {
+    "subtitle": "subtitles.zhongshan_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhongshan_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zhongshan_dealth": {
+    "subtitle": "subtitles.zhongshan_dealth",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhongshan_death",
+        "stream": false
+      }
+    ]
+  },
+  "fenghuang": {
+    "subtitle": "subtitles.fenghuang",
+    "sounds": [
+      {
+        "name": "mountains_poem:fenghuang",
+        "stream": false
+      }
+    ]
+  },
+  "fenghuang_hurt": {
+    "subtitle": "subtitles.fenghuang_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:fenghuang_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fenghuang_dealth": {
+    "subtitle": "subtitles.fenghuang_dealth",
+    "sounds": [
+      {
+        "name": "mountains_poem:fenghuang_dealth",
+        "stream": false
+      }
+    ]
+  },
+  "lei_2": {
+    "subtitle": "subtitles.lei_2",
+    "sounds": [
+      {
+        "name": "mountains_poem:lei_2",
+        "stream": false
+      }
+    ]
+  },
+  "zheng1": {
+    "subtitle": "subtitles.zheng1",
+    "sounds": [
+      {
+        "name": "mountains_poem:zheng_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "zheng_2": {
+    "subtitle": "subtitles.zheng_2",
+    "sounds": [
+      {
+        "name": "mountains_poem:zheng_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ao_yin1": {
+    "subtitle": "subtitles.ao_yin1",
+    "sounds": [
+      {
+        "name": "mountains_poem:ao_yin1",
+        "stream": false
+      }
+    ]
+  },
+  "ao_yin2": {
+    "subtitle": "subtitles.ao_yin2",
+    "sounds": [
+      {
+        "name": "mountains_poem:ao_yin2",
+        "stream": false
+      }
+    ]
+  },
+  "carved_shells": {
+    "subtitle": "subtitles.carved_shells",
+    "sounds": [
+      {
+        "name": "mountains_poem:carved_shells",
+        "stream": false
+      }
+    ]
+  },
+  "monkey_ambient": {
+    "subtitle": "subtitles.monkey_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:monkey_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "lei_ambient": {
+    "subtitle": "subtitles.lei_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:lei_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "lei_hurt": {
+    "subtitle": "subtitles.lei_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:lei_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "lei_death": {
+    "subtitle": "subtitles.lei_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:lei_death",
+        "stream": false
+      }
+    ]
+  },
+  "hun_horse_ambient": {
+    "subtitle": "subtitles.hun_horse_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:hun_horse_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "hun_horse_death": {
+    "subtitle": "subtitles.hun_horse_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:hun_horse_death",
+        "stream": false
+      }
+    ]
+  },
+  "qing_geng_death": {
+    "subtitle": "subtitles.qing_geng_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:qing_geng_death",
+        "stream": false
+      }
+    ]
+  },
+  "qing_geng_hurt": {
+    "subtitle": "subtitles.qing_geng_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:qing_geng_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "yan_forest": {
+    "subtitle": "subtitles.yan_forest",
+    "sounds": [
+      {
+        "name": "mountains_poem:yan_forest",
+        "stream": false
+      }
+    ]
+  },
+  "the_under_portal_ambient": {
+    "subtitle": "subtitles.the_under_portal_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:under_world",
+        "stream": false
+      }
+    ]
+  },
+  "long_chi_ambient": {
+    "subtitle": "subtitles.long_chi_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:long_chi_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "long_chi_death": {
+    "subtitle": "subtitles.long_chi_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:long_chi_death",
+        "stream": false
+      }
+    ]
+  },
+  "long_chi_hurt": {
+    "subtitle": "subtitles.long_chi_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:long_chi_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zhi_ambient": {
+    "subtitle": "subtitles.zhi_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhi_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "zhi_death": {
+    "subtitle": "subtitles.zhi_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhi_death",
+        "stream": false
+      }
+    ]
+  },
+  "zhi_hurt": {
+    "subtitle": "subtitles.zhi_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhi_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zhu_huai_ambient": {
+    "subtitle": "subtitles.zhu_huai_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhu_huai_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "zhu_huai_hurt": {
+    "subtitle": "subtitles.zhu_huai_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhu_huai_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zhu_huai_death": {
+    "subtitle": "subtitles.zhu_huai_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:zhu_huai_death",
+        "stream": false
+      }
+    ]
+  },
+  "jufu_ambient": {
+    "subtitle": "subtitles.jufu_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:jufu_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "jufu_death": {
+    "subtitle": "subtitles.jufu_death",
+    "sounds": [
+      {
+        "name": "mountains_poem:jufu_death",
+        "stream": false
+      }
+    ]
+  },
+  "jufu_hurt": {
+    "subtitle": "subtitles.jufu_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:jufu_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "hanged_ghost_ambient": {
+    "subtitle": "subtitles.hanged_ghost_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:hanged_ghost_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "under_portal": {
+    "subtitle": "subtitles.under_portal",
+    "sounds": [
+      {
+        "name": "mountains_poem:under_portal",
+        "stream": false
+      }
+    ]
+  },
+  "meat_sauce": {
+    "subtitle": "subtitles.meat_sauce",
+    "sounds": [
+      {
+        "name": "mountains_poem:meat_sauce",
+        "stream": false
+      }
+    ]
+  },
+  "ring_head_sword_wave": {
+    "subtitle": "subtitles.ring_head_sword_wave",
+    "sounds": [
+      {
+        "name": "mountains_poem:ring_head_sword_wave",
+        "stream": false
+      }
+    ]
+  },
+  "bronze_shaping": {
+    "subtitle": "subtitles.bronze_shaping",
+    "sounds": [
+      {
+        "name": "mountains_poem:bronze_shaping",
+        "stream": false
+      }
+    ]
+  },
+  "bronze_devourer_step": {
+    "subtitle": "subtitles.bronze_devourer_step",
+    "sounds": [
+      {
+        "name": "mountains_poem:bronze_devourer_step",
+        "stream": false
+      }
+    ]
+  },
+  "bronze_devourer_hurt": {
+    "subtitle": "subtitles.bronze_devourer_hurt",
+    "sounds": [
+      {
+        "name": "mountains_poem:bronze_devourer_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "bronze_devourer_ambient": {
+    "subtitle": "subtitles.bronze_devourer_ambient",
+    "sounds": [
+      {
+        "name": "mountains_poem:bronze_devourer_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "bronze_devourer_dead": {
+    "subtitle": "subtitles.bronze_devourer_dead",
+    "sounds": [
+      {
+        "name": "mountains_poem:bronze_devourer_dead",
+        "stream": false
+      }
+    ]
+  },
+  "item_equip_bronze": {
+    "subtitle": "subtitles.item_equip_bronze",
+    "sounds": [
+      {
+        "name": "mountains_poem:item_equip_bronze",
+        "stream": false
+      }
+    ]
+  },
+  "item_equip_under_iron": {
+    "subtitle": "subtitles.item_equip_under_iron",
+    "sounds": [
+      {
+        "name": "mountains_poem:item_equip_under_iron",
+        "stream": false
+      }
+    ]
+  },
+  "item_equip_blood_copper": {
+    "subtitle": "subtitles.item_equip_blood_copper",
+    "sounds": [
+      {
+        "name": "mountains_poem:item_equip_under_iron",
+        "stream": false
+      }
+    ]
+  },
+  "item_equip_hanfu": {
+    "subtitle": "subtitles.item_equip_hanfu",
+    "sounds": [
+      {
+        "name": "mountains_poem:item_equip_cloth",
+        "stream": false
+      }
+    ]
+  }
+}

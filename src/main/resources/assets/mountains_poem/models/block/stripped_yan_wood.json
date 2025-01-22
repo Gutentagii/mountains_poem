@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/stripped_yan_log",
+    "up": "mountains_poem:block/stripped_yan_log",
+    "north": "mountains_poem:block/stripped_yan_log",
+    "east": "mountains_poem:block/stripped_yan_log",
+    "south": "mountains_poem:block/stripped_yan_log",
+    "west": "mountains_poem:block/stripped_yan_log",
+    "particle": "mountains_poem:block/stripped_yan_log"
+  },
+  "render_type": "solid"
+}

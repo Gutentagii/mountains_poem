@@ -1,0 +1,171 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Furious Southern Mountains God Head",
+    "mobLabel": "",
+    "mobModelTexture": "south_god_head_2.png",
+    "mobModelGlowTexture": "south_god_head_layer.png",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.5,
+    "modelHeight": 1.5,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -6581369,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10477536,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10,
+    "attackKnockback": 0.2,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.45,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 60,
+    "health": 60,
+    "xpAmount": 15,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:south_god_attack"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:south_god_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:south_god_dead"
+    },
+    "stepSound": {
+      "value": "CUSTOM:south_god_step"
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "whenMobDies": {
+      "name": "FuriousSouthernMountainsGodHeadDangShiTiSiWangShi"
+    },
+    "whenThisMobKillsAnother": {
+      "name": "FuriousSouthernMountainsGodHeadDangGaiShiTiShaSiLingGeShiTi"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"173\" y=\"-19\"><next><block type=\"attack_fly\"><field name=\"radius\">40</field><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityVillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "south_mountains_god_head.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "fly",
+    "animation3": "",
+    "animation4": "attack",
+    "animation5": "fly2",
+    "animation6": "fly",
+    "animation7": "fly2",
+    "animation8": "fly",
+    "animation9": "",
+    "animation10": "fly2",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": true,
+    "enable6": true,
+    "enable7": true,
+    "enable8": true,
+    "enable9": false,
+    "enable10": true,
+    "breedable": false,
+    "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

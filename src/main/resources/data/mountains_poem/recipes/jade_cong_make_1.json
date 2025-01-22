@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:mp_jade_ring"
+    },
+    "b": {
+      "tag": "mountains_poem:jade"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:jade_cong",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlagueHornCore"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlagueHornCore"
+      },
+      {
+        "value": "CUSTOM:Redclothpiece"
+      },
+      {
+        "value": "CUSTOM:PlagueHornCore"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:stick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlagueHalberd"
+    },
+    "name": "plague_halberds",
+    "namespace": "mod"
+  }
+}

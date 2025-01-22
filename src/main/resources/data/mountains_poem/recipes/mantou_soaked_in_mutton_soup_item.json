@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "de "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ginger_slices"
+    },
+    "b": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "c": {
+      "tag": "forge:chopped_green_onion"
+    },
+    "d": {
+      "tag": "mountains_poem:mantou"
+    },
+    "e": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:mantou_soaked_in_mutton_soup",
+    "count": 1
+  }
+}

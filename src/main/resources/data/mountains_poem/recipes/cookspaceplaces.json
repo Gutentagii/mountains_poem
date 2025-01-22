@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:soul_soil"
+    },
+    "b": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_dirt",
+    "count": 8
+  }
+}

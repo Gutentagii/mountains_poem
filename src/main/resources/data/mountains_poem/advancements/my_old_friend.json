@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:engraved_xuan_shells_zhi"
+    },
+    "title": {
+      "translate": "advancements.my_old_friend.title"
+    },
+    "description": {
+      "translate": "advancements.my_old_friend.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "my_old_friend_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "mountains_poem:monkeys"
+}

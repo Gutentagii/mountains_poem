@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:cooked_red_ru_fish",
+    "mountains_poem:cooked_white_monkey_meat",
+    "mountains_poem:cooked_fox_meat",
+    "mountains_poem:cooked_hun_meat",
+    "mountains_poem:cooked_lei_meat",
+    "mountains_poem:cooked_changfu_chicken",
+    "mountains_poem:cooked_boyi_leg",
+    "mountains_poem:cooked_qing_geng_meat",
+    "mountains_poem:cooked_lufish",
+    "mountains_poem:cooked_long_chi_meat",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_rabbit",
+    "minecraft:cooked_mutton"
+  ]
+}

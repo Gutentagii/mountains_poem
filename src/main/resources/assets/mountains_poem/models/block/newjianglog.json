@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/newjiang_log_bottom",
+    "up": "mountains_poem:block/newjiang_log_top",
+    "north": "mountains_poem:block/newjiang_log",
+    "east": "mountains_poem:block/newjiang_log",
+    "south": "mountains_poem:block/newjiang_log",
+    "west": "mountains_poem:block/newjiang_log",
+    "particle": "mountains_poem:block/newjiang_log_bottom"
+  },
+  "render_type": "solid"
+}

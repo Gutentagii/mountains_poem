@@ -1,0 +1,15 @@
+{
+  "type": "mountains_poem:dipping_sauce",
+  "ingredients": [
+    {
+      "item": "mountains_poem:mantou"
+    },
+    {
+      "item": "mountains_poem:boyi_meat_sauce"
+    }
+  ],
+  "output": {
+    "item": "mountains_poem:mantou_with_boyi_meat_sauce",
+    "count": 1
+  }
+}

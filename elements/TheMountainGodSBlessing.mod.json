@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "The Mountain God's Blessing",
+    "icon": "the_mountain_god_s_blessing.png",
+    "color": {
+      "value": -11958351,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "TheMountainGodSBlessingXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

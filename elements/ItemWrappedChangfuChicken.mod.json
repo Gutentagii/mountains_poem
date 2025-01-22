@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:fruits"
+      },
+      {
+        "value": "TAG:forge:fruits"
+      },
+      {
+        "value": "TAG:forge:fruits"
+      },
+      {
+        "value": "TAG:mountains_poem:wide_blades"
+      },
+      {
+        "value": "CUSTOM:ChangfuChicken"
+      },
+      {
+        "value": "TAG:mountains_poem:wide_blades"
+      },
+      {
+        "value": "TAG:mountains_poem:wide_blades"
+      },
+      {
+        "value": "TAG:mountains_poem:wide_blades"
+      },
+      {
+        "value": "TAG:mountains_poem:wide_blades"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WrappedChangfuChicken"
+    },
+    "name": "item_wrapped_changfu_chicken",
+    "namespace": "mod"
+  }
+}

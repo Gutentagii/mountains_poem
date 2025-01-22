@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:lei_mane"
+    },
+    "title": {
+      "translate": "advancements.sour_bread.title"
+    },
+    "description": {
+      "translate": "advancements.sour_bread.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sour_bread_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:manessmaker"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:classic_super_dark_cuisine_mooncake"
+    },
+    "title": {
+      "translate": "advancements.make_classic_super_dark_cuisine_mooncake.title"
+    },
+    "description": {
+      "translate": "advancements.make_classic_super_dark_cuisine_mooncake.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_classic_super_dark_cuisine_mooncake_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:classic_super_dark_cuisine_mooncake"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:item_classic_super_dark_cuisine_mooncake"
+    ]
+  },
+  "parent": "mountains_poem:make_dark_cuisine_mooncake"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:plague_horn_core"
+    },
+    "b": {
+      "item": "mountains_poem:red_cloth_piece"
+    },
+    "c": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:plague_halberd",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "forest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:qing_geng_bird",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

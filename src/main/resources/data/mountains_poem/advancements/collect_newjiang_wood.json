@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:newjianglog"
+    },
+    "title": {
+      "translate": "advancements.collect_newjiang_wood.title"
+    },
+    "description": {
+      "translate": "advancements.collect_newjiang_wood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect_newjiang_wood_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:newjianglog"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:newjiang_wood_recipe",
+      "mountains_poem:newjiang_planks_wood_recipe"
+    ]
+  },
+  "parent": "mountains_poem:newjaing_forests"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:BloodCopperUpgradeSmithingTemplate"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodCopperUpgradeSmithingTemplate"
+    },
+    "name": "blood_copper_upgrade_smithing_templates",
+    "namespace": "mod"
+  }
+}

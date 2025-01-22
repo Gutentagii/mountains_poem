@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bc"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:milk"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "tag": "forge:tallow"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:mooncake_crust",
+    "count": 4
+  }
+}

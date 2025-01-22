@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ShatangLog"
+      },
+      {
+        "value": "CUSTOM:ShatangLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShatangLog"
+      },
+      {
+        "value": "CUSTOM:ShatangLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShatangWood"
+    },
+    "name": "shatang_wood_recipe",
+    "namespace": "mod"
+  }
+}

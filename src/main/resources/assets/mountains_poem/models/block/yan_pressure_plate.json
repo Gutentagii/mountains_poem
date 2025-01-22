@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "mountains_poem:block/yan_plank",
+    "texture": "mountains_poem:block/yan_plank"
+  },
+  "render_type": "solid"
+}

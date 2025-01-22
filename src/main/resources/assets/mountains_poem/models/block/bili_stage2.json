@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "mountains_poem:block/bili_stage2",
+  },
+  "render_type": "cutout"
+}

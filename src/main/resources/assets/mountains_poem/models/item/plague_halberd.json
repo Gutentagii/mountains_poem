@@ -1,0 +1,6 @@
+{
+  "parent": "mountains_poem:displaysettings/halberdl.item",
+  "textures": {
+    "layer0": "mountains_poem:item/plague_halberd"
+  }
+}

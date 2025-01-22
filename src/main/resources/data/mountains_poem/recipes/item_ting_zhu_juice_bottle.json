@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:ting_zhu"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:ting_zhu_juice_bottle",
+    "count": 1
+  }
+}

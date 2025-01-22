@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sacrificial_table2",
+        "1": "sacrificial_table2"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/copper"
+    },
+    "b": {
+      "item": "mountains_poem:under_rock_brick_slab"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:jade_carver",
+    "count": 1
+  }
+}

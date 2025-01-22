@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "cut_copper",
+        "4": "under_rock_bricks_top"
+      },
+      "name": "default"
+    }
+  }
+}

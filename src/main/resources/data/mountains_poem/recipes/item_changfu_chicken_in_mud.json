@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:packed_mud"
+    },
+    "b": {
+      "item": "mountains_poem:wrapped_changfu_chicken"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:changfu_chicken_wrapped_in_mud",
+    "count": 1
+  }
+}

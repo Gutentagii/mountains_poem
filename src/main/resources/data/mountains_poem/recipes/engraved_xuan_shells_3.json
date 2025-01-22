@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "tag": "mountains_poem:piglin_symbol_item"
+    },
+    "c": {
+      "item": "mountains_poem:xuan_scale"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:engraved_xuan_shells_piglin",
+    "count": 3
+  }
+}

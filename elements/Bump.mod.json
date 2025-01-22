@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.3,
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was bump and died",
+    "itemDeathMessage": "%1$s was bump by %2$s and died",
+    "playerDeathMessage": "%1$s was bump by %2$s and flew away"
+  }
+}

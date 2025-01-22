@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "mountains_poem:wrought_pattern_jue"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:copper_jue",
+    "count": 9
+  }
+}

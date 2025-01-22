@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "I'm A Copper Smith!",
+    "achievementDescription": "To be a perfect copper smith,you may need to collect some Wrought Patterns...",
+    "achievementIcon": {
+      "value": "CUSTOM:WroughtPatternZun"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "ZunCopper1",
+      "ZunCopper2",
+      "CopperZunBottleRecipe",
+      "CopperJueRecipe",
+      "CopperSmallDingRecipe",
+      "ItemMooncakeCentipede",
+      "BakedMooncakeCentipedeRecipe",
+      "BakedMooncakeCentipedeRecipe2",
+      "ItemMooncakeCrust",
+      "ItemCopperYue",
+      "ZunCopper3",
+      "ZunCopper4",
+      "ItemWroughtPatternZun",
+      "ItemWroughtPatternJue",
+      "ItemWroughtPatternSmallDing",
+      "ItemWroughtPatternDou",
+      "ItemWroughtPatternYue",
+      "ItemCopperDou",
+      "ItemCopperGui",
+      "ItemWroughtPatternGui",
+      "ItemWroughtPatternGe",
+      "ItemCopperGe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:MountainSPoems"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"44\" y=\"51\"/></next></block></xml>"
+  }
+}

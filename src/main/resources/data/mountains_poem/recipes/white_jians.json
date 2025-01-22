@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:white_jian_grass"
+    },
+    "b": {
+      "tag": "forge:small_fur"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:white_jian_grass_mat",
+    "count": 3
+  }
+}

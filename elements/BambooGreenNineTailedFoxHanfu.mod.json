@@ -1,0 +1,67 @@
+{
+  "_fv": 66,
+  "_type": "animatedarmor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bamboo_green_nine_tailed_fox_hanfu_helmet",
+    "enableBody": true,
+    "textureBody": "bamboo_green_nine_tailed_fox_hanfu",
+    "enableLeggings": true,
+    "textureLeggings": "bamboo_green_nine_tailed_fox_hanfu_bottoms",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "armorTextureFile": "bamboo_green_nine_tailed_fox_hanfu.png",
+    "model": "nine_tailed_fox_hanfu.geo.json",
+    "idle": "idle",
+    "head": "armorHead",
+    "chest": "armorBody",
+    "rightArm": "armorRightArm",
+    "leftArm": "armorLeftArm",
+    "rightLeg": "armorRightLeg",
+    "leftLeg": "armorLeftLeg",
+    "rightBoot": "armorRightBoot",
+    "leftBoot": "armorLeftBoot",
+    "helmetName": "Bamboo Green Nine Tailed Fox Hanfu Headdress",
+    "bodyName": "Bamboo Green Nine Tailed Fox Hanfu",
+    "leggingsName": "Bamboo Green Nine Tailed Fox Hanfu Bottoms",
+    "bootsName": "Bamboo Green Nine Tailed Fox Hanfu靴子",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "fullyEquipped": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 4,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 35,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:item_equip_hanfu"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:WhiteFoxLeather"
+      }
+    ]
+  }
+}

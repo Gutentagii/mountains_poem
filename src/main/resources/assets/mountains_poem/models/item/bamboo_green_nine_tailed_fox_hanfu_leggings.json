@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/bamboo_green_nine_tailed_fox_hanfu_bottoms"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "mountains_poem:dark_taiga",
+  "spawners": {
+    "type": "mountains_poem:ao_yin",
+    "weight": 7,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

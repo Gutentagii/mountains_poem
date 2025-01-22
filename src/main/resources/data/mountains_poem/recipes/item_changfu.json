@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:changfu_chicken_wrapped_in_burnt_mud"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:concocted_changfu_chicken",
+    "count": 1
+  }
+}

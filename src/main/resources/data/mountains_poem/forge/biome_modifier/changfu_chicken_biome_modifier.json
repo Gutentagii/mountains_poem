@@ -1,0 +1,25 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "mountains_poem:shatang_forest",
+    "savanna",
+    "snowy_plains",
+    "snowy_slopes",
+    "dark_forest",
+    "old_growth_birch_forest",
+    "swamp",
+    "mangrove_swamp",
+    "snowy_taiga",
+    "forest",
+    "grove",
+    "mountains_poem:huang_guan_forest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:changfu_chicken",
+    "weight": 2,
+    "minCount": 3,
+    "maxCount": 4
+  }
+}

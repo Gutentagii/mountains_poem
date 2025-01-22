@@ -1,0 +1,31 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "paper_making.png",
+    "width": 127,
+    "height": 99,
+    "icon": {
+      "value": "CUSTOM:WoodenMeshWithPaperPulp"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:PapermakingBoard"
+    },
+    "enableCraftingtable": true,
+    "title": "Papermaking Board",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 39,
+        "y": 24,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 103,
+        "y": 27,
+        "slotid": 0
+      }
+    ]
+  }
+}

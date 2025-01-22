@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": { "model": "mountains_poem:block/mulberry_stage0" },
+    "age=1": { "model": "mountains_poem:block/mulberry_stage1" },
+    "age=2": { "model": "mountains_poem:block/mulberry_stage2" },
+    "age=3": { "model": "mountains_poem:block/mulberry_stage3" },
+    "age=4": { "model": "mountains_poem:block/mulberry_stage4" },
+    "age=5": { "model": "mountains_poem:block/mulberry_stage5" },
+    "age=6": { "model": "mountains_poem:block/mulberry_stage6" }
+  }
+}

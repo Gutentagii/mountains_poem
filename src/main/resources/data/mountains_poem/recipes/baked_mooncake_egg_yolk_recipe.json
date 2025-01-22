@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:unbaked_mooncake_egg_yolk"
+  },
+  "result": "mountains_poem:mooncake_egg_yolk"
+}

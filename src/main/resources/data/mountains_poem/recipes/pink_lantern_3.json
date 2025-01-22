@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:lantern"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:pink_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:light_blue_cloth"
+    },
+    "b": {
+      "item": "mountains_poem:cyan_cloth"
+    },
+    "c": {
+      "item": "mountains_poem:white_fox_fur"
+    },
+    "d": {
+      "item": "minecraft:cyan_dye"
+    },
+    "e": {
+      "item": "mountains_poem:white_fox_tail"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:mugwort_green_nine_tailed_fox_hanfu_chestplate",
+    "count": 1
+  }
+}

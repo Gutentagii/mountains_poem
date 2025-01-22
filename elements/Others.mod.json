@@ -1,0 +1,274 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:GreenOnion"
+            },
+            "countOffer": 28,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Ginger"
+            },
+            "countOffer": 28,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Garlic"
+            },
+            "countOffer": 28,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "BUTCHER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:LeiMeat"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 11,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:RawBoshiLeg"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 21,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:WhiteFoxMeat"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 21,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:WhiteMonkeyMeat"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 13,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:HunMeat"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 13,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:QingGengMeat"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 13,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LeiMeatSauce"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 34,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BoyiMeatSauce"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 34,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LongChiMeat"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 11,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ChangfuChicken"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 11,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ChangfuChickenSauce"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 34,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

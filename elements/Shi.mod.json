@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "particle",
+  "definition": {
+    "texture": "shi.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.5,
+    "height": 0.5,
+    "scale": {
+      "fixedValue": 1.3
+    },
+    "speedFactor": 1.0,
+    "gravity": 0.2,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

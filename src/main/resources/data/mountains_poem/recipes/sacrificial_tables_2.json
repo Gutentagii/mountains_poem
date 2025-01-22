@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:white_jian_grass_mat"
+    },
+    {
+      "item": "mountains_poem:sacrificial_table"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:white_jian_grass_mat_covered_sacrificial_table",
+    "count": 1
+  }
+}

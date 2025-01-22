@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits"
+    },
+    "b": {
+      "tag": "mountains_poem:wide_blades"
+    },
+    "c": {
+      "item": "mountains_poem:changfu_chicken"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:wrapped_changfu_chicken",
+    "count": 1
+  }
+}

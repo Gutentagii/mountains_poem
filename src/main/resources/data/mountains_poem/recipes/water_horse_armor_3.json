@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:saddle"
+    },
+    "c": {
+      "item": "minecraft:red_wool"
+    },
+    "d": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:diamond_water_horse_armor",
+    "count": 1
+  }
+}

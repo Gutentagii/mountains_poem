@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mountains_poem:pan_forest",
+    "taiga",
+    "sunflower_plains",
+    "windswept_hills",
+    "mountains_poem:huang_guan_forest",
+    "mountains_poem:jianmei_bamboo_jungle"
+  ],
+  "spawners": {
+    "type": "mountains_poem:zuo_cow",
+    "weight": 7,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

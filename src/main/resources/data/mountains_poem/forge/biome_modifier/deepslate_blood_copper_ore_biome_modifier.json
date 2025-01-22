@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:newjiangforest",
+    "badlands"
+  ],
+  "features": "mountains_poem:deepslate_blood_copper_ore",
+  "step": "underground_ores"
+}

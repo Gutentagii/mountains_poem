@@ -1,0 +1,20 @@
+{
+  "_fv": 66,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Control Of Water Horses",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

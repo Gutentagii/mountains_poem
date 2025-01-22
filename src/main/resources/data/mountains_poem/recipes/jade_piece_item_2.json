@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:inferior_jade"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:jadepiece",
+    "count": 8
+  }
+}

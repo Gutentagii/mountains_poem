@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/copper"
+    },
+    "b": {
+      "item": "mountains_poem:wrought_pattern_zun"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:copper_zun_bottle",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:scarlet_thorn"
+    },
+    "b": {
+      "item": "mountains_poem:bottle_of_soul_shards"
+    },
+    "c": {
+      "item": "mountains_poem:token"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:the_under",
+    "count": 1
+  }
+}

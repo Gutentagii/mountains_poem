@@ -1,0 +1,7 @@
+{
+  "asset_id": "mountains_poem:under",
+  "description": {
+    "translate": "trim_pattern.mountains.poem.under"
+  },
+  "template_item": "mountains_poem:under_armor_trim_smithing_template"
+}

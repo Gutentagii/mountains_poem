@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:planks"
+      },
+      {
+        "value": "TAG:mountains_poem:frame"
+      },
+      {
+        "value": "TAG:minecraft:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:planks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PapermakingBoard"
+    },
+    "name": "papermaking_board",
+    "namespace": "mod"
+  }
+}

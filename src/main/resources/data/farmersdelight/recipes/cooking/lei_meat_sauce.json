@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "mountains_poem:copper_dou"
+  },
+  "cookingtime": 400,
+  "experience": 8.0,
+  "ingredients": [
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "item": "mountains_poem:lei_meat"
+    },
+    {
+      "item": "mountains_poem:chopped_green_onion"
+    },
+    {
+      "tag": "c:crops/ginger"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "mountains_poem:lei_meat_sauce"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:old_growth_yan_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "old_growth_birch_forest",
+    "mountains_poem:jianmei_bamboo_jungle",
+    "mountains_poem:ancient_battlefields",
+    "mountains_poem:sanguine_desert",
+    "mountains_poem:under_rock_hill",
+    "mountains_poem:dark_taiga",
+    "bamboo_jungle",
+    "nether_wastes"
+  ]
+}

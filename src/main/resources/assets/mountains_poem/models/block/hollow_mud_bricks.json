@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/dug_dirt_box",
+  "textures": {
+    "all": "mountains_poem:block/mud_bricks_box",
+    "particle": "mountains_poem:block/mud_bricks_box",
+    "0": "mountains_poem:block/mud_bricks_box"
+  },
+  "render_type": "solid"
+}

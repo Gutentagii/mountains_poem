@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:mantou",
+    "count": 3
+  }
+}

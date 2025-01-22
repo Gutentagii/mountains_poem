@@ -1,0 +1,7 @@
+{
+  "__comment": "all land animal (non villager, non player) mobs that neutral AND somewhat strong. For big predators to target.",
+  "replace": false,
+  "values": [
+    "#mountains_poem:animals"
+  ]
+}

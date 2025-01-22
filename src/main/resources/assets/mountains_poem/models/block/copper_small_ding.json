@@ -1,0 +1,11 @@
+{
+  "parent": "mountains_poem:custom/copper_small_ding",
+  "textures": {
+    "all": "mountains_poem:block/copper_ding_top",
+    "particle": "mountains_poem:block/copper_ding_top",
+    "6": "mountains_poem:block/copper_zun_bottom",
+    "7": "mountains_poem:block/copper_zun_top_b",
+    "8": "mountains_poem:block/copper_ding_top"
+  },
+  "render_type": "cutout_mipped"
+}

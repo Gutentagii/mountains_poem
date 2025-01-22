@@ -1,0 +1,61 @@
+{
+  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0.5,
+  "effects": {
+    "music": {
+      "sound": "music.nether.nether_wastes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "mountains_poem:souls_piece"
+      },
+      "probability": 0.003
+    },
+    "foliage_color": -13421824,
+    "grass_color": -10066432,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -13694968,
+    "water_fog_color": -14942208
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "ghast",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mountains_poem:under_rock_hill_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

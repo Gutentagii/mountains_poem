@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/stripped_huangguan_log_top",
+    "up": "mountains_poem:block/stripped_huangguan_log_top",
+    "north": "mountains_poem:block/stripped_huangguan_log",
+    "east": "mountains_poem:block/stripped_huangguan_log",
+    "south": "mountains_poem:block/stripped_huangguan_log",
+    "west": "mountains_poem:block/stripped_huangguan_log",
+    "particle": "mountains_poem:block/stripped_huangguan_log_top"
+  },
+  "render_type": "solid"
+}

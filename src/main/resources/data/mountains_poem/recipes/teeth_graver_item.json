@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:lei_teeth"
+    },
+    {
+      "tag": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:teeth_graver",
+    "count": 1
+  }
+}

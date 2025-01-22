@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:cold_crimson_fungus_salad"
+    },
+    "title": {
+      "translate": "advancements.specialist_in_breeding.title"
+    },
+    "description": {
+      "translate": "advancements.specialist_in_breeding.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "specialist_in_breeding_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:cold_crimson_fungus_salad_item"
+    ]
+  },
+  "parent": "mountains_poem:pigman"
+}

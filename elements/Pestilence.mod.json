@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Plague",
+    "icon": "pestilence.png",
+    "color": {
+      "value": -13088714,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "PestilenceDangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onActiveTick": {
+      "name": "PestilenceXiaoGuoChiXuShiMeiKeFaSheng"
+    },
+    "onExpired": {
+      "name": "PestilenceDangXiaoGuoJieShu"
+    }
+  }
+}

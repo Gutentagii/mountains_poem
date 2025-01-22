@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "under_iron_ring_head_knife_top",
+    "customModelName": "ring_head_knifes:under_iron",
+    "blockingModelName": "Normal blocking",
+    "name": "Under Iron Ring Head Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 24,
+    "damageVsEntity": 14.5,
+    "usageCount": 120,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UnderIrons"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "WoodenRingHeadKnifeShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "RingHead7"
+    },
+    "onEntitySwing": {
+      "name": "WoodenRingHeadKnifeShiTiHuiDongWuPinShi"
+    }
+  }
+}

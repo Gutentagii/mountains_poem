@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_slopes",
+    "meadow"
+  ],
+  "spawners": {
+    "type": "mountains_poem:long_chi",
+    "weight": 4,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

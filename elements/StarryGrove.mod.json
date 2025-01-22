@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "starry_grove.png",
+    "width": 48,
+    "height": 32,
+    "title": "Starry Grove",
+    "author": "Gutentagii"
+  }
+}

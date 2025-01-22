@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mountains_poem:newjiangforest",
+    "mountains_poem:pan_forest",
+    "mountains_poem:shatang_forest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:hua_snake",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

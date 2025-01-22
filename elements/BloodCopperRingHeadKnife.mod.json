@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "blood_copper_ring_head_knife_top",
+    "customModelName": "ring_head_knifes:blood_copper",
+    "blockingModelName": "Normal blocking",
+    "name": "Blood Copper Ring Head Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 16,
+    "damageVsEntity": 15.0,
+    "usageCount": 1342,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Bloodcopperplate"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "WoodenRingHeadKnifeShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "RingHead6"
+    },
+    "onEntitySwing": {
+      "name": "WoodenRingHeadKnifeShiTiHuiDongWuPinShi"
+    }
+  }
+}

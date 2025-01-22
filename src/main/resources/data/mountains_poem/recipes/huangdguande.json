@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:huang_guan_planks"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:huang_guan_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "CUSTOM:CookedLeiMeat"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:XianGoatFat"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LeiStewInAWoodenBowl"
+    },
+    "name": "lei_stew_1",
+    "namespace": "mod"
+  }
+}

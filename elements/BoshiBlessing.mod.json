@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Boyi's Blessing",
+    "icon": "boshi_blessing.png",
+    "color": {
+      "value": -6113090,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "BoshiBlessingXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

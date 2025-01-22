@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/sacrificial_table",
+  "textures": {
+    "all": "mountains_poem:block/sacrificial_table",
+    "particle": "mountains_poem:block/sacrificial_table",
+    "0": "mountains_poem:block/sacrificial_table"
+  },
+  "render_type": "solid"
+}

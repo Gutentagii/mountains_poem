@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/icy_fangs_mace",
+  "textures": {
+    "0": "mountains_poem:block/icy_fangs_mace_handle",
+    "1": "mountains_poem:block/icy_fangs_mace_top",
+    "2": "mountains_poem:block/icy_fangs_mace_side",
+    "particle": "mountains_poem:item/icy_fangs_sword"
+  }
+}

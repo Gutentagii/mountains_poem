@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PinkCloth"
+      },
+      {
+        "value": "TAG:mountains_poem:frame"
+      },
+      {
+        "value": "CUSTOM:PinkCloth"
+      },
+      {
+        "value": "CUSTOM:PinkCloth"
+      },
+      {
+        "value": "Blocks.TORCH"
+      },
+      {
+        "value": "CUSTOM:PinkCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinkCloth"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PinkLantern"
+    },
+    "name": "pink_lantern_2",
+    "namespace": "mod"
+  }
+}

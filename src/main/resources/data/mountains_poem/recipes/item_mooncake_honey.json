@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honeycomb"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "mountains_poem:mooncake_crust"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:unbaked_mooncake_honey",
+    "count": 1
+  }
+}

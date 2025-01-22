@@ -1,0 +1,37 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "We Need Beautiful Decorations!",
+    "achievementDescription": "Make a copper zun! It's a commonly used drinking vessel thousands of years ago",
+    "achievementIcon": {
+      "value": "CUSTOM:CopperZunBottle"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "ZunCopper1",
+      "CopperZunBottleRecipe",
+      "ZunCopper2",
+      "ZunCopper3",
+      "ZunCopper4",
+      "ZunCopper5",
+      "ZunCopper6",
+      "ZunCopper7",
+      "ZunCopper8",
+      "ZunCopper9",
+      "ZunCopper10"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:MakeCopperDou"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\" x=\"56\" y=\"83\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WroughtPatternZun</field></block></value></block></next></block></xml>"
+  }
+}

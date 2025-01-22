@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:red_lantern",
+    "mountains_poem:white_lantern",
+    "mountains_poem:blue_lantern",
+    "mountains_poem:cyan_lantern",
+    "mountains_poem:orange_lantern",
+    "mountains_poem:yellow_lantern",
+    "mountains_poem:green_lantern",
+    "mountains_poem:lime_lantern",
+    "mountains_poem:purple_lantern",
+    "mountains_poem:magenta_lantern",
+    "mountains_poem:gray_lantern",
+    "mountains_poem:light_gray_lantern",
+    "mountains_poem:brown_lantern",
+    "mountains_poem:black_lantern",
+    "mountains_poem:pink_lantern"
+  ]
+}

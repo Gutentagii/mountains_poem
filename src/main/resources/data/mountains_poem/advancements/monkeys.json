@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:yan_fruit"
+    },
+    "title": {
+      "translate": "advancements.monkeys.title"
+    },
+    "description": {
+      "translate": "advancements.monkeys.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monkeys_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:footprints"
+}

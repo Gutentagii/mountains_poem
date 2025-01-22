@@ -1,0 +1,59 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "blood_copper_water_horse_armor",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Blood Copper Water Horse Armor",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 20,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "GoldenWaterHorseArmorWuPinZaiBeiBaoZhongShiMeiKeFaSheng"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:PlagueBall"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

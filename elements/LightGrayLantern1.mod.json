@@ -1,0 +1,41 @@
+{
+  "_fv": 66,
+  "_type": "blockstates",
+  "definition": {
+    "block": "LightGrayLantern",
+    "blockstateList": [
+      {
+        "texture": "light_gray_lantern",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "lantern:light_gray",
+        "luminance": 15,
+        "boundingBoxes": [
+          {
+            "mx": 6.0,
+            "my": 0.0,
+            "mz": 6.0,
+            "Mx": 10.0,
+            "My": 13.0,
+            "Mz": 10.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 3.5,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 11.5,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

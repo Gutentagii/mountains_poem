@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "mountains_poem:shatang_fruit"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:shatang_fruit_cookie",
+    "count": 8
+  }
+}

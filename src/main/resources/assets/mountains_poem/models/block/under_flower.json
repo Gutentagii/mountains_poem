@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mountains_poem:block/under_flower",
+    "particle": "mountains_poem:block/under_flower"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,121 @@
+{
+  "_fv": 66,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "sanguine_cactus",
+    "textureBottom": "",
+    "customModelName": "sanguine_cactus:default",
+    "itemTexture": "sanguine_cactus",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "growapable",
+    "suspiciousStewEffect": "DARKNESS",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Nether",
+    "growapableMaxHeight": 8,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 16.0,
+        "Mz": 14.0,
+        "subtract": false
+      }
+    ],
+    "name": "Sanguine Cactus",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "hardness": 3.0,
+    "resistance": 1.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "RED",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 5,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:SanguineSand"
+      },
+      {
+        "value": "CUSTOM:UnderGrassBlock"
+      },
+      {
+        "value": "CUSTOM:UnderDirt"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 8,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SanguineDesert"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 34,
+    "generateAtAnyHeight": true,
+    "onNeighbourBlockChanges": {
+      "name": "SanguineCactusDangPiLinFangKuaiGengXinShi"
+    },
+    "onEntityCollides": {
+      "name": "ScarletThornsShengWuWanJiaYuZhiWuXiangZhuangShi"
+    }
+  }
+}

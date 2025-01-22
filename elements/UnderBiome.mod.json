@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "particle",
+  "definition": {
+    "texture": "under_bio.png",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 1.0
+    },
+    "speedFactor": 1.0,
+    "gravity": 1.0,
+    "maxAge": 80,
+    "maxAgeDiff": 14,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.01,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

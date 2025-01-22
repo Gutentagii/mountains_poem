@@ -1,0 +1,60 @@
+{
+  "_fv": 66,
+  "_type": "animateditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "plague_halberd",
+    "name": "Plague Halberd",
+    "idle": "idle",
+    "rarity": "RARE",
+    "displaySettings": "halberdl.item.json",
+    "leftArm": "",
+    "rightArm": "",
+    "perspective": "All Perspectives",
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "firstPersonArms": false,
+    "stackSize": 1,
+    "enchantability": 13,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 900,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "enableArmPose": false,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 12.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "PlagueHalberdYouJiKongQiShiShiTiDeWeiZhi"
+    },
+    "onEntitySwing": {
+      "name": "PlagueHalberdShiTiHuiDongWuPinShi"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "spear",
+    "normal": "plague_halberd.geo.json",
+    "armPoseList": [],
+    "disableSwing": false
+  }
+}

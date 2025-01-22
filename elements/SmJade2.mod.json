@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:mountains_poem:jade"
+      },
+      {
+        "value": "TAG:mountains_poem:southern_second_mountains_sign_item"
+      },
+      {
+        "value": "TAG:mountains_poem:jade"
+      },
+      {
+        "value": "TAG:mountains_poem:southern_second_mountains_sign_item"
+      },
+      {
+        "value": "CUSTOM:Token"
+      },
+      {
+        "value": "TAG:mountains_poem:southern_second_mountains_sign_item"
+      },
+      {
+        "value": "TAG:mountains_poem:jade"
+      },
+      {
+        "value": "TAG:mountains_poem:southern_second_mountains_sign_item"
+      },
+      {
+        "value": "TAG:mountains_poem:jade"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheSecondSouthernMountainJadePendant"
+    },
+    "name": "sm_jade_2",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "mountains_poem:shatang_forest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:lei",
+    "weight": 8,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

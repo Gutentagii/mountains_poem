@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "snowy_slopes"
+  ],
+  "spawners": {
+    "type": "mountains_poem:nine_tailed_fox",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

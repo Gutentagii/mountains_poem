@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "plague_halberd"
+      },
+      "name": "default"
+    }
+  }
+}

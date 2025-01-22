@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Nocturnal Journeyman",
+    "icon": "nocturnal_journeyman.png",
+    "color": {
+      "value": -1257,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "NocturnalJourneymanXiaoGuoChiXuShiMeiKeFaSheng"
+    },
+    "onExpired": {
+      "name": "NocturnalJourneymanDangXiaoGuoJieShu"
+    }
+  }
+}

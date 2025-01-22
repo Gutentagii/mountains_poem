@@ -1,0 +1,90 @@
+{
+  "_fv": 66,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:YanFruit"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.STICK"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.AIR"
+            },
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.AIR"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Yanleaves"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 1
+          }
+        ]
+      }
+    ],
+    "name": "blocks/yanleaves",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PanPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PanPlanks"
+      },
+      {
+        "value": "CUSTOM:PanPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PanPlanks"
+      },
+      {
+        "value": "CUSTOM:PanPlanks"
+      },
+      {
+        "value": "CUSTOM:PanPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PanStairs"
+    },
+    "name": "pan_stairs_recipe",
+    "namespace": "mod"
+  }
+}

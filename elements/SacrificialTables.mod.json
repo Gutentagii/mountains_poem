@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.REINFORCED_DEEPSLATE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mountains_poem:sacrificial_table_recipe_1"
+      },
+      {
+        "value": "CUSTOM:JadeBlock"
+      },
+      {
+        "value": "TAG:mountains_poem:sacrificial_table_recipe_2"
+      },
+      {
+        "value": "TAG:mountains_poem:dark_stairs"
+      },
+      {
+        "value": "Blocks.REINFORCED_DEEPSLATE"
+      },
+      {
+        "value": "TAG:mountains_poem:dark_stairs"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SacrificialTable"
+    },
+    "name": "sacrificial_tables",
+    "namespace": "mod"
+  }
+}

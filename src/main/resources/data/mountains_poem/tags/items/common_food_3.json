@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_cod",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:cooked_salmon",
+    "mountains_poem:red_ru_fish",
+    "mountains_poem:cooked_red_ru_fish",
+    "mountains_poem:raw_lufish",
+    "mountains_poem:cooked_lufish",
+    "minecraft:chicken",
+    "minecraft:cooked_chicken",
+    "minecraft:porkchop",
+    "minecraft:cooked_porkchop"
+  ]
+}

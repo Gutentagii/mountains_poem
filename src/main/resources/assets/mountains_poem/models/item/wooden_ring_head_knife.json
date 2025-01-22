@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/ring_head_knifes",
+  "textures": {
+    "0": "mountains_poem:block/wooden_ring_head_knife_bottem",
+    "2": "mountains_poem:block/wooden_ring_head_knife_top",
+    "3": "mountains_poem:block/ring_head_knife_handle",
+    "particle": "mountains_poem:item/wooden_ring_head_knife_top"
+  }
+}

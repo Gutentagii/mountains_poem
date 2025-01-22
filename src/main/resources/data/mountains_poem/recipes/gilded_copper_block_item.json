@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_block"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:gilded_copper_block",
+    "count": 9
+  }
+}

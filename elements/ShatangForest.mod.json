@@ -1,0 +1,182 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Shatang Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "grassColor": {
+      "value": -7948413,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9919388,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -11174707,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14199422,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.3,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.25,
+      "max": 0.55
+    },
+    "genHumidity": {
+      "min": -0.1,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 0.6
+    },
+    "genErosion": {
+      "min": 0.05,
+      "max": 0.45
+    },
+    "genWeirdness": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:ShatangLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:ShatangLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "JungleGrass"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 16,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 3,
+        "maxGroup": 3,
+        "weight": 18,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombieVillager"
+        },
+        "minGroup": 3,
+        "maxGroup": 3,
+        "weight": 14,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 9,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 7,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

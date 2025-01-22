@@ -1,0 +1,37 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "gui_background.png",
+    "width": 72,
+    "height": 70,
+    "icon": {
+      "value": "CUSTOM:LeiMeatSauce"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:BoyiMeatSauce"
+    },
+    "enableCraftingtable": false,
+    "title": "Dipping Sauce",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 8,
+        "y": 13,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 8,
+        "y": 42,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 43,
+        "y": 30,
+        "slotid": 0
+      }
+    ]
+  }
+}

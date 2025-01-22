@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "mountains_poem:block/pan_door_2",
+    "bottom": "mountains_poem:block/pan_door_2",
+    "top": "mountains_poem:block/pan_door_1"
+  },
+  "render_type": "cutout_mipped"
+}

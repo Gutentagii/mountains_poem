@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "golden_ring_head_knife_top",
+    "customModelName": "ring_head_knifes:golden",
+    "blockingModelName": "Normal blocking",
+    "name": "Golden Ring Head Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.5,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "WoodenRingHeadKnifeShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "RingHead2"
+    },
+    "onEntitySwing": {
+      "name": "WoodenRingHeadKnifeShiTiHuiDongWuPinShi"
+    }
+  }
+}

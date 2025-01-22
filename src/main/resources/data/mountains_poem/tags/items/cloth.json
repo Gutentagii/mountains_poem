@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:red_cloth",
+    "mountains_poem:white_cloth",
+    "mountains_poem:yellow_cloth",
+    "mountains_poem:purple_cloth",
+    "mountains_poem:gray_cloth",
+    "mountains_poem:pink_cloth",
+    "mountains_poem:blue_cloth",
+    "mountains_poem:black_cloth",
+    "mountains_poem:cyan_cloth",
+    "mountains_poem:brown_cloth",
+    "mountains_poem:green_cloth",
+    "mountains_poem:light_blue_cloth",
+    "mountains_poem:lime_cloth",
+    "mountains_poem:magenta_cloth",
+    "mountains_poem:light_gray_cloth",
+    "mountains_poem:orange_cloth"
+  ]
+}

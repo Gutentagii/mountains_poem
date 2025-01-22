@@ -1,0 +1,31 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "dry.png",
+    "width": 113,
+    "height": 70,
+    "icon": {
+      "value": "CUSTOM:DryingBoard"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:DryingBoard"
+    },
+    "enableCraftingtable": true,
+    "title": "Drying Board",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 34,
+        "y": 26,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 89,
+        "y": 27,
+        "slotid": 0
+      }
+    ]
+  }
+}

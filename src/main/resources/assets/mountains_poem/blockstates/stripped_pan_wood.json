@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mountains_poem:block/stripped_pan_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mountains_poem:block/stripped_pan_wood"
+    },
+    "axis=z": {
+      "model": "mountains_poem:block/stripped_pan_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "jufu_humerus_sword",
+    "customModelName": "jufu_humerus_glaives:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Jufu Humerus Glaive",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 12.0,
+    "usageCount": 360,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:JufuHumerus"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "JufuHumerusGlalives"
+    },
+    "onItemInInventoryTick": {
+      "name": "JufuHumerusGlaiveGongJuChuXianZaiWuPinLanShiMeiKeFaSheng"
+    },
+    "onEntitySwing": {
+      "name": "JufuHumerusGlaiveShiTiHuiDongWuPinShi"
+    }
+  }
+}

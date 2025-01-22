@@ -1,0 +1,34 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "It's Like Flying!",
+    "achievementDescription": "Bumped by a Water Horse",
+    "achievementIcon": {
+      "value": "CUSTOM:GoldenWaterHorseArmor"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "WaterHorseArmor1",
+      "WaterHorseArmor2",
+      "WaterHorseArmor3",
+      "WaterHorseArmorA",
+      "WaterHorseArmorB",
+      "JufuHumerusGlaliveItem",
+      "WaterHorseArmor4",
+      "WaterHorseArmor5"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ProvokeJufu"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"41\" y=\"51\"/></next></block></xml>"
+  }
+}

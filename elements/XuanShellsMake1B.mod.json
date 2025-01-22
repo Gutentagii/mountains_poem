@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SCUTE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:XuanShells"
+    },
+    "name": "xuan_shells_make_1_b",
+    "namespace": "mod"
+  }
+}

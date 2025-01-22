@@ -1,0 +1,46 @@
+{
+  "has_precipitation": false,
+  "temperature": 1.2,
+  "downfall": 0,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "mountains_poem:under_biome"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -15332599,
+    "grass_color": -13434880,
+    "sky_color": -6750208,
+    "fog_color": -6750208,
+    "water_color": -7265758,
+    "water_fog_color": -13498360
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mountains_poem:ancient_battlefields_tree"
+    ],
+    []
+  ]
+}

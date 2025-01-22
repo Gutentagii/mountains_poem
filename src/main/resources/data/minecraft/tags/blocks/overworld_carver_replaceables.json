@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:under_rock",
+    "mountains_poem:under_grass_block",
+    "mountains_poem:sanguine_soil",
+    "mountains_poem:sanguine_sand",
+    "mountains_poem:under_dirt"
+  ]
+}

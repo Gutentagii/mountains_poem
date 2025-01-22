@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnderIronPiece"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIronPiece"
+      },
+      {
+        "value": "CUSTOM:UnderIrons"
+      },
+      {
+        "value": "CUSTOM:UnderIronPiece"
+      },
+      {
+        "value": "CUSTOM:Newjaingstick"
+      },
+      {
+        "value": "CUSTOM:UnderIronPiece"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnderIronSword"
+    },
+    "name": "iron_swords",
+    "namespace": "mod"
+  }
+}

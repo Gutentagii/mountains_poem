@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:white_jian_grass_block"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:white_jian_grass",
+    "count": 9
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_fv": 66,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "jianmei_bamboo",
+    "textureBottom": "",
+    "customModelName": "jianmei_bamboo:default",
+    "itemTexture": "jianmei_bamboo",
+    "particleTexture": "",
+    "tintType": "Grass",
+    "isItemTinted": true,
+    "plantType": "growapable",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 14,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 12.0,
+        "My": 16.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": -2.0,
+        "my": 1.0,
+        "mz": 9.0,
+        "Mx": 6.0,
+        "My": 15.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 1.325,
+        "mz": 12.0,
+        "Mx": 9.0,
+        "My": 15.325,
+        "Mz": 20.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 1.825,
+        "mz": 9.0,
+        "Mx": 20.0,
+        "My": 15.825,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 0.625,
+        "mz": -2.0,
+        "Mx": 9.0,
+        "My": 14.625,
+        "Mz": 6.0,
+        "subtract": false
+      }
+    ],
+    "name": "Jianmei Bamboo",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "BAMBOO"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": false,
+    "hasTileEntity": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "isBonemealable": false,
+    "frequencyOnChunks": 4,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:JianmeiBambooJungle"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 46,
+    "generateAtAnyHeight": true
+  }
+}

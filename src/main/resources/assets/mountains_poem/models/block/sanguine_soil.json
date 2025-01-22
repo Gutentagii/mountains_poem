@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/sanguine_soil_bottom",
+    "up": "mountains_poem:block/sanguine_soil_top",
+    "north": "mountains_poem:block/sanguine_soil",
+    "east": "mountains_poem:block/sanguine_soil",
+    "south": "mountains_poem:block/sanguine_soil",
+    "west": "mountains_poem:block/sanguine_soil",
+    "particle": "mountains_poem:block/sanguine_soil_bottom"
+  },
+  "render_type": "solid"
+}

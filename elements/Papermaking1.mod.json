@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "papermaking_board_crafting",
+    "result": {
+      "value": "CUSTOM:BambooMeshWithPaperPulp"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:BambooMesh"
+      }
+    ]
+  }
+}

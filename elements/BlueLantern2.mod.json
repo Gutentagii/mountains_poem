@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueCloth"
+      },
+      {
+        "value": "TAG:mountains_poem:frame"
+      },
+      {
+        "value": "CUSTOM:BlueCloth"
+      },
+      {
+        "value": "CUSTOM:BlueCloth"
+      },
+      {
+        "value": "Blocks.TORCH"
+      },
+      {
+        "value": "CUSTOM:BlueCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueCloth"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueLantern"
+    },
+    "name": "blue_lantern_2",
+    "namespace": "mod"
+  }
+}

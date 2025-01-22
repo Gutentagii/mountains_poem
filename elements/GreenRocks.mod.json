@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:GreenRock"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:CobbledGreenRock"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": true,
+            "silkTouchMode": 2
+          }
+        ]
+      }
+    ],
+    "name": "blocks/green_rock",
+    "namespace": "mod"
+  }
+}

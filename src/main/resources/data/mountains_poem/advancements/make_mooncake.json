@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:mooncake_fruits"
+    },
+    "title": {
+      "translate": "advancements.make_mooncake.title"
+    },
+    "description": {
+      "translate": "advancements.make_mooncake.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_mooncake_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:item_mooncake_crust",
+      "mountains_poem:item_mooncake_ginger",
+      "mountains_poem:baked_mooncake_recipe",
+      "mountains_poem:baked_mooncake_recipe_2",
+      "mountains_poem:item_mooncake_fruits",
+      "mountains_poem:baked_mooncake_fruit_recipe",
+      "mountains_poem:baked_mooncake_fruit_recipe_2",
+      "mountains_poem:item_mooncake_centipede",
+      "mountains_poem:baked_mooncake_centipede_recipe",
+      "mountains_poem:baked_mooncake_centipede_recipe_2",
+      "mountains_poem:item_mooncake_egg_yolk",
+      "mountains_poem:baked_mooncake_egg_yolk_recipe",
+      "mountains_poem:baked_mooncake_egg_yolk_recipe_2",
+      "mountains_poem:sweet_rice_cake_item",
+      "mountains_poem:mantou_item",
+      "mountains_poem:baked_mooncake_honey_recipe",
+      "mountains_poem:baked_mooncake_honey_recipe_2",
+      "mountains_poem:item_mooncake_honey"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

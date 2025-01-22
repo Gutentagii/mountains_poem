@@ -1,0 +1,20 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:LeiMeatSauce"
+      },
+      {
+        "value": "CUSTOM:BoyiMeatSauce"
+      },
+      {
+        "value": "CUSTOM:ChangfuChickenSauce"
+      }
+    ],
+    "information": [
+      "A tasty meat product that can be eaten as is, or placed in a suitable place for eating or dipping when player sneaking."
+    ]
+  }
+}

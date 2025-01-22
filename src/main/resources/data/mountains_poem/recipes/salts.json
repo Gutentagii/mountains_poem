@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:salt_blcok"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:salt",
+    "count": 9
+  }
+}

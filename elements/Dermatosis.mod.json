@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Dermatosis",
+    "icon": "dermatosis.png",
+    "color": {
+      "value": -5666223,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " aa",
+    "ab ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:golden_ring_head_knife",
+    "count": 1
+  }
+}

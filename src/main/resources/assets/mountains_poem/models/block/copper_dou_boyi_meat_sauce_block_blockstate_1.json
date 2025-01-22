@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/copper_dou_4",
+  "textures": {
+    "all": "mountains_poem:block/copper_dou_side_2",
+    "particle": "mountains_poem:block/cut_copper",
+    "0": "mountains_poem:block/copper_dou_side_2",
+    "1": "mountains_poem:block/boyi_meat_sauce"
+  },
+  "render_type": "cutout_mipped"
+}

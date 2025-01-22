@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/sanguine_cactus",
+  "textures": {
+    "all": "mountains_poem:block/sanguine_cactus",
+    "particle": "mountains_poem:block/sanguine_cactus",
+    "0": "mountains_poem:block/sanguine_cactus",
+    "1": "mountains_poem:block/sanguine_cactus_side"
+  },
+  "render_type": "cutout"
+}

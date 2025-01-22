@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:PlagueHorn"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:fei_bull"
+    },
+    "igniteFire": true,
+    "power": 1.8,
+    "damage": 5.1,
+    "knockback": 10,
+    "entityModel": "Modelplague_ball",
+    "customModelTexture": "plague_ball.png",
+    "onHitsBlock": {
+      "name": "PlagueBallDanSheWuJiZhongFangKuaiShi"
+    },
+    "onHitsEntity": {
+      "name": "PlagueBallDanSheWuJiZhongShiTiShi"
+    },
+    "onFlyingTick": {
+      "name": "PlagueBallDanSheWuFeiXingShiMeiKeFaSheng"
+    }
+  }
+}

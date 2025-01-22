@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:yanlog",
+    "mountains_poem:newjianglog",
+    "mountains_poem:huang_guan_log",
+    "mountains_poem:shatang_log",
+    "mountains_poem:pan_log",
+    "mountains_poem:peach_blossom_log",
+    "mountains_poem:dark_spruce_log",
+    "minecraft:oak_log",
+    "minecraft:spruce_log",
+    "minecraft:birch_log",
+    "minecraft:jungle_log",
+    "minecraft:dark_oak_log",
+    "minecraft:mangrove_log",
+    "minecraft:cherry_log"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CookedBoshiLeg"
+      },
+      {
+        "value": "TAG:c:crops/garlic"
+      },
+      {
+        "value": "CUSTOM:CopperDou"
+      },
+      {
+        "value": "CUSTOM:XianGoatFat"
+      },
+      {
+        "value": "TAG:c:crops/ginger"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoyiMeatSauce"
+    },
+    "name": "item_boyi_meat_sauce",
+    "namespace": "mod"
+  }
+}

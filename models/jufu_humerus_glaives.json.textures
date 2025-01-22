@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "jufu_humerus_sword",
+        "3": "jufu_humerus_sword_handle"
+      },
+      "name": "default"
+    }
+  }
+}

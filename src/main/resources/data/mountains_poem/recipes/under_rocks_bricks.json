@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_rock"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_rock_bricks",
+    "count": 4
+  }
+}

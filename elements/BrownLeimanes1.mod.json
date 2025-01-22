@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrownLeiMane"
+      },
+      {
+        "value": "CUSTOM:BrownLeiMane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BrownLeiMane"
+      },
+      {
+        "value": "CUSTOM:BrownLeiMane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.WOOL#12"
+    },
+    "name": "brown_leimanes_1",
+    "namespace": "mod"
+  }
+}

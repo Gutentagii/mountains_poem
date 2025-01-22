@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:jadepiece"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "mountains_poem:jadepiece"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "mountains_poem:jadepiece"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "mountains_poem:jadepiece"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:chivalrous_xuan_shells",
+    "count": 1
+  }
+}

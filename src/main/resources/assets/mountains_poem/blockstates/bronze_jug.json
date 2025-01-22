@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mountains_poem:block/bronze_jug"
+    },
+    "facing=east": {
+      "model": "mountains_poem:block/bronze_jug",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mountains_poem:block/bronze_jug",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mountains_poem:block/bronze_jug",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PeachBlossomPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomPlanks"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PeachBlossomFence"
+    },
+    "name": "peach_blossom_fence_recipe",
+    "namespace": "mod"
+  }
+}

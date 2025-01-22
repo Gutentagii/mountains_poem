@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:bloodcopperplate"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:the_blood_copper_block",
+    "count": 1
+  }
+}

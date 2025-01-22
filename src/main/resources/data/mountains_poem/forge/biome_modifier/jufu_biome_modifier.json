@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "grove",
+    "cherry_grove"
+  ],
+  "spawners": {
+    "type": "mountains_poem:jufu",
+    "weight": 2,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

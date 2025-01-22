@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:sanguine_desert",
+  "features": "mountains_poem:sanguine_grass",
+  "step": "vegetal_decoration"
+}

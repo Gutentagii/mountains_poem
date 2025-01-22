@@ -1,0 +1,12 @@
+{
+  "__comment": "all non-player targets of the komodo dragon mob.",
+  "replace": false,
+  "values": [
+    "#alexsmobs:passive_land_animals",
+    "#alexsmobs:villagers",
+    "#mountains_poem:animals",
+    "alexsmobs:kangaroo",
+    "#mountains_poem:middle_animal",
+    "alexsmobs:gelada_monkey"
+  ]
+}

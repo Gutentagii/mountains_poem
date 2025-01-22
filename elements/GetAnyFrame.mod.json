@@ -1,0 +1,46 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Craft Framework",
+    "achievementDescription": "Get Any Frame",
+    "achievementIcon": {
+      "value": "CUSTOM:WoodenFrame"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Frame1",
+      "Frame2",
+      "Frame3",
+      "RedLantern2",
+      "WhiteLantern2",
+      "BlueLantern2",
+      "OrangeLantern2",
+      "YellowLantern2",
+      "GreenLantern2",
+      "LimeLantern2",
+      "CyanLantern2",
+      "LightBlueLantern2",
+      "PurpleLantern2",
+      "MagentaLantern2",
+      "LightGrayLantern2",
+      "GrayLantern2",
+      "BrownLantern2",
+      "BlackLantern2",
+      "Mesh1",
+      "Mesh2"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:MountainSPoems"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"48\" y=\"45\"/></next></block></xml>"
+  }
+}

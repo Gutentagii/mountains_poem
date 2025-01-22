@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:crops/carrot"
+    },
+    "b": {
+      "item": "mountains_poem:cooked_lei_meat"
+    },
+    "c": {
+      "item": "mountains_poem:xian_goat_fat"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:lei_stew",
+    "count": 1
+  }
+}

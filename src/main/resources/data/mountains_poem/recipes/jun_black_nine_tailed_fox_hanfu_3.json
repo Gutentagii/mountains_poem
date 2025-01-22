@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:black_cloth"
+    },
+    "b": {
+      "item": "mountains_poem:white_fox_fur"
+    },
+    "c": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:jun_black_nine_tailed_fox_hanfu_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:white_jian_grass"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:white_jian_grass_block",
+    "count": 1
+  }
+}

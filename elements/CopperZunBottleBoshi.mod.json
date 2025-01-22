@@ -1,0 +1,184 @@
+{
+  "_fv": 66,
+  "_type": "block",
+  "definition": {
+    "texture": "copper_zun_top",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "copper_zun_boshi:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "copper_zun_bottom",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 3.5,
+        "my": 0.0,
+        "mz": 3.5,
+        "Mx": 12.5,
+        "My": 4.0,
+        "Mz": 12.5,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 13.0,
+        "mz": 3.0,
+        "Mx": 13.0,
+        "My": 17.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 4.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 13.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 16.6,
+        "mz": 1.0,
+        "Mx": 15.0,
+        "My": 17.6,
+        "Mz": 15.0,
+        "subtract": false
+      }
+    ],
+    "name": "Copper Zun Bottle",
+    "specialInformation": {
+      "fixedValue": [
+        "Boshi"
+      ]
+    },
+    "hardness": 3.0,
+    "resistance": 6.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "ZunBottles",
+    "openGUIOnRightClick": false,
+    "inventorySize": 16,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

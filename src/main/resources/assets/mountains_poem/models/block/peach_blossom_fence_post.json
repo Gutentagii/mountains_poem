@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "mountains_poem:block/peach_blossom_planks",
+    "particle": "mountains_poem:block/peach_blossom_planks"
+  },
+  "render_type": "solid"
+}

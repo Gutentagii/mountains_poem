@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bamboo_side"
+      },
+      "name": "default"
+    },
+    "blood_copper": {
+      "map": {
+        "0": "blood_copper_bamboo_side"
+      },
+      "name": "blood_copper"
+    }
+  }
+}

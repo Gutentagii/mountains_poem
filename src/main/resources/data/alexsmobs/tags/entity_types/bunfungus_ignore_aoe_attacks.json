@@ -1,0 +1,7 @@
+{
+  "__comment": "mobs the bunfungus should not damage during AOE attacks.",
+  "replace": false,
+  "values": [
+    "#mountains_poem:ghost"
+  ]
+}

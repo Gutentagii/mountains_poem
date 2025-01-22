@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:jufu_humerus"
+    },
+    "title": {
+      "translate": "advancements.provoke_jufu.title"
+    },
+    "description": {
+      "translate": "advancements.provoke_jufu.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "provoke_jufu_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "mountains_poem:jufu_humerus_glalive"
+    ]
+  },
+  "parent": "mountains_poem:my_old_friend"
+}

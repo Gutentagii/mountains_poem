@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    "b": {
+      "item": "mountains_poem:under_irons"
+    },
+    "c": {
+      "item": "mountains_poem:newjiangstick"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_iron_sword",
+    "count": 1
+  }
+}

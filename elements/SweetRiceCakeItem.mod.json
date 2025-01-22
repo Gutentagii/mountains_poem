@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "TAG:forge:crops/rice"
+      },
+      {
+        "value": "TAG:forge:crops/rice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SweetRiceCake"
+    },
+    "name": "sweet_rice_cake_item",
+    "namespace": "mod"
+  }
+}

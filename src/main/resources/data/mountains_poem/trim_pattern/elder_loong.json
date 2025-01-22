@@ -1,0 +1,7 @@
+{
+  "asset_id": "mountains_poem:elder_loong",
+  "description": {
+    "translate": "trim_pattern.mountains.poem.elder_loong"
+  },
+  "template_item": "mountains_poem:elder_loong_armor_trim_smithing_template"
+}

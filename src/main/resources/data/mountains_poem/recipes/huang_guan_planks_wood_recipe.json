@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "mpoems:huangwoods"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:huang_guan_planks",
+    "count": 4
+  }
+}

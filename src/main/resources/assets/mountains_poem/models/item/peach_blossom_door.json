@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/peach_blossom_door"
+  },
+  "render_type": "translucent"
+}

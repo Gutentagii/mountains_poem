@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:boyi_leg"
+  },
+  "result": "mountains_poem:cooked_boyi_leg"
+}

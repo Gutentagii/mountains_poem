@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "icy_fangs_mace_handle",
+        "1": "icy_fangs_mace_top",
+        "2": "icy_fangs_mace_side"
+      },
+      "name": "default"
+    }
+  }
+}

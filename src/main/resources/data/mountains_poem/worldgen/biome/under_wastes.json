@@ -1,0 +1,73 @@
+{
+  "has_precipitation": false,
+  "temperature": 1.7,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -5730233,
+    "grass_color": -5666230,
+    "sky_color": -6750208,
+    "fog_color": -6750208,
+    "water_color": -15268603,
+    "water_fog_color": -15989760
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "mountains_poem:gu_eagle",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "mountains_poem:hanged_ghost",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mountains_poem:imperial_examination_ghost",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "mountains_poem:wandering_ghost",
+        "weight": 23,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mountains_poem:under_wastes_tree"
+    ],
+    []
+  ]
+}

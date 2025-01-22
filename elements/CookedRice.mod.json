@@ -1,0 +1,59 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_rice",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Cooked Rice",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": "Items.BOWL"
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "RiceGetRecipe2"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:PlagueBall"
+    },
+    "isFood": true,
+    "nutritionalValue": 4,
+    "saturation": 1.8,
+    "eatResultItem": {
+      "value": "Items.BOWL"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

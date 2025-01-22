@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:red_ru_fish",
+    "mountains_poem:white_monkey_meat",
+    "mountains_poem:white_fox_meat",
+    "mountains_poem:hun_meat",
+    "mountains_poem:qing_geng_meat",
+    "mountains_poem:changfu_chicken",
+    "minecraft:porkchop",
+    "minecraft:beef",
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "minecraft:mutton",
+    "minecraft:rabbit_stew",
+    "minecraft:salmon",
+    "minecraft:cod",
+    "mountains_poem.boshi_leg",
+    "mountains_poem.raw_lufish",
+    "alexsmobs:raw_catfish",
+    "alexsmobs:lobster_tail",
+    "alexsmobs:moose_ribs",
+    "alexsmobs:kangaroo_meat",
+    "alexsmobs:flying_fish",
+    "minecraft:tropical_fish",
+    "alexsmobs:blobfish"
+  ]
+}

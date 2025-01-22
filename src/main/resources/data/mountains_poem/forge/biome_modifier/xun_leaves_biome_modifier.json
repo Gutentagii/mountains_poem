@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:yanforest",
+    "birch_forest",
+    "flower_forest",
+    "jungle"
+  ],
+  "features": "mountains_poem:xun_leaves",
+  "step": "vegetal_decoration"
+}

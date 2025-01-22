@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:green_jade_block"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:greenjade",
+    "count": 9
+  }
+}

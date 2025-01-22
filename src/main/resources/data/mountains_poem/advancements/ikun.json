@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancements.ikun.title"
+    },
+    "description": {
+      "translate": "advancements.ikun.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ikun_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "mountains_poem:monkeys"
+}

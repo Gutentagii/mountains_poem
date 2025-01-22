@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "mountains_poem:block/huangguan_planks",
+    "bottom": "mountains_poem:block/huangguan_planks",
+    "top": "mountains_poem:block/huangguan_planks",
+    "side": "mountains_poem:block/huangguan_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "mountains_poem:yanforest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:lushuhorse",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

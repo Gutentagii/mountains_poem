@@ -1,0 +1,123 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "2": "red_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "2": "red_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "2": "white_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "white"
+    },
+    "blue": {
+      "map": {
+        "2": "blue_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "blue"
+    },
+    "yellow": {
+      "map": {
+        "2": "yellow_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "yellow"
+    },
+    "pink": {
+      "map": {
+        "2": "pink_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "pink"
+    },
+    "green": {
+      "map": {
+        "2": "green_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "green"
+    },
+    "magenta": {
+      "map": {
+        "2": "",
+        "3": ""
+      },
+      "name": "magenta"
+    },
+    "light_blue": {
+      "map": {
+        "2": "cyan_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "light_blue"
+    },
+    "black": {
+      "map": {
+        "2": "black_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "black"
+    },
+    "light_gray": {
+      "map": {
+        "2": "light_gray_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "light_gray"
+    },
+    "gray": {
+      "map": {
+        "2": "gray_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "gray"
+    },
+    "orange": {
+      "map": {
+        "2": "orange_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "orange"
+    },
+    "cyan": {
+      "map": {
+        "2": "cyan_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "cyan"
+    },
+    "purple": {
+      "map": {
+        "2": "purple_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "purple"
+    },
+    "brown": {
+      "map": {
+        "2": "brown_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "brown"
+    },
+    "lime": {
+      "map": {
+        "2": "lime_lantern",
+        "3": "lantern_bottom"
+      },
+      "name": "lime"
+    }
+  }
+}

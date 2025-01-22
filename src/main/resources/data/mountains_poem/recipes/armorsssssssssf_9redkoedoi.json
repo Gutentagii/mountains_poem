@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:dip_oil_vines_plate"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:vines_armors_helmet",
+    "count": 1
+  }
+}

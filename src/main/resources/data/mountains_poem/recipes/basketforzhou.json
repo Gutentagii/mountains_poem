@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "c": {
+      "item": "minecraft:bamboo_slab"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:gui_basket",
+    "count": 1
+  }
+}

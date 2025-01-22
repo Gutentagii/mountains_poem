@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:soaked_plants_bucket_item"
+    },
+    {
+      "tag": "mountains_poem:soaked_plants_bucket_item"
+    },
+    {
+      "tag": "mountains_poem:soaked_plants_bucket_item"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:soaked_plants_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "mountains_poem:yanforest",
+  "spawners": {
+    "type": "mountains_poem:white_monkey",
+    "weight": 6,
+    "minCount": 5,
+    "maxCount": 6
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/ting_zhu",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:ting_zhu",
+          "conditions": [
+            {
+              "block": "mountains_poem:ting_zhu",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

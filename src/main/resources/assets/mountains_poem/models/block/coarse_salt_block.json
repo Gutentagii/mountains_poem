@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/coarse_salt_block",
+    "up": "mountains_poem:block/coarse_salt_block",
+    "north": "mountains_poem:block/coarse_salt_block",
+    "east": "mountains_poem:block/coarse_salt_block",
+    "south": "mountains_poem:block/coarse_salt_block",
+    "west": "mountains_poem:block/coarse_salt_block",
+    "particle": "mountains_poem:block/coarse_salt_block"
+  },
+  "render_type": "solid"
+}

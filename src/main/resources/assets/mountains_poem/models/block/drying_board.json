@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/drying_board",
+  "textures": {
+    "all": "mountains_poem:block/papermaking_board_top",
+    "particle": "mountains_poem:block/papermaking_board_top",
+    "0": "mountains_poem:block/oak_planks",
+    "1": "mountains_poem:block/papermaking"
+  },
+  "render_type": "cutout_mipped"
+}

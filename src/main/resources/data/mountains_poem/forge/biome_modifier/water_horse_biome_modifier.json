@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "beach",
+    "river",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "mountains_poem:water_horse",
+    "weight": 8,
+    "minCount": 3,
+    "maxCount": 4
+  }
+}

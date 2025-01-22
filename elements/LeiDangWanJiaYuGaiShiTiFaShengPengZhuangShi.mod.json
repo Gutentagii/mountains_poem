@@ -1,0 +1,7 @@
+{
+  "_fv": 66,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"36\" y=\"12\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"text_binary_ops\"><value name=\"A\"><block type=\"get_entity_texture\"><field name=\"element\">CUSTOM:Lei</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"B\"><block type=\"text\"><field name=\"TEXT\">lei_lion_2</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_set_target\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"sourceentity\"><block type=\"source_entity_from_deps\"/></value></block></statement></block></next></block></xml>"
+  }
+}

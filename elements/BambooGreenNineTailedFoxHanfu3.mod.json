@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GreenCloth"
+      },
+      {
+        "value": "CUSTOM:GreenCloth"
+      },
+      {
+        "value": "CUSTOM:GreenCloth"
+      },
+      {
+        "value": "CUSTOM:WhiteFoxLeather"
+      },
+      {
+        "value": "CUSTOM:WhiteFoxLeather"
+      },
+      {
+        "value": "CUSTOM:WhiteFoxLeather"
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#10"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BambooGreenNineTailedFoxHanfu.legs"
+    },
+    "name": "bamboo_green_nine_tailed_fox_hanfu_3",
+    "namespace": "mod"
+  }
+}

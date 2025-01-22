@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_bush"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:rain_xuan_shells",
+    "count": 1
+  }
+}

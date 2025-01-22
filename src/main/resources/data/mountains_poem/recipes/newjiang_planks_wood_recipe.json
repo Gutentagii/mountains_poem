@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "mpoems:newjiang_woods"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:newjiang_planks",
+    "count": 4
+  }
+}

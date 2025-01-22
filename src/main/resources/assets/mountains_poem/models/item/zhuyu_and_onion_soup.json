@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/zhuyu_and_onion_soup_wood"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "TAG:mountains_poem:piglin_symbol_item"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EngravedXuanShellsPiglin"
+    },
+    "name": "engraved_xuan_shells_3",
+    "namespace": "mod"
+  }
+}

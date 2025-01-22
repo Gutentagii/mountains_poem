@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "mountains_poem:block/huangguan_leaves",
+    "particle": "mountains_poem:block/huangguan_leaves"
+  }
+}

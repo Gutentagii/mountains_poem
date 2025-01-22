@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "iron_chisel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Iron Shaping Chisel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 14,
+    "damageVsEntity": 2.5,
+    "usageCount": 360,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onRightClickedOnBlock": {
+      "name": "ScrollsBronzeShaping"
+    },
+    "onItemInInventoryTick": {
+      "name": "Chisel2"
+    }
+  }
+}

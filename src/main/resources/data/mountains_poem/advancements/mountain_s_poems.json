@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "mountains_poem:textures/screens/lush.png",
+    "icon": {
+      "item": "mountains_poem:token"
+    },
+    "title": {
+      "translate": "advancements.mountain_s_poems.title"
+    },
+    "description": {
+      "translate": "advancements.mountain_s_poems.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mountain_s_poems_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "mountains_poem:deleted_mod_element"
+    ],
+    "recipes": [
+      "mountains_poem:knowlegessss",
+      "mountains_poem:deleted_mod_element"
+    ]
+  }
+}

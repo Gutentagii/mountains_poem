@@ -1,0 +1,59 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_lufish",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Cooked Lufish",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "RawLufishWanJiaWanChengShiYongWuPinShi"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:PlagueBall"
+    },
+    "isFood": true,
+    "nutritionalValue": 4,
+    "saturation": 1.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": true,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

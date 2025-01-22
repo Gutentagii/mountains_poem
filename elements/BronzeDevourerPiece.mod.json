@@ -1,0 +1,66 @@
+{
+  "_fv": 66,
+  "_type": "animatedarmor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bronze_devourer_helmet",
+    "enableBody": true,
+    "textureBody": "bronze_devourer_chestplate",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "armorTextureFile": "blood_copper_water_horse_armor.png",
+    "model": "bronze_devourer_armor.geo.json",
+    "idle": "idle",
+    "head": "armorHead",
+    "chest": "armorBody",
+    "rightArm": "armorRightArm",
+    "leftArm": "armorLeftArm",
+    "rightLeg": "armorRightLeg",
+    "leftLeg": "armorLeftLeg",
+    "rightBoot": "armorRightBoot",
+    "leftBoot": "armorLeftBoot",
+    "helmetName": "Bronze Devourer Helmet",
+    "bodyName": "Bronze Devourer Chestplate",
+    "leggingsName": "Bronze Devourer Piece护腿",
+    "bootsName": "Bronze Devourer Piece靴子",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "fullyEquipped": false,
+    "maxDamage": 30,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 15,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:item_equip_bronze"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SpookyBronzeDevourerStatuePiece"
+      }
+    ]
+  }
+}

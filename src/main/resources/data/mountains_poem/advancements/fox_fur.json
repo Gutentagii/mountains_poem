@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:white_fox_coat_chestplate"
+    },
+    "title": {
+      "translate": "advancements.fox_fur.title"
+    },
+    "description": {
+      "translate": "advancements.fox_fur.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fox_fur_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:white_fox_coat_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "mountains_poem:huang_guan_forest",
+  "spawners": {
+    "type": "mountains_poem:hun_horse",
+    "weight": 9,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

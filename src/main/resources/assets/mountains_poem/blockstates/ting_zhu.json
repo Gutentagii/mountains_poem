@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "mountains_poem:block/ting_zhu"
+    },
+    "half=lower": {
+      "model": "mountains_poem:block/ting_zhu_bottom"
+    }
+  }
+}

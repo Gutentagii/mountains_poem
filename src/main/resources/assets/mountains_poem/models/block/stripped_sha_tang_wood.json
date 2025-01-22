@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mountains_poem:block/stripped_shatang_log",
+    "particle": "mountains_poem:block/stripped_shatang_log"
+  },
+  "render_type": "solid"
+}

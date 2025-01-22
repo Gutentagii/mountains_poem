@@ -1,0 +1,861 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:HuaxiaSorcerer"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:XuanShells"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 36,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:WaterHorseMane"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 53,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LeiMane"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 27,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 54,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WisdomXuanShells"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ImmortalityXuanShells"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:DarkFeather"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 25,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlashingFur"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 44,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:IcyFangs"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 44,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TwistedClaws"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Greenjade"
+            },
+            "countPrice1": 34,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EternalHeart"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RedRuFish"
+            },
+            "countOffer": 16,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ZhengSaliva"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 17,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:HunMeat"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 38,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Xunyearberry"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 27,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GuEagleFeather"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 34,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 11,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ChivalrousXuanShells"
+            },
+            "countOffer": 7,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HarvestXuanShells"
+            },
+            "countOffer": 7,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 17,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:VitalityXuanShells"
+            },
+            "countOffer": 7,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RainXuanShells"
+            },
+            "countOffer": 7,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 11,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ThroneXuanShells"
+            },
+            "countOffer": 7,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TheSouthernMountainJadePendant"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countOffer": 19,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ZhuyuGrass"
+            },
+            "countOffer": 7,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WhiteFoxMeat"
+            },
+            "countOffer": 12,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Jadepiece"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LushuLeather"
+            },
+            "countOffer": 6,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Jadepiece"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Jianmeibamboo"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:XianGoatFat"
+            },
+            "countOffer": 17,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ZhengSaliva"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 24,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WutiaoFlower"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:QingGengMeat"
+            },
+            "countOffer": 32,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 24,
+            "price2": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.SKULL#0"
+            },
+            "countOffer": 3,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 19,
+            "price2": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SKULL#3"
+            },
+            "countOffer": 3,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 21,
+            "price2": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SKULL#4"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.PIGLIN_HEAD"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Whitejade"
+            },
+            "countPrice1": 44,
+            "price2": {
+              "value": "CUSTOM:Jadetablet"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.SKULL#2"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ScintillationEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 13,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:GanlinEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 13,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DazzlingStarEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RustEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ScarletTwilightEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DustySoilEngravedXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JufuHumerus"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EngravedXuanShellsChangfu"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EngravedXuanShellsBoshi"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HealthXuanShells"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HuntXuanShells"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.11
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SailingXuanShells"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.09
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ScarletThorn"
+            },
+            "countOffer": 8,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:bamboo_frame",
+    "count": 1
+  }
+}

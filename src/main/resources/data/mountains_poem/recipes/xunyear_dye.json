@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:xun_leaves_berries"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Carbuncles",
+    "icon": "carbuncles.png",
+    "color": {
+      "value": -10873322,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "CarbunclesXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

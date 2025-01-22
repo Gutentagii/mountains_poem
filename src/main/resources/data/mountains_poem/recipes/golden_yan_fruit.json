@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "mountains_poem:yan_fruit"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:golden_yan_fruit",
+    "count": 3
+  }
+}

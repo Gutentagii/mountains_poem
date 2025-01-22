@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/green_rock",
+    "up": "mountains_poem:block/green_rock",
+    "north": "mountains_poem:block/green_rock",
+    "east": "mountains_poem:block/green_rock",
+    "south": "mountains_poem:block/green_rock",
+    "west": "mountains_poem:block/green_rock",
+    "particle": "mountains_poem:block/green_rock"
+  },
+  "render_type": "solid"
+}

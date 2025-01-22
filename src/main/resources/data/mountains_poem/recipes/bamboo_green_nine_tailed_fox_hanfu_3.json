@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:green_cloth"
+    },
+    "b": {
+      "item": "mountains_poem:white_fox_fur"
+    },
+    "c": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:bamboo_green_nine_tailed_fox_hanfu_leggings",
+    "count": 1
+  }
+}

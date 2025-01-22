@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "papermaking"
+      },
+      "name": "default"
+    },
+    "wet": {
+      "map": {
+        "0": "oak_planks",
+        "1": "paper_wet"
+      },
+      "name": "wet"
+    },
+    "half_wet": {
+      "map": {
+        "0": "oak_planks",
+        "1": "paper_half_wet"
+      },
+      "name": "half_wet"
+    },
+    "dry": {
+      "map": {
+        "0": "oak_planks",
+        "1": "paper_dry"
+      },
+      "name": "dry"
+    }
+  }
+}

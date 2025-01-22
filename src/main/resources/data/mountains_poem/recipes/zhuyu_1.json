@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:xian_goat_fat"
+    },
+    {
+      "item": "mountains_poem:xian_goat_fat"
+    },
+    {
+      "item": "mountains_poem:xian_goat_fat"
+    },
+    {
+      "item": "mountains_poem:zhuyu_grass"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "mountains_poem:zhuyu_grass"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:zhuyu_and_onion_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:jianmei_bamboo_jungle",
+  "features": "mountains_poem:jianmeibamboo",
+  "step": "vegetal_decoration"
+}

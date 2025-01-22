@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 17,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "mountains_poem:yanleaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "mountains_poem:fruitful_shatang_leaves"
+        }
+      }
+    ]
+  }
+}

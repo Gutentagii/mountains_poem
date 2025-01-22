@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:wool"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "TAG:minecraft:wool"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "TAG:minecraft:wool"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "TAG:minecraft:wool"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThroneXuanShells"
+    },
+    "name": "xuan_shells_make_7",
+    "namespace": "mod"
+  }
+}

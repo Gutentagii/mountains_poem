@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.TORCHFLOWER_SEEDS"
+      },
+      {
+        "value": "Items.PITCHER_POD"
+      },
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:MooncakeCrust"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:RongGrassTuber"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:ScarletThorn"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BakedAncientFiveNutsMooncake"
+    },
+    "name": "item_ancient_five_nuts_mooncake",
+    "namespace": "mod"
+  }
+}

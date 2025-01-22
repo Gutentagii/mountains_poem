@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Newjiangforest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"126\" y=\"39\"><value name=\"feature\"><block type=\"feature_tree_pine\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"type\">mega pine</field><field name=\"base_height\">6</field><field name=\"height_variation_a\">4</field><field name=\"height_variation_b\">0</field><field name=\"force_dirt\">FALSE</field><field name=\"ignore_vines\">TRUE</field><value name=\"dirt\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">Blocks.GRASS</field></block></value><value name=\"trunk\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">CUSTOM:Newjianglog</field></block></value><value name=\"foliage\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">CUSTOM:Newjiangleave</field></block></value><value name=\"foliage_height\"><block type=\"int_provider_uniform\"><field name=\"min\">16</field><field name=\"max\">24</field></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value></block></value><next><block type=\"placement_in_square\"></block></next></block></xml>"
+  }
+}

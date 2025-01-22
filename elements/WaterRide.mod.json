@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "particle",
+  "definition": {
+    "texture": "water_ride.png",
+    "animate": false,
+    "frameDuration": 6,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 1.0
+    },
+    "speedFactor": 1.1,
+    "gravity": 0.30000000000000004,
+    "maxAge": 11,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:white_fox_tail"
+    },
+    "b": {
+      "item": "mountains_poem:white_fox_fur"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:white_fox_coat_chestplate",
+    "count": 1
+  }
+}

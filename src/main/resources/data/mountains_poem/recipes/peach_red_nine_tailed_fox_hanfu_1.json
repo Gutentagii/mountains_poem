@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:pink_cloth"
+    },
+    "b": {
+      "item": "mountains_poem:white_cloth"
+    },
+    "c": {
+      "item": "mountains_poem:white_fox_fur"
+    },
+    "d": {
+      "item": "minecraft:red_dye"
+    },
+    "e": {
+      "item": "mountains_poem:white_fox_tail"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:peach_red_nine_tailed_fox_hanfu_chestplate",
+    "count": 1
+  }
+}

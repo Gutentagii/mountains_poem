@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:JufuHumerus"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JufuHumerus"
+      },
+      {
+        "value": "CUSTOM:WaterHorseMane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WaterHorseMane"
+      },
+      {
+        "value": "CUSTOM:JufuHumerus"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JufuHumerusGlaive"
+    },
+    "name": "jufu_humerus_glalive",
+    "namespace": "mod"
+  }
+}

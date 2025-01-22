@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:copper_zun_bottle"
+    },
+    "title": {
+      "translate": "advancements.make_copper_zun.title"
+    },
+    "description": {
+      "translate": "advancements.make_copper_zun.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_copper_zun_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:wrought_pattern_zun"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "mountains_poem:zun_copper_1",
+      "mountains_poem:copper_zun_bottle_recipe",
+      "mountains_poem:zun_copper_2",
+      "mountains_poem:zun_copper_3",
+      "mountains_poem:zun_copper_4",
+      "mountains_poem:zun_copper_5",
+      "mountains_poem:zun_copper_6",
+      "mountains_poem:zun_copper_7",
+      "mountains_poem:zun_copper_8",
+      "mountains_poem:zun_copper_9",
+      "mountains_poem:zun_copper_10"
+    ]
+  },
+  "parent": "mountains_poem:make_copper_dou"
+}

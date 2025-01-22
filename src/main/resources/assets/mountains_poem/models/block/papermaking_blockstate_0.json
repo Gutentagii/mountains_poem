@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/papermaking_board",
+  "textures": {
+    "all": "mountains_poem:block/oak_planks",
+    "particle": "mountains_poem:block/oak_planks",
+    "0": "mountains_poem:block/oak_planks",
+    "1": "mountains_poem:block/papermaking_board_top"
+  },
+  "render_type": "cutout_mipped"
+}

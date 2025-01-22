@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:under_orchid"
+    },
+    "title": {
+      "translate": "advancements.find_under_orchid.title"
+    },
+    "description": {
+      "translate": "advancements.find_under_orchid.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "find_under_orchid_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "mountains_poem:go_to_the_underworld"
+}

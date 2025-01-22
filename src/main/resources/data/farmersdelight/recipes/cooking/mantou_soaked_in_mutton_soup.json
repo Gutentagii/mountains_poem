@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 8.0,
+  "ingredients": [
+    {
+      "tag": "forge:ginger_slices"
+    },
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "tag": "forge:chopped_green_onion"
+    },
+    {
+      "tag": "mountains_poem:mantou"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "mountains_poem:mantou_soaked_in_mutton_soup"
+  }
+}

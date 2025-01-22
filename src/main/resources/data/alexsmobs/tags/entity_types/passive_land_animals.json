@@ -1,0 +1,9 @@
+{
+  "__comment": "all land animal (non villager, non player) mobs that passive.",
+  "replace": false,
+  "values": [
+    "#mountains_poem:animals",
+    "#mountains_poem:fish",
+    "mountains_poem:wood_worms",
+  ]
+}

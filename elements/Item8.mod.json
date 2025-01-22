@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:WoodenMesh"
+      },
+      {
+        "value": "CUSTOM:BambooMesh"
+      },
+      {
+        "value": "CUSTOM:BambooMeshWithPaperPulp"
+      },
+      {
+        "value": "CUSTOM:WoodenMeshWithPaperPulp"
+      }
+    ],
+    "information": [
+      "It can remove the unformed paper from the papermaking table, after which it can be placed on the drying table to dry as papers."
+    ]
+  }
+}

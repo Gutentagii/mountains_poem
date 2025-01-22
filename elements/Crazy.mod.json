@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Crazy",
+    "icon": "crazy.png",
+    "color": {
+      "value": -15859455,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CrazyDangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onActiveTick": {
+      "name": "CrazyXiaoGuoChiXuShiMeiKeFaSheng"
+    },
+    "onExpired": {
+      "name": "CrazyDangXiaoGuoJieShu"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "asset_id": "mountains_poem:thrower",
+  "description": {
+    "translate": "trim_pattern.mountains.poem.thrower"
+  },
+  "template_item": "mountains_poem:thrower_armor_trim_smithing_template"
+}

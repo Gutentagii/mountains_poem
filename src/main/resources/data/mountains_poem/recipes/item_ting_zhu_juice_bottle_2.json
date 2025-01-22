@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:ting_zhu"
+    },
+    {
+      "item": "mountains_poem:copper_jue"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:ting_zhu_juice_copper_jue",
+    "count": 1
+  }
+}

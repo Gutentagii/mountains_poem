@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 10.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:IronWaterHorseArmor"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "name": "water_horse_armor_b",
+    "namespace": "mod"
+  }
+}

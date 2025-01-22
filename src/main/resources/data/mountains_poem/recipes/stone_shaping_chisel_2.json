@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:iron_shaping_chisel",
+    "count": 1
+  }
+}

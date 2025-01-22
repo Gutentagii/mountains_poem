@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:boyi_leather"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "mountains_poem:boyi_leather"
+    },
+    {
+      "tag": "forge:tools/shields"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "tag": "forge:tools/shields"
+    },
+    {
+      "item": "mountains_poem:boyi_leather"
+    },
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "item": "mountains_poem:boyi_leather"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:triumph_xuan_shells",
+    "count": 1
+  }
+}

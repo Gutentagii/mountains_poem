@@ -1,0 +1,15 @@
+{
+  "type": "mountains_poem:dipping_sauce",
+  "ingredients": [
+    {
+      "item": "mountains_poem:cooked_rice"
+    },
+    {
+      "item": "mountains_poem:boyi_meat_sauce"
+    }
+  ],
+  "output": {
+    "item": "mountains_poem:cooked_rice_with_boyi_meat_sauce",
+    "count": 1
+  }
+}

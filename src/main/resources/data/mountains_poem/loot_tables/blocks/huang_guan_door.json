@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/huang_guan_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:huang_guan_door",
+          "conditions": [
+            {
+              "block": "mountains_poem:huang_guan_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

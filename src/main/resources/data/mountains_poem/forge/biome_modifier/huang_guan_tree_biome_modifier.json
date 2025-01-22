@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mountains_poem:shatang_forest",
+    "jungle",
+    "snowy_plains"
+  ],
+  "features": "mountains_poem:huang_guan_tree",
+  "step": "surface_structures"
+}

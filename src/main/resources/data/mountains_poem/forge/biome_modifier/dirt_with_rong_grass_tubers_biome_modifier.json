@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "mountains_poem:dirt_with_rong_grass_tubers",
+  "step": "underground_ores"
+}

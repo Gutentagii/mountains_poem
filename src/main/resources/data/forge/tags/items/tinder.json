@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:fire_charge",
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:flint_and_steel"
+  ]
+}

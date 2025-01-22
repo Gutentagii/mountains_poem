@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:bloodcopperplate"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:the_blood_copper_helmet",
+    "count": 1
+  }
+}

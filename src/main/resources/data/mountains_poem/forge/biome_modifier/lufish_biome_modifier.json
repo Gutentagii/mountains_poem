@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "cold_ocean",
+    "deep_cold_ocean",
+    "frozen_ocean",
+    "frozen_river",
+    "lukewarm_ocean",
+    "river"
+  ],
+  "spawners": {
+    "type": "mountains_poem:lufish",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

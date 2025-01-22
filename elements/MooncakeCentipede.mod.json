@@ -1,0 +1,65 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "mooncake",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Mooncake",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "item.mountains_poem.item.mooncake.filling",
+        "item.mountains_poem.item.mooncake.ginger"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "MooncakeCentipedeGetRecipe"
+    },
+    "onFinishUsingItem": {
+      "name": "MooncakeCentipedeWanJiaWanChengShiYongWuPinShi"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:PlagueBall"
+    },
+    "isFood": true,
+    "nutritionalValue": 10,
+    "saturation": 0.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

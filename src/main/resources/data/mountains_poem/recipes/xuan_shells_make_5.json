@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:tall_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:tall_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:tall_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:tall_flowers"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:vitality_xuan_shells",
+    "count": 1
+  }
+}

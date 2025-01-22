@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "mpoems:peach_woods"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:peach_blossom_planks",
+    "count": 4
+  }
+}

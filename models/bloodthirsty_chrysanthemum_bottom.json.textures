@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bloodthirsty_chrysanthemum_bottom",
+        "1": "bloodthirsty_chrysanthemum_top_1",
+        "2": "bloodthirsty_chrysanthemum"
+      },
+      "name": "default"
+    }
+  }
+}

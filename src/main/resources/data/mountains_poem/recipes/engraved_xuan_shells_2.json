@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "tag": "mountains_poem:changfu_symbol_item"
+    },
+    "c": {
+      "item": "mountains_poem:xuan_scale"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:engraved_xuan_shells_changfu",
+    "count": 3
+  }
+}

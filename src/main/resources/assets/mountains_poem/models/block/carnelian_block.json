@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/carnelian_block",
+    "up": "mountains_poem:block/carnelian_block",
+    "north": "mountains_poem:block/carnelian_block",
+    "east": "mountains_poem:block/carnelian_block",
+    "south": "mountains_poem:block/carnelian_block",
+    "west": "mountains_poem:block/carnelian_block",
+    "particle": "mountains_poem:block/carnelian_block"
+  },
+  "render_type": "solid"
+}

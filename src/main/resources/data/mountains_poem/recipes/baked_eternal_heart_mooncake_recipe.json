@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:unbaked_eternal_heart_mooncake"
+  },
+  "result": "mountains_poem:eternal_heart_mooncake"
+}

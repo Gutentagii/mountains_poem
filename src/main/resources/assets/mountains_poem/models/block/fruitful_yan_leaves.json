@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mountains_poem:block/fruitful_yan_leaves",
+    "particle": "mountains_poem:block/fruitful_yan_leaves"
+  }
+}

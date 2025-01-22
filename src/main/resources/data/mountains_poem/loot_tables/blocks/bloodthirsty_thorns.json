@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/bloodthirsty_thorns",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:bloodthirsty_thorns",
+          "conditions": [
+            {
+              "block": "mountains_poem:bloodthirsty_thorns",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#c:glass_blocks",
+    "mountains_poem:the_under_portal",
+    "minecraft:nether_portal",
+    "minecraft:turtle_egg",
+    "minecraft:sniffer_egg",
+    "#c:glass_panes"
+  ]
+}

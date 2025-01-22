@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Yanforest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_scattered_ore\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">3</field><field name=\"discardOnAirChance\">1</field><value name=\"target0\"><block type=\"ore_target\"><value name=\"target\"><block type=\"rule_test_tag_match\"><field name=\"tag\">stone_ore_replaceables</field></block></value><value name=\"state\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">CUSTOM:JadeOre</field></block></value></block></value></block></value></block></xml>"
+  }
+}

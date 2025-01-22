@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "sanguine_flower": {
+      "map": {
+        "2": "sanguine_flower",
+        "3": "flower_pot",
+        "4": "sanguine_soil_top"
+      },
+      "name": "sanguine_flower"
+    },
+    "zhu_yu_grass": {
+      "map": {
+        "2": "potted_zhu_yu_grass",
+        "3": "flower_pot",
+        "4": "lush_dirt"
+      },
+      "name": "zhu_yu_grass"
+    },
+    "default": {
+      "map": {
+        "2": "under_flower",
+        "3": "flower_pot",
+        "4": "under_grass_block_top"
+      },
+      "name": "default"
+    }
+  }
+}

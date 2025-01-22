@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BambooFrame"
+    },
+    "name": "frame_2",
+    "namespace": "mod"
+  }
+}

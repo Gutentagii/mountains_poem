@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/copper"
+    },
+    "b": {
+      "item": "mountains_poem:wrought_pattern_small_ding"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:copper_small_ding",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mountains_poem:blocks/ying_yang_flower",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:ying_yang_flower",
+          "conditions": [
+            {
+              "block": "mountains_poem:ying_yang_flower",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

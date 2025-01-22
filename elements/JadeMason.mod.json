@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Jade Mason",
+    "pointOfInterest": {
+      "value": "CUSTOM:JadeCarver"
+    },
+    "actionSound": {
+      "value": "block.stone.hit"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "jade_mason.png",
+    "zombifiedProfessionTextureFile": "jade_mason.png"
+  }
+}

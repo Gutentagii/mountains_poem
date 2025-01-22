@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Jadepiece"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "CUSTOM:Jadepiece"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "CUSTOM:Jadepiece"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "CUSTOM:Jadepiece"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChivalrousXuanShells"
+    },
+    "name": "xuan_shells_make_2",
+    "namespace": "mod"
+  }
+}

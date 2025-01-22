@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "peach_blossom_stick",
+    "customModelName": "copper_yues:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Blood Copper Yue",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 0.6,
+    "enchantability": 25,
+    "damageVsEntity": 18.0,
+    "usageCount": 946,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Bloodcopperplate"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CopperYueShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "BloodCopperYueGongJuChuXianZaiWuPinLanShiMeiKeFaSheng"
+    }
+  }
+}

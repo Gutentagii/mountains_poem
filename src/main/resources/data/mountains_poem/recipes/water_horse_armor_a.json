@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mountains_poem:golden_water_horse_armor"
+  },
+  "result": "minecraft:gold_ingot"
+}

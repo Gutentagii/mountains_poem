@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:carnelian_block"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:carnelian",
+    "count": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:zheng_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.strawberry_syrup.title"
+    },
+    "description": {
+      "translate": "advancements.strawberry_syrup.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "strawberry_syrup_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "mountains_poem:zheng_saliva_2"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

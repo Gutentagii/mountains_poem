@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:jianmeibamboo"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stripped_bamboo_block",
+    "count": 4
+  }
+}

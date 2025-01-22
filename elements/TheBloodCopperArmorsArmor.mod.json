@@ -1,0 +1,92 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "thebloodcopper_head",
+    "enableBody": false,
+    "textureBody": "thebloodcopper_body",
+    "enableLeggings": true,
+    "textureLeggings": "thebloodcopper_leggings",
+    "enableBoots": true,
+    "textureBoots": "thebloodcopper_boots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "armorTextureFile": "white",
+    "helmetName": "The Blood Copper Helmet",
+    "bodyName": "The Blood Copper Chestplate",
+    "leggingsName": "The Blood Copper Leggings",
+    "bootsName": "The Blood Copper  Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelblood_copper_armor",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "ao_yin.png",
+    "bodyModelName": "Modelblood_copper_armor",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "ao_yin.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 40,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 4,
+    "enchantability": 22,
+    "toughness": 2.2,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "block.copper.hit"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Bloodcopperplate"
+      }
+    ]
+  }
+}

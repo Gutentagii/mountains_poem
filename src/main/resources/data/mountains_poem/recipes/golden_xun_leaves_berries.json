@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "mountains_poem:xun_leaves_berries"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:golden_xun_leaves_berries",
+    "count": 5
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:yan_fruit",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mountains_poem:yanleaves",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mountains_poem:blocks/yanleaves"
+}

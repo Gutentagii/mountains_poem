@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "golden_ring_head_knife_bottom",
+        "2": "golden_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "default"
+    },
+    "diamond": {
+      "map": {
+        "0": "diamong_ring_head_knife_bottom",
+        "2": "diamong_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "diamond"
+    },
+    "wooden": {
+      "map": {
+        "0": "wooden_ring_head_knife_bottem",
+        "2": "wooden_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "wooden"
+    },
+    "blood_copper": {
+      "map": {
+        "0": "blood_copper_ring_head_knife_bottom",
+        "2": "blood_copper_ring_head_knife_top",
+        "3": "blood_copper_ring_head_knife_handle"
+      },
+      "name": "blood_copper"
+    },
+    "under_iron": {
+      "map": {
+        "0": "under_iron_ring_head_knife_bottom",
+        "2": "under_iron_ring_head_knife_top",
+        "3": "under_iron_ring_head_knife_handle"
+      },
+      "name": "under_iron"
+    },
+    "golden": {
+      "map": {
+        "0": "golden_ring_head_knife_bottom",
+        "2": "golden_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "golden"
+    },
+    "iron": {
+      "map": {
+        "0": "iron_ring_head_knife_bottem",
+        "2": "iron_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "iron"
+    },
+    "stone": {
+      "map": {
+        "0": "stone_ring_head_knife_bottom",
+        "2": "stone_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "stone"
+    },
+    "netherite": {
+      "map": {
+        "0": "netherite_ring_head_knife_bottom",
+        "2": "netherite_ring_head_knife_top",
+        "3": "ring_head_knife_handle"
+      },
+      "name": "netherite"
+    }
+  }
+}

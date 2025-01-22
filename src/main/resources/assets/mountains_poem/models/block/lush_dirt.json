@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/lush_dirt",
+    "up": "mountains_poem:block/lush_dirt",
+    "north": "mountains_poem:block/lush_dirt",
+    "east": "mountains_poem:block/lush_dirt",
+    "south": "mountains_poem:block/lush_dirt",
+    "west": "mountains_poem:block/lush_dirt",
+    "particle": "mountains_poem:block/lush_dirt"
+  },
+  "render_type": "solid"
+}

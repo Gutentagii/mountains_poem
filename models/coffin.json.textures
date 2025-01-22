@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "deepslate": {
+      "map": {
+        "0": "deepslate_coffin"
+      },
+      "name": "deepslate"
+    },
+    "default": {
+      "map": {
+        "0": "stone_coffin"
+      },
+      "name": "default"
+    }
+  }
+}

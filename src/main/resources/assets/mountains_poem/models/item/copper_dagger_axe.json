@@ -1,0 +1,7 @@
+{
+  "parent": "mountains_poem:custom/copper_ge",
+  "textures": {
+    "0": "mountains_poem:block/bamboo_side",
+    "particle": "mountains_poem:item/the_copper_sword"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "drying_board_crafting",
+    "result": {
+      "value": "Items.PAPER"
+    },
+    "count": 3,
+    "ingredients": [
+      {
+        "value": "TAG:mountains_poem:paper_mesh"
+      }
+    ]
+  }
+}

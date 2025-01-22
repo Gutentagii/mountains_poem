@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bronze_jug_main",
+        "1": "blank_bronze_jug_side"
+      },
+      "name": "default"
+    }
+  }
+}

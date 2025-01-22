@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:PaperPulpBucket"
+      }
+    ],
+    "information": [
+      "The paper pulp in the bucket  is a thick liquid that can be poured into the papermaking table."
+    ]
+  }
+}

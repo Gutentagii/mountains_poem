@@ -1,0 +1,147 @@
+{
+  "has_precipitation": true,
+  "temperature": 1,
+  "downfall": 0.5,
+  "effects": {
+    "additions_sound": {
+      "sound": "mountains_poem:yan_forest",
+      "tick_chance": 0.0111
+    },
+    "foliage_color": -8927701,
+    "grass_color": -7222714,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -4460038,
+    "water_fog_color": -8786715
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zombie",
+        "weight": 20,
+        "minCount": 5,
+        "maxCount": 5
+      },
+      {
+        "type": "zombie_villager",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "skeleton",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "spider",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "enderman",
+        "weight": 13,
+        "minCount": 3,
+        "maxCount": 3
+      }
+    ],
+    "creature": [
+      {
+        "type": "allay",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "donkey",
+        "weight": 9,
+        "minCount": 3,
+        "maxCount": 3
+      },
+      {
+        "type": "cow",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "sheep",
+        "weight": 13,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "pig",
+        "weight": 8,
+        "minCount": 3,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "salmon",
+        "weight": 6,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "mountains_poem:lufish",
+        "weight": 9,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [
+      "mountains_poem:yanforest_tree",
+      "minecraft:patch_tall_grass"
+    ],
+    []
+  ]
+}

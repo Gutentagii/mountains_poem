@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:UnbakedEternalHeartMooncake"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:EternalHeartMooncake"
+    },
+    "name": "baked_eternal_heart_mooncake_recipe",
+    "namespace": "mod"
+  }
+}

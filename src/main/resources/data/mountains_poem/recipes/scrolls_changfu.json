@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:carnelian"
+    },
+    "b": {
+      "tag": "mountains_poem:changfu_symbol_item"
+    },
+    "c": {
+      "item": "mountains_poem:blank_totem_scrolls"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:changfu_totem_scrolls",
+    "count": 3
+  }
+}

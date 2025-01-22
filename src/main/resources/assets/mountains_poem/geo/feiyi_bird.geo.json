@@ -1,0 +1,115 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.feiyi_bird",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, -1.75, 0],
+					"rotation": [-180, 0, 180],
+					"cubes": [
+						{"origin": [-3, 6.25, -5], "size": [6, 5, 9], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "feet1",
+					"parent": "bone",
+					"pivot": [-2, 6.25, -2],
+					"cubes": [
+						{"origin": [-3.5, 0.25, -2.3], "size": [3, 6, 3], "uv": [0, 25]}
+					]
+				},
+				{
+					"name": "feet2",
+					"parent": "bone",
+					"pivot": [2.5, 6.25, -2],
+					"cubes": [
+						{"origin": [0.5, 0.25, -2.3], "size": [3, 6, 3], "uv": [0, 25]}
+					]
+				},
+				{
+					"name": "chi1",
+					"parent": "bone",
+					"pivot": [3.5, 8.75, 2.25],
+					"cubes": [
+						{"origin": [3, 6.75, -4.25], "size": [1, 4, 7], "uv": [20, 21]}
+					]
+				},
+				{
+					"name": "chi3",
+					"parent": "bone",
+					"pivot": [-3.5, 8.75, 2.25],
+					"cubes": [
+						{"origin": [-4, 6.75, -4.25], "size": [1, 4, 7], "uv": [20, 21]}
+					]
+				},
+				{
+					"name": "head1",
+					"parent": "bone",
+					"pivot": [0, 12.72671, 4.18865],
+					"cubes": [
+						{"origin": [-2, 10.22671, 1.68865], "size": [4, 5, 5], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "mouth1",
+					"parent": "head1",
+					"pivot": [0, 12.52831, 7.17262],
+					"cubes": [
+						{"origin": [-0.5, 12.32671, 5.68865], "size": [1, 1, 6], "uv": [25, 8]}
+					]
+				},
+				{
+					"name": "mouth2",
+					"parent": "head1",
+					"pivot": [0, 11.52831, 7.17262],
+					"cubes": [
+						{"origin": [-0.5, 11.32671, 5.68865], "size": [1, 1, 6], "uv": [25, 8]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 11.35, -6],
+					"rotation": [-20, 0, 0],
+					"cubes": [
+						{"origin": [-1, 11.35, -11], "size": [2, 0, 6], "uv": [19, 21]}
+					]
+				},
+				{
+					"name": "hand1",
+					"parent": "bone",
+					"pivot": [-3, 6.25, 4]
+				},
+				{
+					"name": "hand2",
+					"parent": "bone",
+					"pivot": [3, 6.5, 4]
+				},
+				{
+					"name": "chi6",
+					"parent": "bone",
+					"pivot": [0, 11.25, 0]
+				},
+				{
+					"name": "head2",
+					"parent": "bone",
+					"pivot": [0, 12.72671, 4.18865]
+				},
+				{
+					"name": "mouth4",
+					"parent": "head2",
+					"pivot": [0, 11.24069, 7.88877]
+				}
+			]
+		}
+	]
+}

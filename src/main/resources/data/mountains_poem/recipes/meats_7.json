@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mountains_poem:qing_geng_meat"
+  },
+  "result": "mountains_poem:cooked_qing_geng_meat"
+}

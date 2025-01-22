@@ -1,0 +1,127 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Under Rock Hill",
+    "groundBlock": {
+      "value": "CUSTOM:UnderRock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:UnderRock"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "grassColor": {
+      "value": -10066432,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13421824,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13694968,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14942208,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "music.nether"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:SoulsPiece"
+    },
+    "particlesProbability": 0.30000000000000004,
+    "rainingPossibility": 0.5,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": true,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": 0.8,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.7,
+      "max": 1.1
+    },
+    "genErosion": {
+      "min": 0.1,
+      "max": 0.5002
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NETHER",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityGhast"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

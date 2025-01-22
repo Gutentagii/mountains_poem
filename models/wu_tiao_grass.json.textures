@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wu_tiao_grass",
+        "1": "wu_tiao_grass"
+      },
+      "name": "default"
+    }
+  }
+}

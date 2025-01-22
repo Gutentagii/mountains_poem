@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#mountains_poem:wandering_ghost_spawned",
+  "spawners": {
+    "type": "mountains_poem:wandering_ghost",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

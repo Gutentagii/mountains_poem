@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountains_poem:block/peach_blossom_slab"
+    },
+    "type=top": {
+      "model": "mountains_poem:block/peach_blossom_slab_top"
+    },
+    "type=double": {
+      "model": "mountains_poem:block/peach_blossom_slab_full"
+    }
+  }
+}

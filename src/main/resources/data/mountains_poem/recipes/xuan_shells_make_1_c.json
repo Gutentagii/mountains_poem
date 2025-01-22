@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:xuan_scale"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "tag": "mountains_poem:god_xuan_shells"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:xuan_shells",
+    "count": 8
+  }
+}

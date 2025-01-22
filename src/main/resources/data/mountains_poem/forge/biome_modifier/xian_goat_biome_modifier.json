@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "savanna",
+    "snowy_plains",
+    "grove",
+    "snowy_slopes",
+    "jagged_peaks",
+    "meadow",
+    "jungle",
+    "mountains_poem:jianmei_bamboo_jungle"
+  ],
+  "spawners": {
+    "type": "mountains_poem:xian_goat",
+    "weight": 9,
+    "minCount": 3,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:yellow_cloth",
+    "count": 4
+  }
+}

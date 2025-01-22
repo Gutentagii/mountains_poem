@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "TAG:mountains_poem:zhi_symbol_item"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EngravedXuanShellsZhi"
+    },
+    "name": "engraved_xuan_shells_10",
+    "namespace": "mod"
+  }
+}

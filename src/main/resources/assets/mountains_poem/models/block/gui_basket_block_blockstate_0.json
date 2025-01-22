@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/gui_basket",
+  "textures": {
+    "all": "mountains_poem:block/gui_basket2",
+    "particle": "mountains_poem:block/bamboo_mosaic",
+    "0": "mountains_poem:block/gui_basket2"
+  },
+  "render_type": "cutout_mipped"
+}

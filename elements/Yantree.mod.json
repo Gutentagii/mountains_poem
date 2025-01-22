@@ -1,0 +1,17 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Yanforest"
+      },
+      {
+        "value": "CUSTOM:OldGrowthYanForest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_tree_simple\"><mutation  inputs=\"0\"></mutation><field name=\"base_height\">8</field><field name=\"type\">fancy oak</field><field name=\"height_variation_a\">2</field><field name=\"height_variation_b\">0</field><field name=\"force_dirt\">FALSE</field><field name=\"ignore_vines\">FALSE</field><value name=\"dirt\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">Blocks.GRASS</field></block></value><value name=\"trunk\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">CUSTOM:Yanleaves</field></block></value><value name=\"foliage\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">CUSTOM:Yanlog</field></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value></block></value><next><block type=\"placement_in_square\"></block></next></block></xml>"
+  }
+}

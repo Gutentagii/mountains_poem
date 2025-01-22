@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_rock_bricks"
+    },
+    "b": {
+      "item": "mountains_poem:under_rock_brick_slab"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_rock_brick_fence",
+    "count": 3
+  }
+}

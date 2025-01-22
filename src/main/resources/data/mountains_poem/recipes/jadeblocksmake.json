@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:greenjade"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:green_jade_block",
+    "count": 1
+  }
+}

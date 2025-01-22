@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "flower_forest",
+    "mountains_poem:peach_blossom_forest",
+    "mountains_poem:shatang_forest",
+    "mountains_poem:jianmei_bamboo_jungle"
+  ],
+  "features": "mountains_poem:wutiao_grass",
+  "step": "vegetal_decoration"
+}

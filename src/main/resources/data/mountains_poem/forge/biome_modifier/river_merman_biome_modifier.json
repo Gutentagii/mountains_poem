@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "river",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "mountains_poem:river_merman",
+    "weight": 9,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

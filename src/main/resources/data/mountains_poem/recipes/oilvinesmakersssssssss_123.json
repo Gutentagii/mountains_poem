@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:dry_vines"
+    },
+    "b": {
+      "item": "mountains_poem:xian_goat_oil_bottle"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:wet_dip_oil_vines",
+    "count": 8
+  }
+}

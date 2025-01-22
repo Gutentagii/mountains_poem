@@ -1,0 +1,11 @@
+{
+  "parent": "mountains_poem:custom/bloodthirsty_chrysanthemum_bottom",
+  "textures": {
+    "all": "mountains_poem:block/bloodthirsty_chrysanthemum",
+    "particle": "mountains_poem:block/bloodthirsty_chrysanthemum",
+    "0": "mountains_poem:block/bloodthirsty_chrysanthemum_bottom",
+    "1": "mountains_poem:block/bloodthirsty_chrysanthemum_top_1",
+    "2": "mountains_poem:block/bloodthirsty_chrysanthemum"
+  },
+  "render_type": "cutout"
+}

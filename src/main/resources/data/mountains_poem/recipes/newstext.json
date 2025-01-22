@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_rock"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_rock_gold_ore",
+    "count": 8
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mountains_poem:yan_abandoned_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 21,
+    "salt": 242123715
+  }
+}

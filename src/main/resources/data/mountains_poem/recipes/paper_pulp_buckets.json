@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mountains_poem:soaked_plants_bucket"
+  },
+  "result": "mountains_poem:paper_pulp_bucket"
+}

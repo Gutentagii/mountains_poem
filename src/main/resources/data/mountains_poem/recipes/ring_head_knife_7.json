@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " aa",
+    "ab ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_irons"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_iron_ring_head_knife",
+    "count": 1
+  }
+}

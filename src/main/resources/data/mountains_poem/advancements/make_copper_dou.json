@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:copper_dou"
+    },
+    "title": {
+      "translate": "advancements.make_copper_dou.title"
+    },
+    "description": {
+      "translate": "advancements.make_copper_dou.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_copper_dou_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:copper_dou"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:item_boyi_meat_sauce",
+      "mountains_poem:item_lei_meat_sauce",
+      "mountains_poem:item_mooncake_crust",
+      "mountains_poem:item_changfu_chicken_sauce"
+    ]
+  },
+  "parent": "mountains_poem:collect_any_wrought_pattern"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:UnbakedCuisineMooncake"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "CUSTOM:MooncakeCrust"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "CUSTOM:UnbakedCuisineMooncake"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClassicSuperDarkCuisineMooncake"
+    },
+    "name": "item_classic_super_dark_cuisine_mooncake",
+    "namespace": "mod"
+  }
+}

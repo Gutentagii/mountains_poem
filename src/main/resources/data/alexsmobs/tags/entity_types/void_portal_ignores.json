@@ -1,0 +1,7 @@
+{
+  "__comment": "all non-worm entities that void portals ignore.",
+  "replace": false,
+  "values": [
+    "#mountains_poem:ghost",
+  ]
+}

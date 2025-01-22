@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Rock Attached",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "FIRE_ASPECT"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:JufuHumerusGlaive"
+      }
+    ],
+    "excludeItems": true,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

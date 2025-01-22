@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "mountains_poem:copper_dou"
+  },
+  "cookingtime": 400,
+  "experience": 9.0,
+  "ingredients": [
+    {
+      "item": "mountains_poem:xian_goat_fat"
+    },
+    {
+      "item": "mountains_poem:boyi_leg"
+    },
+    {
+      "tag": "c:crops/garlic"
+    },
+    {
+      "tag": "c:crops/ginger"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "mountains_poem:boyi_meat_sauce"
+  }
+}

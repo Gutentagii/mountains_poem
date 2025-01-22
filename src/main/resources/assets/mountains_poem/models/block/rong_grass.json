@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mountains_poem:block/rong_grass",
+    "particle": "mountains_poem:block/rong_grass"
+  },
+  "render_type": "cutout"
+}

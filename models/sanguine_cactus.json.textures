@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sanguine_cactus",
+        "1": "sanguine_cactus_side"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Suffocate",
+    "icon": "suffocate.png",
+    "color": {
+      "value": -11988726,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SuffocateXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

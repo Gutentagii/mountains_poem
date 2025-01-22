@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "diamond_chisel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Diamond Shaping Chisel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 4.0,
+    "usageCount": 1032,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onRightClickedOnBlock": {
+      "name": "ScrollsBronzeShaping"
+    },
+    "onItemInInventoryTick": {
+      "name": "Chisel4"
+    }
+  }
+}

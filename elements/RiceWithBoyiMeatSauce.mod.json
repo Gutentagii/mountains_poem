@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "dipping_sauce",
+    "result": {
+      "value": "CUSTOM:CookedRiceWithBoyiMeatSauce"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:CookedRice"
+      },
+      {
+        "value": "CUSTOM:BoyiMeatSauce"
+      }
+    ]
+  }
+}

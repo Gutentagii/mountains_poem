@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:zhuyu_grass"
+    },
+    {
+      "item": "mountains_poem:copper_jue"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:zhuyu_copper_jue",
+    "count": 1
+  }
+}

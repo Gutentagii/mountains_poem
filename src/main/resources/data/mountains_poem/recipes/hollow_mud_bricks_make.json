@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mud_bricks"
+    },
+    "b": {
+      "item": "minecraft:mud_brick_slab"
+    },
+    "c": {
+      "item": "mountains_poem:jadepiece"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:hollow_mud_bricks",
+    "count": 4
+  }
+}

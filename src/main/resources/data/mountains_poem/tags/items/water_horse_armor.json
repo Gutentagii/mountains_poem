@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:golden_water_horse_armor",
+    "mountains_poem:diamond_water_horse_armor",
+    "mountains_poem:iron_water_horse_armor",
+    "minecraft:saddle",
+    "mountains_poem:blood_copper_water_horse_armor",
+    "mountains_poem:netherite_water_horse_armor"
+  ]
+}

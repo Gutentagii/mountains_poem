@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mud_bricks_box"
+      },
+      "name": "default"
+    }
+  }
+}

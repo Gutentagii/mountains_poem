@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "crop": "mountains_poem:block/mulberry_stage3"
+  }
+}

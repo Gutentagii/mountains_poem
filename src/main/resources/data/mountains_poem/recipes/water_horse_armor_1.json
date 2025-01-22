@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:saddle"
+    },
+    "c": {
+      "item": "minecraft:blue_wool"
+    },
+    "d": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:golden_water_horse_armor",
+    "count": 1
+  }
+}

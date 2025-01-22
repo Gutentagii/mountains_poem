@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mountains_poem:block/copper_zun_bottle_piglin"
+    },
+    "facing=east": {
+      "model": "mountains_poem:block/copper_zun_bottle_piglin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mountains_poem:block/copper_zun_bottle_piglin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mountains_poem:block/copper_zun_bottle_piglin",
+      "y": 270
+    }
+  }
+}

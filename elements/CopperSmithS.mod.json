@@ -1,0 +1,591 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Miednik"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.RAW_COPPER"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 17,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.COPPER_INGOT"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 14,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Bloodcopper"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 14,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperJue"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 54,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternZun"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternJue"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternSmallDing"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperZunBottle"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 32,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperZunBottleBoshi"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 32,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperZunBottleChangfu"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 32,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperSmallDing"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 32,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperGui"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 16,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternDou"
+            },
+            "countOffer": 3,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternGui"
+            },
+            "countOffer": 3,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BloodCopperUpgradeSmithingTemplate"
+            },
+            "countOffer": 3,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BloodCopperIngot"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 46,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperDou"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 18,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Bloodcoppersword"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 16,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Bloodcopperplate"
+            },
+            "countOffer": 8,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternDaggerAxe"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WroughtPatternYue"
+            },
+            "countOffer": 3,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BoshiTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ChangfuTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:PiglinTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ChickenTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LeiTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LongChiTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ZhengTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:EnderDragonTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SouthMountainsGodTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ZhiTotemScrolls"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 15,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BloodCopperWaterHorseArmor"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 13,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

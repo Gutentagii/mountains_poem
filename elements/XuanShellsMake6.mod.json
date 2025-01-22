@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DEADBUSH"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "Blocks.DEADBUSH"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "CUSTOM:XuanShells"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "Blocks.DEADBUSH"
+      },
+      {
+        "value": "TAG:minecraft:sand"
+      },
+      {
+        "value": "Blocks.DEADBUSH"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RainXuanShells"
+    },
+    "name": "xuan_shells_make_6",
+    "namespace": "mod"
+  }
+}

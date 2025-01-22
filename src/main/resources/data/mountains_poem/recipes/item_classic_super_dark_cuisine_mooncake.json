@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "mountains_poem:unbaked_cuisine_mooncake"
+    },
+    "c": {
+      "tag": "minecraft:sand"
+    },
+    "d": {
+      "item": "mountains_poem:mooncake_crust"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:classic_super_dark_cuisine_mooncake",
+    "count": 1
+  }
+}

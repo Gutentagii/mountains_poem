@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "dipping_sauce",
+    "result": {
+      "value": "CUSTOM:MantouWithChangfuChickenSauce"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:Mantou"
+      },
+      {
+        "value": "CUSTOM:ChangfuChickenSauce"
+      }
+    ]
+  }
+}

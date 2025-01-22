@@ -1,0 +1,142 @@
+{
+  "_fv": 66,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "bloodthirsty_chrysanthemum",
+    "textureBottom": "under_orchid_bottom",
+    "customModelName": "bloodthirsty_chrysanthemum_bottom:default",
+    "itemTexture": "bloodthirsty_chrysanthemum_top",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "DARKNESS",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Nether",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 8.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 8.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 4.8,
+        "my": 11.2,
+        "mz": 4.8,
+        "Mx": 11.2,
+        "My": 15.6,
+        "Mz": 11.2,
+        "subtract": false
+      }
+    ],
+    "name": "Bloodthirsty Chrysanthemum",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "hardness": 0.5,
+    "resistance": 1.0,
+    "luminance": 3,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": true,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:SanguineSand"
+      },
+      {
+        "value": "CUSTOM:UnderGrassBlock"
+      },
+      {
+        "value": "CUSTOM:UnderDirt"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      },
+      {
+        "value": "CUSTOM:SanguineSoil"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 8,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:YanForests"
+      },
+      {
+        "value": "CUSTOM:SanguineDesert"
+      },
+      {
+        "value": "CUSTOM:SanguineValley"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 22,
+    "generateAtAnyHeight": true
+  }
+}

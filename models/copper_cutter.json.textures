@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cut_copper",
+        "1": "opper",
+        "2": "copper_cutter_top"
+      },
+      "name": "default"
+    }
+  }
+}

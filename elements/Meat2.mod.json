@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.8,
+    "cookingTime": 180,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:WhiteFoxMeat"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedFoxMeat"
+    },
+    "name": "meat_2",
+    "namespace": "mod"
+  }
+}

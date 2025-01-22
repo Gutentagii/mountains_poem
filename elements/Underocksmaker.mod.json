@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+      },
+      {
+        "value": "CUSTOM:Carnelian"
+      },
+      {
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnderRock"
+    },
+    "name": "underocksmaker",
+    "namespace": "mod"
+  }
+}

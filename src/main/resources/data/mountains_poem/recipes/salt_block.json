@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:salt"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:salt_blcok",
+    "count": 1
+  }
+}

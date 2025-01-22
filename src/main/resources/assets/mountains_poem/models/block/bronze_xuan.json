@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/bronze_xuan",
+  "textures": {
+    "all": "mountains_poem:block/bronze_xuan",
+    "particle": "mountains_poem:block/bronze",
+    "0": "mountains_poem:block/bronze_xuan"
+  },
+  "render_type": "cutout_mipped"
+}

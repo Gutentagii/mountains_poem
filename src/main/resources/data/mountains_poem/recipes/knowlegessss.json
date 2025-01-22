@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo_planks"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:bamboo_planks"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:knowledge_bamboo_slips",
+    "count": 1
+  }
+}

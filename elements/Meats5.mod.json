@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:RawLufish"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedLufish"
+    },
+    "name": "meats_5",
+    "namespace": "mod"
+  }
+}

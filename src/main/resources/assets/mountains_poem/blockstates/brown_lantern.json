@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "mountains_poem:block/brown_lantern"
+    },
+    "blockstate=1": {
+      "model": "mountains_poem:block/brown_lantern_1_blockstate_0"
+    }
+  }
+}

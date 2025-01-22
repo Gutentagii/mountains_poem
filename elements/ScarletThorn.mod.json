@@ -1,0 +1,65 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "scarlet_thorns",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Scarlet Thorn",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": "CUSTOM:ScarletThorn"
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.5,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "ScarletThornsShengWuWanJiaYuZhiWuXiangZhuangShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "ScarletThornWuPinZaiBeiBaoZhongShiMeiKeFaSheng"
+    },
+    "onFinishUsingItem": {
+      "name": "ScarletThornsShengWuWanJiaYuZhiWuXiangZhuangShi"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:PlagueBall"
+    },
+    "isFood": true,
+    "nutritionalValue": 5,
+    "saturation": 2.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

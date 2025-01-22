@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Dehydration",
+    "icon": "dehydration.png",
+    "color": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "DehydrationXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

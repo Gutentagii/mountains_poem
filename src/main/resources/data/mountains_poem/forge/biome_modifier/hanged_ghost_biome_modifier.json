@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#mountains_poem:hanged_ghost_spawned",
+  "spawners": {
+    "type": "mountains_poem:hanged_ghost",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

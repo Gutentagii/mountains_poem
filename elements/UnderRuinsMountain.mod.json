@@ -1,0 +1,33 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "under_ruins_mountains",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 20,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "#mountains_poem:has_structure/under_ruins_mountains"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "TOP_LAYER_MODIFICATION",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

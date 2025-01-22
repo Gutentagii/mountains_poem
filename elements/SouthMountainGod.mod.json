@@ -1,0 +1,177 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "First Southern Mountains God",
+    "mobLabel": "",
+    "mobModelTexture": "ao_yin.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 8.5,
+    "modelHeight": 4.0,
+    "modelShadowSize": 1.7000000000000002,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -23974,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -103,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": true,
+    "bossBarColor": "GREEN",
+    "bossBarType": "NOTCHED_10",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 35,
+    "attackKnockback": 0.19999999999999998,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 90,
+    "health": 280,
+    "xpAmount": 45,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:south_god"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:south_god_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:south_god_dead"
+    },
+    "stepSound": {
+      "value": "CUSTOM:south_god_step"
+    },
+    "whenMobDies": {
+      "name": "SouthMountainGodDangShiTiSiWangShi"
+    },
+    "whenMobIsHurt": {
+      "name": "SouthMountainGodDangShiTiShouShangShi"
+    },
+    "onRightClickedOn": {
+      "name": "SouthMountainGodYouJiShiTiShi"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"-236\" y=\"-341\"><next><block type=\"attack_with_range\"><field name=\"speed\">1.2</field><field name=\"range\">60</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityZombie</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntitySkeleton</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntitySpider</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPhantom</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityEnderman</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityDragon</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "south_mountains_god.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "swim",
+    "animation6": "",
+    "animation7": "sprint",
+    "animation8": "fly",
+    "animation9": "",
+    "animation10": "sprint",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": true,
+    "enable8": true,
+    "enable9": false,
+    "enable10": true,
+    "breedable": false,
+    "tameable": true,
+    "disableDeathRotation": true,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "river"
+      },
+      {
+        "value": "frozen_river"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.5,
+    "cookingTime": 180,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RedRuFish"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedRedRuFish"
+    },
+    "name": "redru_fish_meat",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mountains_poem:garlic"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "mountains_poem:garlic_cloves"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

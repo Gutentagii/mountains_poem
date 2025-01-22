@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SoakedPlantsBucket"
+      }
+    ],
+    "information": [
+      "A liquid made by soaking trees or other plants that can be smelted in a furnace to turn into paper pulp."
+    ]
+  }
+}

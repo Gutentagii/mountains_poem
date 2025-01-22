@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "snowy_plains",
+    "snowy_taiga",
+    "mountains_poem:yanforest",
+    "mountains_poem:newjiangforest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:boyi_goat",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

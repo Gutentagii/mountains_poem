@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aca",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:pink_cloth"
+    },
+    "b": {
+      "tag": "mountains_poem:frame"
+    },
+    "c": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:pink_lantern",
+    "count": 1
+  }
+}

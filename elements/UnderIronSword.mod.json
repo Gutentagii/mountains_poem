@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "chinese_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Under Iron Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 1.0,
+    "attackSpeed": 1.5,
+    "enchantability": 24,
+    "damageVsEntity": 11.5,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UnderIrons"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

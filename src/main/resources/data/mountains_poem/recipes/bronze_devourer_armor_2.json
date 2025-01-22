@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:spooky_bronze_devourer_statue_piece"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:bronze_devourer_piece_chestplate",
+    "count": 1
+  }
+}

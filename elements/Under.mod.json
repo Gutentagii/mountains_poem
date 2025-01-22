@@ -1,0 +1,10 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:UnderArmorTrimSmithingTemplate"
+    },
+    "armorTextureFile": "white"
+  }
+}

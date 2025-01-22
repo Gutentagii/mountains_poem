@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "mountains_poem:block/ying_yang_flower"
+    },
+    "half=lower": {
+      "model": "mountains_poem:block/ying_yang_flower_bottom"
+    }
+  }
+}

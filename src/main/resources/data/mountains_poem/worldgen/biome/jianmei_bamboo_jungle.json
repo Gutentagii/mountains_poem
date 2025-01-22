@@ -1,0 +1,110 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.95,
+  "downfall": 0.5,
+  "effects": {
+    "mood_sound": {
+      "sound": "music.overworld.bamboo_jungle",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "foliage_color": -13583605,
+    "grass_color": -10892996,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -12627230,
+    "water_fog_color": -15424827
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zombie",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 7
+      },
+      {
+        "type": "spider",
+        "weight": 14,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "skeleton",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "zombie_villager",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "enderman",
+        "weight": 9,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "panda",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "pig",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "mountains_poem:jianmei_bamboo_jungle_tree",
+      "minecraft:bamboo_light",
+      "minecraft:trees_jungle",
+      "minecraft:patch_grass_jungle"
+    ],
+    []
+  ]
+}

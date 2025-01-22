@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:scarlet_thorns"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:scarlet_thorn",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "mountains_poem:wood_worms",
+    "weight": 1,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}

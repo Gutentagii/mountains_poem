@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:wooden_frame"
+    },
+    "title": {
+      "translate": "advancements.get_any_frame.title"
+    },
+    "description": {
+      "translate": "advancements.get_any_frame.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_any_frame_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "mountains_poem:frame_1",
+      "mountains_poem:frame_2",
+      "mountains_poem:frame_3",
+      "mountains_poem:red_lantern_2",
+      "mountains_poem:white_lantern_2",
+      "mountains_poem:blue_lantern_2",
+      "mountains_poem:orange_lantern_2",
+      "mountains_poem:yellow_lantern_2",
+      "mountains_poem:green_lantern_2",
+      "mountains_poem:lime_lantern_2",
+      "mountains_poem:cyan_lantern_2",
+      "mountains_poem:light_blue_lantern_2",
+      "mountains_poem:purple_lantern_2",
+      "mountains_poem:magenta_lantern_2",
+      "mountains_poem:light_gray_lantern_2",
+      "mountains_poem:gray_lantern_2",
+      "mountains_poem:brown_lantern_2",
+      "mountains_poem:black_lantern_2",
+      "mountains_poem:mesh_1",
+      "mountains_poem:mesh_2"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

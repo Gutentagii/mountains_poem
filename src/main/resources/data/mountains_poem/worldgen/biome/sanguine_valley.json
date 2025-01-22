@@ -1,0 +1,73 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -12764401,
+    "grass_color": -11119848,
+    "sky_color": -2698896,
+    "fog_color": -2698896,
+    "water_color": -11125224,
+    "water_fog_color": -13754100
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "mountains_poem:under_ghost",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "skeleton",
+        "weight": 14,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "mountains_poem:soul_shard",
+        "weight": 12,
+        "minCount": 3,
+        "maxCount": 3
+      },
+      {
+        "type": "mountains_poem:hanged_ghost",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mountains_poem:sanguine_valley_tree"
+    ],
+    []
+  ]
+}

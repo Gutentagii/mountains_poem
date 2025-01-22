@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:log_with_bark",
+    "#forge:saplings",
+    "#mountains_poem:cloth"
+  ]
+}

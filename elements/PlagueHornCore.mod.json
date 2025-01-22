@@ -1,0 +1,68 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "plague_horn_core",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Plague Horn",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 4,
+    "useDuration": 5,
+    "toolType": 1.0,
+    "damageCount": 40,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.5,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "PlagueHornYouJiFangKuaiShiFangKuaiDeWeiZhi"
+    },
+    "onRightClickedOnBlock": {
+      "name": "PlagueHornYouJiFangKuaiShiFangKuaiDeWeiZhi"
+    },
+    "onEntityHitWith": {
+      "name": "PlagueHornShiTiBeiGaiWuPinJiZhongShi"
+    },
+    "onEntitySwing": {
+      "name": "PlagueHornYouJiFangKuaiShiFangKuaiDeWeiZhi"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:LeiArrow"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

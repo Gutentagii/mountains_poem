@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CRIMSON_FUNGUS"
+      },
+      {
+        "value": "TAG:forge:ginger_slices"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:chopped_green_onion"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ColdCrimsonFungusSalad"
+    },
+    "name": "cold_crimson_fungus_salad_item",
+    "namespace": "mod"
+  }
+}

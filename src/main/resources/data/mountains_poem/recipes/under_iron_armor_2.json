@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bbb",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    "b": {
+      "item": "mountains_poem:under_irons"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_iron_helmet",
+    "count": 1
+  }
+}

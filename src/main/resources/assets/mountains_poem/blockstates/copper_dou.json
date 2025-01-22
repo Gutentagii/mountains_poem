@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mountains_poem:block/copper_dou"
+    },
+    "facing=east": {
+      "model": "mountains_poem:block/copper_dou",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mountains_poem:block/copper_dou",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mountains_poem:block/copper_dou",
+      "y": 270
+    }
+  }
+}

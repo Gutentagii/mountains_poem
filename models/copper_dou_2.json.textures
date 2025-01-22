@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "copper_dou_side_2",
+        "1": "lei_meat_sauce"
+      },
+      "name": "default"
+    },
+    "lei_meat_sauce": {
+      "map": {
+        "0": "copper_dou_side_2",
+        "1": "lei_meat_sauce"
+      },
+      "name": "lei_meat_sauce"
+    },
+    "boyi_meat_sauce": {
+      "map": {
+        "0": "copper_dou_side_2",
+        "1": "boyi_meat_sauce"
+      },
+      "name": "boyi_meat_sauce"
+    },
+    "changfu_chicken_sauce": {
+      "map": {
+        "0": "copper_dou_side_2",
+        "1": "changfu_chicken_sauce"
+      },
+      "name": "changfu_chicken_sauce"
+    }
+  }
+}

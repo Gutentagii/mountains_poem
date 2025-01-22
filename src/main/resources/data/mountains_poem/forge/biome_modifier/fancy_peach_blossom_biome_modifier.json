@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:peach_blossom_forest",
+  "features": "mountains_poem:fancy_peach_blossom",
+  "step": "surface_structures"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "mountains_poem:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:deleted_mod_element",
+    "count": 1
+  }
+}

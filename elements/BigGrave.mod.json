@@ -1,0 +1,36 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Big Grave",
+    "achievementDescription": "Find the Ancient Battlefields biome",
+    "achievementIcon": {
+      "value": "CUSTOM:UnderIronPiece"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "UnderIronItem",
+      "UndersOres",
+      "UnderIronArmor1",
+      "UnderIronArmor2",
+      "UnderIronArmor3",
+      "UnderIronArmor4",
+      "UnderIron4b",
+      "IronSwords",
+      "Cookspaceplaces",
+      "Underocksgolden"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Footprints"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\" x=\"36\" y=\"56\"><field name=\"biome\">CUSTOM:YanForests</field></block></next></block></xml>"
+  }
+}

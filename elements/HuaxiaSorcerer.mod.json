@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Huaxia Sorcerer",
+    "pointOfInterest": {
+      "value": "CUSTOM:SacrificialTable"
+    },
+    "actionSound": {
+      "value": "block.candle.extinguish"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "huaxia_sorcerer.png",
+    "zombifiedProfessionTextureFile": "huaxia_sorcerer.png"
+  }
+}

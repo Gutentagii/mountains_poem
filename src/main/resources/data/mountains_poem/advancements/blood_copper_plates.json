@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:bloodcopperplate"
+    },
+    "title": {
+      "translate": "advancements.blood_copper_plates.title"
+    },
+    "description": {
+      "translate": "advancements.blood_copper_plates.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blood_copper_plates_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:bloodcopperplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:the_blood_copper_armor_helmet_recipe",
+      "mountains_poem:the_blood_copper_armor_chestplate_recipe",
+      "mountains_poem:the_blood_copper_armor_leggings_recipe",
+      "mountains_poem:the_blood_copper_armor_boots_recipe",
+      "mountains_poem:blood_copper_114514",
+      "mountains_poem:konwuswords"
+    ]
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

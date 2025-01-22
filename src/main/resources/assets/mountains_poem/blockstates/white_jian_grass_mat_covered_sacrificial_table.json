@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mountains_poem:block/white_jian_grass_mat_covered_sacrificial_table"
+    },
+    "facing=east": {
+      "model": "mountains_poem:block/white_jian_grass_mat_covered_sacrificial_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mountains_poem:block/white_jian_grass_mat_covered_sacrificial_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mountains_poem:block/white_jian_grass_mat_covered_sacrificial_table",
+      "y": 270
+    }
+  }
+}

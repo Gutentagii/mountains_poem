@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "cc "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "tag": "forge:crops/rice"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:sweet_rice_cake",
+    "count": 3
+  }
+}

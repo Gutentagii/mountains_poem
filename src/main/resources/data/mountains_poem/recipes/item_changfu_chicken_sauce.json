@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:eggs"
+    },
+    "b": {
+      "tag": "forge:chopped_green_onion"
+    },
+    "c": {
+      "item": "minecraft:baked_potato"
+    },
+    "d": {
+      "item": "mountains_poem:cooked_changfu_chicken"
+    },
+    "e": {
+      "item": "mountains_poem:copper_dou"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:changfu_chicken_sauce",
+    "count": 1
+  }
+}

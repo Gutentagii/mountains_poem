@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Carnelian"
+      },
+      {
+        "value": "TAG:mountains_poem:south_mountains_god_symbol_item"
+      },
+      {
+        "value": "CUSTOM:Carnelian"
+      },
+      {
+        "value": "TAG:mountains_poem:south_mountains_god_symbol_item"
+      },
+      {
+        "value": "CUSTOM:BlankTotemScrolls"
+      },
+      {
+        "value": "TAG:mountains_poem:south_mountains_god_symbol_item"
+      },
+      {
+        "value": "CUSTOM:Carnelian"
+      },
+      {
+        "value": "TAG:mountains_poem:south_mountains_god_symbol_item"
+      },
+      {
+        "value": "CUSTOM:Carnelian"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SouthMountainsGodTotemScrolls"
+    },
+    "name": "scrolls_south_mountains_god",
+    "namespace": "mod"
+  }
+}

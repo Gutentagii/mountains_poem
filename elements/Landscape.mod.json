@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "landscape.png",
+    "width": 64,
+    "height": 32,
+    "title": "Landscape",
+    "author": "Gutentagii"
+  }
+}

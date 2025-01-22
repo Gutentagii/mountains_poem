@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Evil Qi",
+    "icon": "evil_qi.png",
+    "color": {
+      "value": -10408586,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EvilQiXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Sacrificial Table",
+    "achievementDescription": "Place a Sacrificial Table",
+    "achievementIcon": {
+      "value": "CUSTOM:SacrificialTable"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "XuanShellsMake1",
+      "XuanShellsMake2",
+      "XuanShellsMake3",
+      "XuanShellsMake4",
+      "XuanShellsMake5",
+      "XuanShellsMake6",
+      "XuanShellsMake7",
+      "SmJade1",
+      "SmJade2",
+      "CmJade9"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:MountainSPoems"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"block_placed\" x=\"50\" y=\"23\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:SacrificialTable</field></block></value></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/classic_super_dark_cuisine_mooncake"
+  }
+}

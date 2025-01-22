@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mountains_poem:item/newjiang_door"
+  },
+  "render_type": "translucent"
+}

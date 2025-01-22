@@ -1,0 +1,161 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Loong Head Horse Body God",
+    "mobLabel": "",
+    "mobModelTexture": "zhong_shan.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 4.75,
+    "modelHeight": 3.4,
+    "modelShadowSize": 2.3000000000000003,
+    "mountedYOffset": 1.2,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3637993,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -2765930,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "YELLOW",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 22,
+    "attackKnockback": 0.4,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.1,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 200,
+    "xpAmount": 20,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 30,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:zhongshan"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:zhongshan_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:zhongshan_dealth"
+    },
+    "stepSound": {
+      "value": "entity.horse.step"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"83\" y=\"-204\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.5</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "zhong_shan_god.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "walk",
+    "animation6": "walk",
+    "animation7": "walk",
+    "animation8": "walk",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": true,
+    "enable7": true,
+    "enable8": true,
+    "enable9": false,
+    "enable10": false,
+    "breedable": false,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": false,
+    "eyeHeight": true,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 4.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

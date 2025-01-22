@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      },
+      {
+        "value": "TAG:mountains_poem:boshi_symbol_item"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": "CUSTOM:Xuanscale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EngravedXuanShellsBoshi"
+    },
+    "name": "engraved_xuan_shells_1",
+    "namespace": "mod"
+  }
+}

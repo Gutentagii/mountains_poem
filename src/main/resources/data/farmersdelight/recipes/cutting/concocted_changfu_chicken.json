@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "mountains_poem:changfu_chicken_wrapped_in_burnt_mud"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "mountains_poem:concocted_changfu_chicken"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

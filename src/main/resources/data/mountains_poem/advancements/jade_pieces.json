@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:jadepiece"
+    },
+    "title": {
+      "translate": "advancements.jade_pieces.title"
+    },
+    "description": {
+      "translate": "advancements.jade_pieces.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jade_pieces_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:jadepiece"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:hollow_mud_bricks_make",
+      "mountains_poem:basketforzhou"
+    ]
+  },
+  "parent": "mountains_poem:collect_jade"
+}

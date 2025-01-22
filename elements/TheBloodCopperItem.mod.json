@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "CUSTOM:Bloodcopper"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ingots/copper"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodCopperIngot"
+    },
+    "name": "the_blood_copper_item",
+    "namespace": "mod"
+  }
+}

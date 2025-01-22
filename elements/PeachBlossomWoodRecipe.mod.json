@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PeachBlossomLog"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PeachBlossomLog"
+      },
+      {
+        "value": "CUSTOM:PeachBlossomLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PeachBlossomWood"
+    },
+    "name": "peach_blossom_wood_recipe",
+    "namespace": "mod"
+  }
+}

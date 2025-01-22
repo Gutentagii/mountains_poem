@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.3,
+    "scaling": "never",
+    "effects": "thorns",
+    "normalDeathMessage": "%1$s poisoned by the sanguine plant",
+    "itemDeathMessage": "%1$s was poisoned by %2$s using %3$s",
+    "playerDeathMessage": "%1$s poisoned whilst trying to escape %2$s"
+  }
+}

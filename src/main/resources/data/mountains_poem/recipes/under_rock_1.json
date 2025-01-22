@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "mountains_poem:under_rock"
+  },
+  "result": "mountains_poem:under_rock_wall"
+}

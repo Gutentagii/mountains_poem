@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "peach_blossom_stick",
+    "customModelName": "copper_yues:common",
+    "blockingModelName": "Normal blocking",
+    "name": "Copper Yue",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 5.0,
+    "attackSpeed": 0.6,
+    "enchantability": 16,
+    "damageVsEntity": 14.0,
+    "usageCount": 450,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "TAG:forge:ingots/copper"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CopperYueShiTiBeiGongJuJiZhongShi"
+    }
+  }
+}

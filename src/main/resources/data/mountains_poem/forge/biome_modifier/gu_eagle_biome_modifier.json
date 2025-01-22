@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "taiga",
+    "jungle",
+    "snowy_plains",
+    "old_growth_pine_taiga"
+  ],
+  "spawners": {
+    "type": "mountains_poem:gu_eagle",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

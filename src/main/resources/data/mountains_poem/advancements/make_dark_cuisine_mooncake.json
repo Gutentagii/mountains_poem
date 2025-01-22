@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:dark_cuisine_mooncake"
+    },
+    "title": {
+      "translate": "advancements.make_dark_cuisine_mooncake.title"
+    },
+    "description": {
+      "translate": "advancements.make_dark_cuisine_mooncake.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "make_dark_cuisine_mooncake_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mountains_poem:dark_cuisine_mooncake"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "recipes": [
+      "mountains_poem:item_dark_cuisine_mooncake",
+      "mountains_poem:baked_dark_cuisine_mooncake_recipe",
+      "mountains_poem:baked_dark_cuisine_mooncake_recipe_2"
+    ]
+  },
+  "parent": "mountains_poem:make_mooncake"
+}

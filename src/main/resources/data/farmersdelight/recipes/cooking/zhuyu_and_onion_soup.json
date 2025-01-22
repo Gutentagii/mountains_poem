@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 8.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "mountains_poem:zhuyu_grass"
+    },
+    {
+      "tag": "mountains_poem:oil"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "mountains_poem:zhuyu_and_onion_soup"
+  }
+}

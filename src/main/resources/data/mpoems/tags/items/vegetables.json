@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:carrot",
+    "minecraft:golden_carrot",
+    "minecraft:baked_potato",
+    "mountains_poem:big_carrots"
+  ]
+}

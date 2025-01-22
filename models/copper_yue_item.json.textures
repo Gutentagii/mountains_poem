@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "copper_yue"
+      },
+      "name": "default"
+    },
+    "blood_copper": {
+      "map": {
+        "1": ""
+      },
+      "name": "blood_copper"
+    }
+  }
+}

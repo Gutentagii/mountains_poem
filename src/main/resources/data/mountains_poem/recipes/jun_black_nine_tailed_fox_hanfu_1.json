@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:black_cloth"
+    },
+    "b": {
+      "item": "mountains_poem:purple_cloth"
+    },
+    "c": {
+      "item": "mountains_poem:white_fox_fur"
+    },
+    "d": {
+      "item": "minecraft:gold_nugget"
+    },
+    "e": {
+      "item": "mountains_poem:white_fox_tail"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:jun_black_nine_tailed_fox_hanfu_chestplate",
+    "count": 1
+  }
+}

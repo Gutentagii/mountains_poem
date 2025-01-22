@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mountains_poem:jianmei_bamboo_jungle",
+    "mountains_poem:yanforest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:shan_gao_pig",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

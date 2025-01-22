@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 220,
+  "ingredient": {
+    "item": "mountains_poem:sanguine_sand"
+  },
+  "result": "mountains_poem:sanguine_glass"
+}

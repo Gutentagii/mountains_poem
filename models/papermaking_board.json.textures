@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "papermaking"
+      },
+      "name": "default"
+    },
+    "paper": {
+      "map": {
+        "0": "oak_planks",
+        "1": "papermaking_board_top"
+      },
+      "name": "paper"
+    }
+  }
+}

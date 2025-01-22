@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:mountains_poem:soaked_plants_bucket_item"
+      },
+      {
+        "value": "TAG:mountains_poem:soaked_plants_bucket_item"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mountains_poem:soaked_plants_bucket_item"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SoakedPlantsBucket"
+    },
+    "name": "soaked_plants_bucket",
+    "namespace": "mod"
+  }
+}

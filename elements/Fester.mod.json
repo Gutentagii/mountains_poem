@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.11,
+    "scaling": "always",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s died from festering all over the body",
+    "itemDeathMessage": "%1$s with festering all over the body was killed by %2$s using %3$s",
+    "playerDeathMessage": "%1$s died whilst trying to escape %2$s and the illness"
+  }
+}

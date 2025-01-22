@@ -1,0 +1,186 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Gu Eagle",
+    "mobLabel": "",
+    "mobModelTexture": "ao_yin.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.5,
+    "modelHeight": 1.1,
+    "modelShadowSize": 1.4000000000000001,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13743281,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "WATER",
+    "attackStrength": 8,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 30,
+    "health": 30,
+    "xpAmount": 0,
+    "waterMob": true,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 40,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "Items.FEATHER"
+    },
+    "livingSound": {
+      "value": "CUSTOM:gu_eagle"
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "whenMobIsHurt": {
+      "name": "GuEagleDangShiTiShouShangShi"
+    },
+    "whenThisMobKillsAnother": {
+      "name": "GuEagleDangGaiShiTiShaSiLingGeShiTi"
+    },
+    "onMobTickUpdate": {
+      "name": "Gueaglededonghua"
+    },
+    "onInitialSpawn": {
+      "name": "Guegle"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"33\" y=\"-154\"><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">32</field><field name=\"speed\">1.6</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:Lei</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:FenghuangPhoenix</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "gu_diao.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "fly",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "fly",
+    "animation9": "",
+    "animation10": "fly2",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": false,
+    "enable8": true,
+    "enable9": false,
+    "enable10": true,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 3,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "redwood_taiga"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

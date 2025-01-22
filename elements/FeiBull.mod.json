@@ -1,0 +1,174 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Fei Bull",
+    "mobLabel": "",
+    "mobModelTexture": "fei_bull.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 3.0,
+    "modelHeight": 2.5,
+    "modelShadowSize": 1.8,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -9406663,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -15199732,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": true,
+    "bossBarColor": "RED",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 18,
+    "attackKnockback": 0.19999999999999998,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.30000000000000004,
+    "trackingRange": 64,
+    "followRange": 64,
+    "health": 130,
+    "xpAmount": 20,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 6,
+    "inventoryStackSize": 64,
+    "deathTime": 120,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:fei_bull"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:fei_bull"
+    },
+    "deathSound": {
+      "value": "CUSTOM:fei_bull"
+    },
+    "stepSound": {
+      "value": "CUSTOM:fei_bull_step"
+    },
+    "whenMobDies": {
+      "name": "FeiBullDangShiTiSiWangShi"
+    },
+    "whenMobIsHurt": {
+      "name": "FeiBullDangShiTiGengXinKeShi"
+    },
+    "onMobTickUpdate": {
+      "name": "FeiBullDangShiTiGengXinKe"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:Lei</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:GuEagle</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntitySheep</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityCow</field><field name=\"condition\">null,null</field><next><block type=\"doors_break\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityVillager</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "fei_bull.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "walk",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
+    "breedable": false,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "CUSTOM:PlagueHorn"
+    },
+    "rangedItemType": "PlagueBall",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

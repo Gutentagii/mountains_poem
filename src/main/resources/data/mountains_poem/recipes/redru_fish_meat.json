@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 1.5,
+  "cookingtime": 180,
+  "ingredient": {
+    "item": "mountains_poem:red_ru_fish"
+  },
+  "result": "mountains_poem:cooked_red_ru_fish"
+}

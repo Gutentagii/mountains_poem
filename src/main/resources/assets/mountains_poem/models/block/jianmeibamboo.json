@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/jianmei_bamboo",
+  "textures": {
+    "all": "mountains_poem:block/jianmei_bamboo",
+    "particle": "mountains_poem:block/jianmei_bamboo",
+    "0": "mountains_poem:block/jianmei_bamboo"
+  },
+  "render_type": "cutout"
+}

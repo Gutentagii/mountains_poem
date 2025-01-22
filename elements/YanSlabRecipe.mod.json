@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "wooden_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YanPlanks"
+      },
+      {
+        "value": "CUSTOM:YanPlanks"
+      },
+      {
+        "value": "CUSTOM:YanPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YanSlab"
+    },
+    "name": "yan_slab_recipe",
+    "namespace": "mod"
+  }
+}

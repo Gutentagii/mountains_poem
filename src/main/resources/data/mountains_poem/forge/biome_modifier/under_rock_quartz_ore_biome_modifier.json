@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mountains_poem:under_rock_hill",
+  "features": "mountains_poem:under_rock_quartz_ore",
+  "step": "underground_ores"
+}

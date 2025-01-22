@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "particle",
+  "definition": {
+    "texture": "fenghuang.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 2.0
+    },
+    "speedFactor": 0.1,
+    "gravity": 0.2,
+    "maxAge": 35,
+    "maxAgeDiff": 4,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

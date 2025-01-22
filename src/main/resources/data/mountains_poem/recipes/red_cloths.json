@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:red_cloth"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:red_cloth_piece",
+    "count": 4
+  }
+}

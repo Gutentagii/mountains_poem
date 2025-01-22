@@ -1,0 +1,45 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "stone_chisel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Stone Shaping Chisel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 5,
+    "damageVsEntity": 2.0,
+    "usageCount": 160,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "TAG:minecraft:stone_tool_materials"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onRightClickedOnBlock": {
+      "name": "ScrollsBronzeShaping"
+    },
+    "onItemInInventoryTick": {
+      "name": "Chisel1"
+    }
+  }
+}

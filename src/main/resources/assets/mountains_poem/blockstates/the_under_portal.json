@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mountains_poem:block/the_under_portal_ew"
+    },
+    "axis=x": {
+      "model": "mountains_poem:block/the_under_portal_ns"
+    }
+  }
+}

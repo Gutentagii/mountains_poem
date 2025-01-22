@@ -1,0 +1,180 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Imperial Examination Ghost",
+    "mobLabel": "",
+    "mobModelTexture": "imperial_examination_ghost.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 1.0,
+    "modelHeight": 2.1,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 4,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.2,
+    "armorBaseValue": 0.0,
+    "trackingRange": 32,
+    "followRange": 50,
+    "health": 45,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "onMobTickUpdate": {
+      "name": "ImperialExaminationGhostDangShiTiGengXinKeShi"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"68\" y=\"-43\"><next><block type=\"attack_with_range\"><field name=\"speed\">1.2</field><field name=\"range\">2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"doors_open\"><field name=\"condition\">null,null</field><next><block type=\"move_indoors\"><field name=\"condition\">null,null</field><next><block type=\"doors_close\"><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:FenghuangPhoenix</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:LoongHeadHorseBodyGod</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:SouthSecondMountainsGod</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"radius\">6</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">CUSTOM:SouthMountainGod</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"restrict_sun\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "imperial_examination_ghost.geo.json",
+    "groupName": "head2",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "",
+    "animation4": "attack",
+    "animation5": "walk",
+    "animation6": "walk",
+    "animation7": "walk",
+    "animation8": "wak",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": true,
+    "enable6": true,
+    "enable7": true,
+    "enable8": true,
+    "enable9": false,
+    "enable10": false,
+    "breedable": false,
+    "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": true,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "GhostCordage",
+    "rangedAttackInterval": 40,
+    "rangedAttackRadius": 10.0,
+    "height": 2.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 6,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SanguineDesert"
+      },
+      {
+        "value": "CUSTOM:YanForests"
+      },
+      {
+        "value": "CUSTOM:UnderRockHill"
+      },
+      {
+        "value": "CUSTOM:JianmeiBambooJungle"
+      },
+      {
+        "value": "bamboo_jungle"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

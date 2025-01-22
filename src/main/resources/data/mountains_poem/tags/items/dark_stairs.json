@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:polished_deepslate_stairs",
+    "minecraft:cobbled_deepslate_stairs",
+    "minecraft:deepslate_brick_stairs",
+    "minecraft:deepslate_tile_stairs",
+    "minecraft:polished_blackstone_stairs",
+    "minecraft:blackstone_stairs",
+    "minecraft:polished_blackstone_brick_stairs"
+  ]
+}

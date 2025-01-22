@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/copper"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "mountains_poem:bloodcopper"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:blood_copper_ingot",
+    "count": 1
+  }
+}

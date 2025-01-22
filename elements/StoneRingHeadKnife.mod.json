@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "stone_ring_head_knife_top",
+    "customModelName": "ring_head_knifes:stone",
+    "blockingModelName": "Normal blocking",
+    "name": "Stone Ring Head Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MountainsPoem"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 132,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "TAG:minecraft:stone_tool_materials"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "WoodenRingHeadKnifeShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "RingHead3"
+    },
+    "onEntitySwing": {
+      "name": "WoodenRingHeadKnifeShiTiHuiDongWuPinShi"
+    }
+  }
+}

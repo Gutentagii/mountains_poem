@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:centipede"
+    },
+    "b": {
+      "item": "mountains_poem:woods_worms"
+    },
+    "c": {
+      "item": "minecraft:spider_eye"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    },
+    "e": {
+      "item": "mountains_poem:mooncake_crust"
+    },
+    "f": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "g": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "h": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:unbaked_cuisine_mooncake",
+    "count": 1
+  }
+}

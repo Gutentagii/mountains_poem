@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_forest",
+  "features": "mountains_poem:ting_zhu",
+  "step": "vegetal_decoration"
+}

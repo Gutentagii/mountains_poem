@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:sanguine_flower"
+    },
+    "b": {
+      "item": "mountains_poem:scarlet_thorn"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "mountains_poem:mooncake_crust"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:unbaked_sanguine_mooncake",
+    "count": 1
+  }
+}

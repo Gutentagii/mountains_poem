@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ZhuyuGrass"
+      },
+      {
+        "value": "CUSTOM:ZhuyuGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ZhuyuGrass"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZhuyuGrassJuice"
+    },
+    "name": "zhuyu_4",
+    "namespace": "mod"
+  }
+}

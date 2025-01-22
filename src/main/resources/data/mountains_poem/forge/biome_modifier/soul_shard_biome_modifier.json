@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#mountains_poem:soul_shard_spawned",
+  "spawners": {
+    "type": "mountains_poem:soul_shard",
+    "weight": 8,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

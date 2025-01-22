@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "mountains_poem:xuan_shells"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:throne_xuan_shells",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:boyi_totem_scrolls",
+    "mountains_poem:changfu_totem_scrolls",
+    "mountains_poem:piglin_totem_scrolls",
+    "mountains_poem:chicken_totem_scrolls"
+  ]
+}

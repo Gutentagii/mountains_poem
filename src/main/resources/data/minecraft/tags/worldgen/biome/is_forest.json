@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:shatang_forest",
+    "mountains_poem:newjiangforest",
+    "mountains_poem:jianmei_bamboo_jungle",
+    "mountains_poem:pan_forest",
+    "mountains_poem:dark_taiga",
+    "mountains_poem:huang_guan_forest",
+    "mountains_poem:peach_blossom_forest",
+    "#mountains_poem:is_yan_forest"
+  ]
+}

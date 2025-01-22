@@ -1,0 +1,11 @@
+
+{
+  "type": "forge:add_spawns",
+  "biomes": "#mountains_poem:under_ghost_spawned",
+  "spawners": {
+    "type": "mountains_poem:under_ghost",
+    "weight": 8,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

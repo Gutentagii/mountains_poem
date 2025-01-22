@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "ac ",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:stone_ring_head_knife",
+    "count": 1
+  }
+}

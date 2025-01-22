@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "beach",
+    "river",
+    "cold_ocean",
+    "lukewarm_ocean",
+    "warm_ocean",
+    "mountains_poem:jianmei_bamboo_jungle",
+    "mountains_poem:peach_blossom_forest"
+  ],
+  "spawners": {
+    "type": "mountains_poem:xuan_tortoise",
+    "weight": 8,
+    "minCount": 4,
+    "maxCount": 6
+  }
+}

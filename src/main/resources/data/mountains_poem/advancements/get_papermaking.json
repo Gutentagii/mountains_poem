@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:wooden_mesh_with_paper_pulp"
+    },
+    "title": {
+      "translate": "advancements.get_papermaking.title"
+    },
+    "description": {
+      "translate": "advancements.get_papermaking.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_papermaking_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15,
+    "recipes": [
+      "mountains_poem:mesh_1",
+      "mountains_poem:mesh_2"
+    ]
+  },
+  "parent": "mountains_poem:get_any_frame"
+}

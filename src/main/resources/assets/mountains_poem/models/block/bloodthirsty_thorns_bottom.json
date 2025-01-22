@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mountains_poem:block/bloodthirsty_thorns",
+    "particle": "mountains_poem:block/bloodthirsty_thorns_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sleep Peacefully",
+    "icon": "sleep_peacefully.png",
+    "color": {
+      "value": -16777114,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SleepPeacefullyXiaoGuoChiXuShiMeiKeFaSheng"
+    }
+  }
+}

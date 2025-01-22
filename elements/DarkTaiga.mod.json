@@ -1,0 +1,197 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Dark Taiga",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -7948161,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9919137,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "entity.player.death"
+    },
+    "music": {
+      "value": "entity.skeleton.step"
+    },
+    "moodSound": {
+      "value": "block.azalea.break"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.19999999999999998,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.1,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": 0.1,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.1,
+      "max": 0.5
+    },
+    "genErosion": {
+      "min": 0.1,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 21,
+    "treeStem": {
+      "value": "CUSTOM:DarkSpruceLog"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#1"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "TaigaRocks",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "STANDARD",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 7,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityRabbit"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 14,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:RedRuWarmocean"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 4,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

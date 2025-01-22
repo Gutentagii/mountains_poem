@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.11,
+    "scaling": "always",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s hanged",
+    "itemDeathMessage": "%1$s was hanged by %2$s using %3$s",
+    "playerDeathMessage": "%1$s hanged whilst trying to escape %2$s"
+  }
+}

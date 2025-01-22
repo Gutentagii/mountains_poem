@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "mountains_poem:block/under_orchid"
+    },
+    "half=lower": {
+      "model": "mountains_poem:block/under_orchid_bottom"
+    }
+  }
+}

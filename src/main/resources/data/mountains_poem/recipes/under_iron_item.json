@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "mountains_poem:under_iron_piece"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:under_irons",
+    "count": 1
+  }
+}

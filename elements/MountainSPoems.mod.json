@@ -1,0 +1,30 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Mountain's Poem",
+    "achievementDescription": "None",
+    "achievementIcon": {
+      "value": "CUSTOM:Token"
+    },
+    "background": "lush.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "TheMountainsPoemGuideBook"
+    ],
+    "rewardRecipes": [
+      "Knowlegessss",
+      "MountainsPoemGuideBooks"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"tick\" x=\"391\" y=\"92\"/></next></block></xml>"
+  }
+}

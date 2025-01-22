@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "mountains_poem:jade"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:jadepiece",
+    "count": 9
+  }
+}

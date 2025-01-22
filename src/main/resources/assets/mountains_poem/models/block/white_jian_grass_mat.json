@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/white_jian_grass_mat",
+  "textures": {
+    "all": "mountains_poem:block/white_jian_grass_mat",
+    "particle": "mountains_poem:block/white_jian_grass_mat",
+    "0": "mountains_poem:block/white_jian_grass_mat"
+  },
+  "render_type": "solid"
+}

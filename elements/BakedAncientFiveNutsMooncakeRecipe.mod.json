@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:BakedAncientFiveNutsMooncake"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:AncientFiveNutsMooncake"
+    },
+    "name": "baked_ancient_five_nuts_mooncake_recipe",
+    "namespace": "mod"
+  }
+}

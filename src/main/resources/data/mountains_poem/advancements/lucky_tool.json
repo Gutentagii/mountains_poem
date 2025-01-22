@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:jadetablet"
+    },
+    "title": {
+      "translate": "advancements.lucky_tool.title"
+    },
+    "description": {
+      "translate": "advancements.lucky_tool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lucky_tool_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "mountains_poem:collect_jade"
+}

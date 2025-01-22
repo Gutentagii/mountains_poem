@@ -1,0 +1,220 @@
+{
+  "_fv": 66,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Changfu Chicken",
+    "mobLabel": "",
+    "mobModelTexture": "ao_yin.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 3.0,
+    "modelHeight": 2.0,
+    "modelShadowSize": 1.0,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -4292332,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MountainsPoem"
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 32,
+    "health": 45,
+    "xpAmount": 10,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 60,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:changfu_bird"
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": "entity.chicken.step"
+    },
+    "whenMobDies": {
+      "name": "ChangfuDead"
+    },
+    "onRightClickedOn": {
+      "name": "ChangfuYouJiShiTiShi"
+    },
+    "onMobTickUpdate": {
+      "name": "ChangfuChickenPlainsDangShiTiGengXinKeShi"
+    },
+    "onInitialSpawn": {
+      "name": "Changfudedonghuawwengjian"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"102\" y=\"-28\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntitySilverfish</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:WoodWorms</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "changfu.geo.json",
+    "groupName": "",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "dead",
+    "animation4": "attack",
+    "animation5": "swim",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": true,
+    "enable4": true,
+    "enable5": true,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
+    "breedable": true,
+    "tameable": false,
+    "disableDeathRotation": true,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [
+      {
+        "value": "Items.REEDS"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 2,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "CUSTOM:ShatangForest"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "grove"
+      },
+      {
+        "value": "CUSTOM:HuangGuanForest"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

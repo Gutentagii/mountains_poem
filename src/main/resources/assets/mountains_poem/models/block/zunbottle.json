@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/zun_bottle",
+  "textures": {
+    "all": "mountains_poem:block/zun_bottle",
+    "particle": "mountains_poem:block/zun_bottle",
+    "0": "mountains_poem:block/zun_bottle"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:under_rock"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:under_rock_slab",
+    "count": 6
+  }
+}

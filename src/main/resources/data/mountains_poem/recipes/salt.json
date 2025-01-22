@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:coarse_salt"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:salt",
+    "count": 4
+  }
+}

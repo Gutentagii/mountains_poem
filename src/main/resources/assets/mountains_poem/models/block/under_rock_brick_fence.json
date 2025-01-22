@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "mountains_poem:block/under_rock_bricks",
+    "particle": "mountains_poem:block/under_rock_bricks"
+  },
+  "render_type": "solid"
+}

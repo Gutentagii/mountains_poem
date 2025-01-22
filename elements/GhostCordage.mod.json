@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:ResentfulLead"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "block.mud.fall"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 5,
+    "entityModel": "Modelghost_cordage",
+    "customModelTexture": "ghost_cordage.png",
+    "onHitsEntity": {
+      "name": "GhostCordageDanSheWuJiZhongShiTiShi"
+    }
+  }
+}

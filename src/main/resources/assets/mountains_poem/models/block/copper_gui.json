@@ -1,0 +1,9 @@
+{
+  "parent": "mountains_poem:custom/copper_gui_basket",
+  "textures": {
+    "all": "mountains_poem:block/cut_copper",
+    "particle": "mountains_poem:block/cut_copper",
+    "0": "mountains_poem:block/cut_copper"
+  },
+  "render_type": "cutout_mipped"
+}

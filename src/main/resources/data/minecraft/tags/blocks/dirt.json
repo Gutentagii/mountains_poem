@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mountains_poem:lush_grass_block",
+    "mountains_poem:lush_dirt",
+    "mountains_poem:under_grass_block",
+    "mountains_poem:under_dirt",
+    "mountains_poem:sanguine_sand",
+    "mountains_poem:sanguine_soil",
+    "mountains_poem:dirt_with_rong_grass_tubers"
+  ]
+}

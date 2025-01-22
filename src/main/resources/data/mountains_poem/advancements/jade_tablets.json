@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:mp_jade_ring"
+    },
+    "title": {
+      "translate": "advancements.jade_tablets.title"
+    },
+    "description": {
+      "translate": "advancements.jade_tablets.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jade_tablets_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "mountains_poem:sacrificial_tables"
+    ]
+  },
+  "parent": "mountains_poem:lucky_tool"
+}

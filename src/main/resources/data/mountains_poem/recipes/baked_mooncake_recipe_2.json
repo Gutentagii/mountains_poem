@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mountains_poem:unbaked_mooncake_ginger"
+  },
+  "result": "mountains_poem:mooncake_ginger"
+}

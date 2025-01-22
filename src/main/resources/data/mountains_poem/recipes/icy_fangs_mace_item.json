@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:icy_fangs"
+    },
+    "b": {
+      "item": "minecraft:blue_ice"
+    },
+    "c": {
+      "tag": "forge:stick"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:icy_fangs_mace",
+    "count": 1
+  }
+}

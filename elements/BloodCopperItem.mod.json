@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 10.0,
+    "cookingTime": 400,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Bloodcopperore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Bloodcopper"
+    },
+    "name": "blood_copper_item",
+    "namespace": "mod"
+  }
+}

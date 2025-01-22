@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:zheng_saliva"
+    },
+    "title": {
+      "translate": "advancements.zheng_salivas.title"
+    },
+    "description": {
+      "translate": "advancements.zheng_salivas.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zheng_salivas_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "mountains_poem:strawberry_syrup"
+}

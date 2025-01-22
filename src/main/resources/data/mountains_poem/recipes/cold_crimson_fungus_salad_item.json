@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crimson_fungus"
+    },
+    "b": {
+      "tag": "forge:ginger_slices"
+    },
+    "c": {
+      "tag": "forge:chopped_green_onion"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:cold_crimson_fungus_salad",
+    "count": 1
+  }
+}

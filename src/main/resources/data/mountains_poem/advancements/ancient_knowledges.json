@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:knowledge_bamboo_slips"
+    },
+    "title": {
+      "translate": "advancements.ancient_knowledges.title"
+    },
+    "description": {
+      "translate": "advancements.ancient_knowledges.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ancient_knowledges_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:sdfgh",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:konwuswords",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:jades",
+      "mountains_poem:jadeblocksmake",
+      "mountains_poem:new_stick_crafting",
+      "mountains_poem:d_ipoils",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:huang_guan_slab_recipe",
+      "mountains_poem:huang_guan_stairs_recipe",
+      "mountains_poem:basketforzhou",
+      "mountains_poem:sdfghjkgfgf",
+      "mountains_poem:oilvinesmakersssssssss_123",
+      "mountains_poem:the_blood_copper_armor_chestplate_recipe",
+      "mountains_poem:sangtapdoors",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:the_blood_copper_armor_leggings_recipe",
+      "mountains_poem:the_blood_copper_armor_boots_recipe",
+      "mountains_poem:foxcook",
+      "mountains_poem:deleted_mod_element",
+      "mountains_poem:xuande_chestplate",
+      "mountains_poem:tjhedhhsadoor",
+      "mountains_poem:under_rockmaker_1",
+      "mountains_poem:cookspaceplaces",
+      "mountains_poem:knowlegessss",
+      "mountains_poem:under_iron_armor_4",
+      "mountains_poem:yan_wood_recipe",
+      "mountains_poem:peach_blossom_wood_recipe",
+      "mountains_poem:blood_copper_114514",
+      "mountains_poem:under_iron_4b",
+      "mountains_poem:under_iron_armor_2",
+      "mountains_poem:under_iron_armor_1",
+      "mountains_poem:oil_vinesmaker",
+      "mountains_poem:oilsmaker",
+      "mountains_poem:unders_ores",
+      "mountains_poem:under_iron_item",
+      "mountains_poem:plague_halberds",
+      "mountains_poem:redru_fish_meat",
+      "mountains_poem:huang_guan_fence_gate_recipe",
+      "mountains_poem:pan_pressure_plate_recipe",
+      "mountains_poem:yan_stairs_recipe",
+      "mountains_poem:tailsmakerxssss",
+      "mountains_poem:pan_wood_recipe",
+      "mountains_poem:huangdguande",
+      "mountains_poem:deleted_mod_element"
+    ]
+  },
+  "parent": "mountains_poem:collect_jade"
+}

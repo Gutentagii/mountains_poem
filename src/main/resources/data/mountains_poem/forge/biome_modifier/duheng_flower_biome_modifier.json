@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "flower_forest",
+  "features": "mountains_poem:duheng_flower",
+  "step": "vegetal_decoration"
+}

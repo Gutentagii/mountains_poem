@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:resentful_lead"
+    },
+    "title": {
+      "translate": "advancements.hanged.title"
+    },
+    "description": {
+      "translate": "advancements.hanged.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hanged_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mountains_poem:mountain_s_poems"
+}

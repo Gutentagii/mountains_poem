@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mountains_poem:block/spooky_bronze_devourer_statue"
+    },
+    "facing=east": {
+      "model": "mountains_poem:block/spooky_bronze_devourer_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mountains_poem:block/spooky_bronze_devourer_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mountains_poem:block/spooky_bronze_devourer_statue",
+      "y": 270
+    }
+  }
+}

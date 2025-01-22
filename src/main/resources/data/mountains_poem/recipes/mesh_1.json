@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:wooden_frame"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "mountains_poem:wooden_frame"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:wooden_mesh",
+    "count": 1
+  }
+}

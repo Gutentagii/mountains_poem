@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "6": "copper_zun_bottom",
+        "7": "copper_zun_top_b",
+        "8": "copper_ding_top"
+      },
+      "name": "default"
+    }
+  }
+}

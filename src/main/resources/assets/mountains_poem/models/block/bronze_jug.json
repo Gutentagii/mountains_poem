@@ -1,0 +1,10 @@
+{
+  "parent": "mountains_poem:custom/bronze_jug",
+  "textures": {
+    "all": "mountains_poem:block/bronze_jug_main",
+    "particle": "mountains_poem:block/bronze",
+    "0": "mountains_poem:block/bronze_jug_main",
+    "1": "mountains_poem:block/blank_bronze_jug_side"
+  },
+  "render_type": "cutout_mipped"
+}

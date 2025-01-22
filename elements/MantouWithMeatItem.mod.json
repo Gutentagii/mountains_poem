@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:cooked_meat"
+      },
+      {
+        "value": "TAG:mountains_poem:mantou"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mountains_poem:mantou"
+      },
+      {
+        "value": "TAG:mountains_poem:mantou"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MantouWithMeat"
+    },
+    "name": "mantou_with_meat",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Centipede"
+      },
+      {
+        "value": "CUSTOM:WoodsWorms"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:MooncakeCrust"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.POISONOUS_POTATO"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnbakedCuisineMooncake"
+    },
+    "name": "item_dark_cuisine_mooncake",
+    "namespace": "mod"
+  }
+}

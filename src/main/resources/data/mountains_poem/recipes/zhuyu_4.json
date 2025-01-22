@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "mountains_poem:zhuyu_grass"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "mountains_poem:zhuyu_grass_juice",
+    "count": 1
+  }
+}
