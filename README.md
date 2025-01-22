@@ -1,6 +1,6 @@
 Dear players
 
-hello everyone! We are the development team for the "Fenglian Ci" mod. Firstly, we would like to express our sincerest gratitude to every player who supports and loves this mod. In the past development process, your encouragement and suggestion have given us great motivation. Unfortunately, due to various uncontrollable factors, we have to make a difficult decision: to temporarily put this module on hold and enter a dormant period.
+hello everyone! We are the development team for the "Mountain's Poem" mod. Firstly, we would like to express our sincerest gratitude to every player who supports and loves this mod. In the past development process, your encouragement and suggestion have given us great motivation. Unfortunately, due to various uncontrollable factors, we have to make a difficult decision: to temporarily put this module on hold and enter a dormant period.
 
 Our team encountered many challenges during the development process, including but not limited to damage to the MCreator workspace, crashes of the MCreator plugin, and failure to import automatically written code into the library, which prevented us from smoothly reading and using this code in IntelliJ IDEA. These issues not only hindered our development process, but also caused great difficulties for our team. After a long period of discussion and consideration, we unanimously agree that continuing to develop the current version of the module has become extremely difficult, even hopeless.
 
