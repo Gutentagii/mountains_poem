@@ -10,7 +10,7 @@ In order to encourage more people to participate in this project, we have open s
 
 During the brief dormancy period, we encourage everyone to continue playing 'Feng Lianci' and enjoy the fun. We are well aware that it is precisely because of your company that this mod appears so exciting. Despite the difficulties we are currently facing, we still believe that one day in the future, we will regroup our strength and once again provide everyone with a better gaming experience.
 
-Finally, thank you once again for your love and support of 'Fenglian Ci'! I hope to reunite with all players in the future and create even better memories together.
+Finally, thank you once again for your love and support of 'Mountain's Poem'! I hope to reunite with all players in the future and create even better memories together.
 
 Best wishes!
 
