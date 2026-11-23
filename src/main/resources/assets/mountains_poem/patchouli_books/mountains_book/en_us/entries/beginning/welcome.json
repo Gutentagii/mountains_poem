@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.beginning.welcome.name",
+  "icon": "minecraft:book",
+  "category": "mountains_poem:beginning",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.beginning.welcome.page.3.title",
+      "entries": [
+        "mountains_poem:beginning/survival",
+        "mountains_poem:beginning/journey"
+      ]
+    }
+  ]
+}

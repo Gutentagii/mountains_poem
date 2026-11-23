@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.name",
+  "icon": "mountains_poem:hun_horse_spawn_egg",
+  "category": "mountains_poem:creatures",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:hun_horse",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.hun_horse.page.3.title",
+      "entries": [
+        "mountains_poem:plants/ores"
+      ]
+    }
+  ]
+}

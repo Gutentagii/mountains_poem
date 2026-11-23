@@ -3,13 +3,12 @@ package com.xiris.mountainspoem.world.teleporter;
 import com.google.common.collect.ImmutableSet;
 import com.xiris.mountainspoem.init.MountainsPoemModBlocks;
 import net.minecraft.BlockUtil;
-import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.Holder;
-import net.minecraft.core.Vec3i;
 import net.minecraft.core.Direction.Axis;
 import net.minecraft.core.Direction.AxisDirection;
+import net.minecraft.core.Holder;
+import net.minecraft.core.Vec3i;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.TicketType;
@@ -27,6 +26,7 @@ import net.minecraft.world.level.border.WorldBorder;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.portal.PortalInfo;
+import net.minecraft.world.level.portal.PortalShape;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.util.ITeleporter;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -34,21 +34,24 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegisterEvent;
 
+import javax.annotation.Nullable;
 import java.util.Comparator;
 import java.util.Optional;
 import java.util.function.Function;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TheUnderTeleporter implements ITeleporter {
-
-    public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("the_under_portal", Vec3i::compareTo, 300);
+    public static final TicketType<BlockPos> CUSTOM_PORTAL =
+            TicketType.create("the_under_portal", Vec3i::compareTo, 300);
     public static Holder<PoiType> poi = null;
 
     @SubscribeEvent
     public static void registerPointOfInterest(RegisterEvent event) {
-        event.register(ForgeRegistries.Keys.POI_TYPES, registerHelper -> {
-            PoiType poiType = new PoiType(ImmutableSet.copyOf(MountainsPoemModBlocks.THE_UNDER_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
-            registerHelper.register("the_under_portal", poiType);
+        event.register(ForgeRegistries.Keys.POI_TYPES, helper -> {
+            PoiType poiType = new PoiType(
+                    ImmutableSet.copyOf(MountainsPoemModBlocks.THE_UNDER_PORTAL.get().getStateDefinition().getPossibleStates()),
+                    0, 1);
+            helper.register("the_under_portal", poiType);
             poi = ForgeRegistries.POI_TYPES.getHolder(poiType).orElseThrow();
         });
     }
@@ -56,200 +59,235 @@ public class TheUnderTeleporter implements ITeleporter {
     private final ServerLevel level;
     private final BlockPos entityEnterPos;
 
-    public TheUnderTeleporter(ServerLevel worldServer, BlockPos entityEnterPos) {
-        this.level = worldServer;
+    public TheUnderTeleporter(ServerLevel level, BlockPos entityEnterPos) {
+        this.level = level;
         this.entityEnterPos = entityEnterPos;
     }
 
-    public Optional<BlockUtil.FoundRectangle> findPortalAround(BlockPos pos, boolean flag, WorldBorder border) {
-        PoiManager poimanager = this.level.getPoiManager();
-        int i = flag ? 16 : 128;
-        poimanager.ensureLoadedAndValid(this.level, pos, i);
+    public Optional<BlockUtil.FoundRectangle> findPortalAround(BlockPos pos, boolean nearby, WorldBorder border) {
+        if (poi == null) {
+            return Optional.empty();
+        }
+        PoiManager poiManager = this.level.getPoiManager();
+        int radius = nearby ? 16 : 128;
+        poiManager.ensureLoadedAndValid(this.level, pos, radius);
 
-        Optional<BlockPos> foundPos = poimanager.getInSquare((p) -> p.is(poi.unwrapKey().orElseThrow()), pos, i, PoiManager.Occupancy.ANY)
-                .filter((r) -> border.isWithinBounds(r.getPos()))
-                .sorted(Comparator.comparingDouble((r) -> r.getPos().distSqr(pos)))
-                .filter((r) -> this.level.getBlockState(r.getPos()).hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
+        Optional<BlockPos> found = poiManager.getInSquare(
+                        holder -> holder.is(poi.unwrapKey().orElseThrow()),
+                        pos, radius, PoiManager.Occupancy.ANY)
+                .filter(record -> border.isWithinBounds(record.getPos()))
+                .sorted(Comparator.comparingDouble((PoiRecord record) -> record.getPos().distSqr(pos))
+                        .thenComparingInt(record -> record.getPos().getY()))
+                .filter(record -> this.level.getBlockState(record.getPos())
+                        .hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
                 .map(PoiRecord::getPos)
                 .findFirst();
 
-        if (foundPos.isEmpty())
+        if (found.isEmpty()) {
             return Optional.empty();
+        }
 
-        BlockPos blockpos = foundPos.get();
-        this.level.getChunkSource().addRegionTicket(CUSTOM_PORTAL, new ChunkPos(blockpos), 3, blockpos);
-        BlockState state = this.level.getBlockState(blockpos);
+        BlockPos portalPos = found.get();
+        this.level.getChunkSource().addRegionTicket(CUSTOM_PORTAL, new ChunkPos(portalPos), 3, portalPos);
+        BlockState state = this.level.getBlockState(portalPos);
         return Optional.of(BlockUtil.getLargestRectangleAround(
-                blockpos, state.getValue(BlockStateProperties.HORIZONTAL_AXIS), 21,
-                Direction.Axis.Y, 21,
-                (p) -> this.level.getBlockState(p) == state
+                portalPos,
+                state.getValue(BlockStateProperties.HORIZONTAL_AXIS),
+                21,
+                Direction.Axis.Y,
+                21,
+                p -> this.level.getBlockState(p) == state
         ));
     }
 
     public Optional<BlockUtil.FoundRectangle> createPortal(BlockPos pos, Axis axis) {
         Direction direction = Direction.get(AxisDirection.POSITIVE, axis);
-        double d0 = -1.0D;
-        BlockPos blockpos = null;
-        double d1 = -1.0D;
-        BlockPos blockpos1 = null;
+        double bestDistance = -1.0D;
+        BlockPos bestPos = null;
+        double fallbackDistance = -1.0D;
+        BlockPos fallbackPos = null;
         WorldBorder border = this.level.getWorldBorder();
-        int i = Math.min(this.level.getMaxBuildHeight(), this.level.getMinBuildHeight() + this.level.getLogicalHeight()) - 1;
+        int maxY = Math.min(this.level.getMaxBuildHeight(),
+                this.level.getMinBuildHeight() + this.level.getLogicalHeight()) - 1;
         BlockPos.MutableBlockPos mutable = pos.mutable();
 
-        for (BlockPos.MutableBlockPos mut : BlockPos.spiralAround(pos, 16, Direction.EAST, Direction.SOUTH)) {
-            int j = Math.min(i, this.level.getHeight(Heightmap.Types.MOTION_BLOCKING, mut.getX(), mut.getZ()));
-            if (border.isWithinBounds(mut) && border.isWithinBounds(mut.move(direction, 1))) {
-                mut.move(direction.getOpposite(), 1);
-                for (int l = j; l >= this.level.getMinBuildHeight(); --l) {
-                    mut.setY(l);
-                    if (this.canPortalReplaceBlock(mut)) {
-                        int i1;
-                        for (i1 = l; l > this.level.getMinBuildHeight() && this.canPortalReplaceBlock(mut.move(Direction.DOWN)); --l) {}
-                        if (l + 4 <= i) {
-                            int j1 = i1 - l;
-                            if (j1 >= 3) {
-                                mut.setY(l);
-                                if (this.canHostFrame(mut, mutable, direction, 0)) {
-                                    double dist = pos.distSqr(mut);
-                                    if (this.canHostFrame(mut, mutable, direction, -1) && this.canHostFrame(mut, mutable, direction, 1)
-                                            && (d0 == -1 || d0 > dist)) {
-                                        d0 = dist;
-                                        blockpos = mut.immutable();
-                                    }
-                                    if (d0 == -1 && (d1 == -1 || d1 > dist)) {
-                                        d1 = dist;
-                                        blockpos1 = mut.immutable();
-                                    }
-                                }
-                            }
+        for (BlockPos.MutableBlockPos candidate : BlockPos.spiralAround(pos, 16, Direction.EAST, Direction.SOUTH)) {
+            int surfaceY = Math.min(maxY, this.level.getHeight(Heightmap.Types.MOTION_BLOCKING,
+                    candidate.getX(), candidate.getZ()));
+            if (!border.isWithinBounds(candidate) || !border.isWithinBounds(candidate.move(direction, 1))) {
+                continue;
+            }
+            candidate.move(direction.getOpposite(), 1);
+
+            for (int y = surfaceY; y >= this.level.getMinBuildHeight(); y--) {
+                candidate.setY(y);
+                if (!this.canPortalReplaceBlock(candidate)) {
+                    continue;
+                }
+
+                int top = y;
+                while (y > this.level.getMinBuildHeight() && this.canPortalReplaceBlock(candidate.move(Direction.DOWN))) {
+                    y--;
+                }
+
+                if (y + 4 > maxY) {
+                    continue;
+                }
+
+                int height = top - y;
+                if (height <= 0 || height >= 3) {
+                    candidate.setY(y);
+                    if (this.canHostFrame(candidate, mutable, direction, 0)) {
+                        double distance = pos.distSqr(candidate);
+                        if (this.canHostFrame(candidate, mutable, direction, -1)
+                                && this.canHostFrame(candidate, mutable, direction, 1)
+                                && (bestDistance == -1.0D || bestDistance > distance)) {
+                            bestDistance = distance;
+                            bestPos = candidate.immutable();
+                        }
+                        if (bestDistance == -1.0D && (fallbackDistance == -1.0D || fallbackDistance > distance)) {
+                            fallbackDistance = distance;
+                            fallbackPos = candidate.immutable();
                         }
                     }
                 }
             }
         }
 
-        if (d0 == -1 && d1 != -1) {
-            blockpos = blockpos1;
+        if (bestDistance == -1.0D && fallbackDistance != -1.0D) {
+            bestPos = fallbackPos;
+            bestDistance = fallbackDistance;
         }
-        if (d0 == -1) {
-            int k1 = Math.max(this.level.getMinBuildHeight(), 70);
-            int i2 = i - 9;
-            if (i2 < k1) return Optional.empty();
-            blockpos = new BlockPos(pos.getX(), Mth.clamp(pos.getY(), k1, i2), pos.getZ()).immutable();
-            Direction dirCW = direction.getClockWise();
-            if (!border.isWithinBounds(blockpos)) return Optional.empty();
+
+        if (bestDistance == -1.0D) {
+            int minY = Math.max(this.level.getMinBuildHeight() + 1, 70);
+            int maxPortalY = maxY - 9;
+            if (maxPortalY < minY) {
+                return Optional.empty();
+            }
+
+            bestPos = new BlockPos(pos.getX(), Mth.clamp(pos.getY(), minY, maxPortalY), pos.getZ()).immutable();
+            Direction side = direction.getClockWise();
+            if (!border.isWithinBounds(bestPos)) {
+                return Optional.empty();
+            }
 
             for (int a = -1; a < 2; a++) {
                 for (int b = 0; b < 2; b++) {
                     for (int c = -1; c < 3; c++) {
-                        BlockState state = c < 0 ? MountainsPoemModBlocks.UNDER_ROCK_BRICKS.get().defaultBlockState() : Blocks.AIR.defaultBlockState();
-                        mutable.setWithOffset(blockpos,
-                                b * direction.getStepX() + a * dirCW.getStepX(),
+                        BlockState state = c < 0
+                                ? MountainsPoemModBlocks.UNDER_ROCK_BRICKS.get().defaultBlockState()
+                                : Blocks.AIR.defaultBlockState();
+                        mutable.setWithOffset(bestPos,
+                                b * direction.getStepX() + a * side.getStepX(),
                                 c,
-                                b * direction.getStepZ() + a * dirCW.getStepZ());
+                                b * direction.getStepZ() + a * side.getStepZ());
                         this.level.setBlockAndUpdate(mutable, state);
                     }
                 }
             }
         }
 
+        if (bestPos == null) {
+            return Optional.empty();
+        }
+
         for (int a = -1; a < 3; a++) {
             for (int b = -1; b < 4; b++) {
                 if (a == -1 || a == 2 || b == -1 || b == 3) {
-                    mutable.setWithOffset(blockpos, a * direction.getStepX(), b, a * direction.getStepZ());
-                    this.level.setBlock(mutable, MountainsPoemModBlocks.UNDER_ROCK_BRICKS.get().defaultBlockState(), 3);
+                    mutable.setWithOffset(bestPos, a * direction.getStepX(), b, a * direction.getStepZ());
+                    this.level.setBlock(mutable,
+                            MountainsPoemModBlocks.UNDER_ROCK_BRICKS.get().defaultBlockState(), 3);
                 }
             }
         }
 
-        BlockState portalState = MountainsPoemModBlocks.THE_UNDER_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, axis);
+        BlockState portalState = MountainsPoemModBlocks.THE_UNDER_PORTAL.get()
+                .defaultBlockState()
+                .setValue(NetherPortalBlock.AXIS, axis);
         for (int a = 0; a < 2; a++) {
             for (int b = 0; b < 3; b++) {
-                mutable.setWithOffset(blockpos, a * direction.getStepX(), b, a * direction.getStepZ());
+                mutable.setWithOffset(bestPos, a * direction.getStepX(), b, a * direction.getStepZ());
                 this.level.setBlock(mutable, portalState, 18);
-                this.level.getPoiManager().add(mutable, poi);
+                if (poi != null) {
+                    this.level.getPoiManager().add(mutable, poi);
+                }
             }
         }
 
-        return Optional.of(new BlockUtil.FoundRectangle(blockpos.immutable(), 2, 3));
+        return Optional.of(new BlockUtil.FoundRectangle(bestPos.immutable(), 2, 3));
     }
 
-    private boolean canHostFrame(BlockPos pos, BlockPos.MutableBlockPos mut, Direction dir, int offset) {
-        Direction clock = dir.getClockWise();
-        for (int i = -1; i < 3; i++) {
-            for (int j = -1; j < 4; j++) {
-                mut.setWithOffset(pos,
-                        dir.getStepX() * i + clock.getStepX() * offset,
-                        j,
-                        dir.getStepZ() * i + clock.getStepZ() * offset);
-                if (j < 0 && !this.level.getBlockState(mut).isSolid()) return false;
-                if (j >= 0 && !this.canPortalReplaceBlock(mut)) return false;
-            }
-        }
-        return true;
-    }
-
+    @Nullable
     @Override
-    public Entity placeEntity(Entity entity, ServerLevel currentWorld, ServerLevel destWorld, float yaw, Function<Boolean, Entity> repositionEntity) {
-        PortalInfo info = this.getPortalInfo(entity, destWorld);
+    public PortalInfo getPortalInfo(Entity entity, ServerLevel destination,
+                                    Function<ServerLevel, PortalInfo> defaultPortalInfo) {
+        WorldBorder border = destination.getWorldBorder();
+        double scale = DimensionType.getTeleportationScale(entity.level().dimensionType(),
+                destination.dimensionType());
+        BlockPos target = border.clampToBounds(
+                entity.getX() * scale,
+                entity.getY(),
+                entity.getZ() * scale);
 
-        if (entity instanceof ServerPlayer player) {
-            player.setServerLevel(destWorld);
-            destWorld.addDuringPortalTeleport(player);
-            player.connection.teleport(info.pos.x, info.pos.y, info.pos.z, info.yRot, info.xRot);
-            player.connection.resetPosition();
-            CriteriaTriggers.CHANGED_DIMENSION.trigger(player, currentWorld.dimension(), destWorld.dimension());
-            return entity;
-        } else {
-            Entity copy = entity.getType().create(destWorld);
-            if (copy != null) {
-                copy.restoreFrom(entity);
-                copy.moveTo(info.pos.x, info.pos.y, info.pos.z, info.yRot, copy.getXRot());
-                copy.setDeltaMovement(info.speed);
-                destWorld.addDuringTeleport(copy);
-            }
-            return copy;
+        Optional<BlockUtil.FoundRectangle> exit = this.getExitPortal(entity, target, border);
+        if (exit.isEmpty()) {
+            return null;
         }
+
+        BlockUtil.FoundRectangle rectangle = exit.get();
+        BlockState sourceState = entity.level().getBlockState(this.entityEnterPos);
+        Axis axis = sourceState.getOptionalValue(BlockStateProperties.HORIZONTAL_AXIS).orElse(Axis.X);
+
+        Vec3 relative;
+        if (sourceState.hasProperty(BlockStateProperties.HORIZONTAL_AXIS)) {
+            BlockUtil.FoundRectangle sourceRectangle = BlockUtil.getLargestRectangleAround(
+                    this.entityEnterPos, axis, 21, Direction.Axis.Y, 21,
+                    p -> entity.level().getBlockState(p) == sourceState);
+            relative = PortalShape.getRelativePosition(
+                    sourceRectangle, axis, entity.position(), entity.getDimensions(entity.getPose()));
+        } else {
+            relative = new Vec3(0.5D, 0.0D, 0.5D);
+        }
+
+        return PortalShape.createPortalInfo(destination, rectangle, axis, relative, entity,
+                entity.getDeltaMovement(), entity.getYRot(), entity.getXRot());
     }
 
-    private PortalInfo getPortalInfo(Entity entity, ServerLevel server) {
-        WorldBorder border = server.getWorldBorder();
-        double scale = DimensionType.getTeleportationScale(entity.level().dimensionType(), server.dimensionType());
-        BlockPos pos = border.clampToBounds(entity.getX() * scale, entity.getY(), entity.getZ() * scale);
-
-        return this.getExitPortal(entity, pos, border).map(reposition -> {
-            BlockState state = entity.level().getBlockState(this.entityEnterPos);
-            Axis axis;
-            Vec3 relative;
-
-            if (state.hasProperty(BlockStateProperties.HORIZONTAL_AXIS)) {
-                axis = state.getValue(BlockStateProperties.HORIZONTAL_AXIS);
-                BlockUtil.FoundRectangle rect = BlockUtil.getLargestRectangleAround(this.entityEnterPos, axis, 21, Axis.Y, 21,
-                        p -> entity.level().getBlockState(p) == state);
-                relative = TheUnderPortalShape.getRelativePosition(rect, axis, entity.position(), entity.getDimensions(entity.getPose()));
-            } else {
-                axis = Axis.X;
-                relative = new Vec3(0.5, 0, 0.5);
-            }
-
-            return TheUnderPortalShape.createPortalInfo(server, reposition, axis, relative,
-                    entity, entity.getDeltaMovement(), entity.getYRot(), entity.getXRot());
-        }).orElse(new PortalInfo(entity.position(), Vec3.ZERO, entity.getYRot(), entity.getXRot()));
-    }
-
-    protected Optional<BlockUtil.FoundRectangle> getExitPortal(Entity entity, BlockPos pos, WorldBorder border) {
-        Optional<BlockUtil.FoundRectangle> exist = this.findPortalAround(pos, false, border);
+    private Optional<BlockUtil.FoundRectangle> getExitPortal(Entity entity, BlockPos pos, WorldBorder border) {
+        Optional<BlockUtil.FoundRectangle> existing = this.findPortalAround(pos, false, border);
+        if (existing.isPresent()) {
+            return existing;
+        }
         if (entity instanceof ServerPlayer) {
-            if (exist.isPresent()) return exist;
             Axis axis = entity.level().getBlockState(this.entityEnterPos)
                     .getOptionalValue(NetherPortalBlock.AXIS).orElse(Axis.X);
             return this.createPortal(pos, axis);
         }
-        return exist;
+        return Optional.empty();
     }
 
     private boolean canPortalReplaceBlock(BlockPos.MutableBlockPos pos) {
         BlockState state = this.level.getBlockState(pos);
         return state.canBeReplaced() && state.getFluidState().isEmpty();
+    }
+
+    private boolean canHostFrame(BlockPos pos, BlockPos.MutableBlockPos mutable, Direction direction, int offset) {
+        Direction side = direction.getClockWise();
+        for (int i = -1; i < 3; i++) {
+            for (int j = -1; j < 4; j++) {
+                mutable.setWithOffset(pos,
+                        direction.getStepX() * i + side.getStepX() * offset,
+                        j,
+                        direction.getStepZ() * i + side.getStepZ() * offset);
+                if (j < 0 && !this.level.getBlockState(mutable).isSolid()) {
+                    return false;
+                }
+                if (j >= 0 && !this.canPortalReplaceBlock(mutable)) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }

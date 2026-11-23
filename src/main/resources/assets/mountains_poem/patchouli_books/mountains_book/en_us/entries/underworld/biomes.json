@@ -1,0 +1,30 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.underworld.biomes.name",
+  "icon": "mountains_poem:under_grass_block",
+  "category": "mountains_poem:underworld",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.underworld.biomes.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.underworld.biomes.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.underworld.biomes.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.underworld.biomes.page.1.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.underworld.biomes.page.2.title",
+      "entries": [
+        "mountains_poem:underworld/ruins",
+        "mountains_poem:creatures/ghosts"
+      ]
+    }
+  ]
+}

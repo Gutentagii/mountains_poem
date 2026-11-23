@@ -1,4 +1,3 @@
-
 package com.xiris.mountainspoem.item;
 
 import com.xiris.mountainspoem.block.TheUnderPortalBlock;
@@ -12,32 +11,30 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 
 public class TheUnderItem extends Item {
-
     public TheUnderItem() {
         super(new Item.Properties().rarity(Rarity.COMMON).durability(64));
     }
+
     @Override
     public InteractionResult useOn(UseOnContext context) {
-        Player entity = context.getPlayer();
-        BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
-        ItemStack itemstack = context.getItemInHand();
-        Level world = context.getLevel();
-        if (!entity.mayUseItemAt(pos, context.getClickedFace(), itemstack)) {
-            return InteractionResult.FAIL;
-        } else {
-            int x = pos.getX();
-            int y = pos.getY();
-            int z = pos.getZ();
-            boolean success = false;
-
-            if (world.isEmptyBlock(pos)) {
-                TheUnderPortalBlock.portalSpawn(world, pos);
-                itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
-                success = true;
-            }
-
-            return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
+        Player player = context.getPlayer();
+        if (player == null) {
+            return InteractionResult.PASS;
         }
-    }
 
+        Level level = context.getLevel();
+        BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
+        ItemStack stack = context.getItemInHand();
+
+        if (!player.mayUseItemAt(pos, context.getClickedFace(), stack)) {
+            return InteractionResult.FAIL;
+        }
+
+        if (!level.isClientSide && level.isEmptyBlock(pos) && TheUnderPortalBlock.portalSpawn(level, pos)) {
+            stack.hurtAndBreak(1, player, broken -> broken.broadcastBreakEvent(context.getHand()));
+            return InteractionResult.SUCCESS;
+        }
+
+        return InteractionResult.FAIL;
+    }
 }

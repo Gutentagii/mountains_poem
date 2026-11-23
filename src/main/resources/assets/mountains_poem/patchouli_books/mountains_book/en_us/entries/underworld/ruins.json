@@ -1,0 +1,30 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.underworld.ruins.name",
+  "icon": "mountains_poem:under_rock_bricks",
+  "category": "mountains_poem:underworld",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.underworld.ruins.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.underworld.ruins.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.underworld.ruins.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.underworld.ruins.page.1.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.underworld.ruins.page.2.title",
+      "entries": [
+        "mountains_poem:underworld/under_iron",
+        "mountains_poem:ritual/table"
+      ]
+    }
+  ]
+}

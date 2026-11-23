@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.ghosts.name",
+  "icon": "minecraft:soul_lantern",
+  "category": "mountains_poem:creatures",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.ghosts.page.3.title",
+      "entries": [
+        "mountains_poem:ritual/table",
+        "mountains_poem:underworld/biomes"
+      ]
+    }
+  ]
+}

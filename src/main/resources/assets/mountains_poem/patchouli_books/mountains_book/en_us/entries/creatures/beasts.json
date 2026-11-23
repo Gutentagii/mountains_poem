@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.beasts.name",
+  "icon": "mountains_poem:shan_gao_pig_spawn_egg",
+  "category": "mountains_poem:creatures",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.beasts.page.3.title",
+      "entries": [
+        "mountains_poem:plants/woods",
+        "mountains_poem:creatures/lushuhorse"
+      ]
+    }
+  ]
+}

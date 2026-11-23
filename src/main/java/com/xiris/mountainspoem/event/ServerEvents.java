@@ -35,7 +35,6 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
@@ -113,16 +112,21 @@ public class ServerEvents {
 
         if (stack.getItem() == MountainsPoemModItems.THE_UNDER.get()) {
             BlockPos placePos = pos.relative(event.getFace());
-            TheUnderPortalBlock.portalSpawn(world, placePos);
+            boolean spawned = TheUnderPortalBlock.portalSpawn(world, placePos);
             Vec3 vec3 = Vec3.atCenterOf(placePos);
             player.swing(InteractionHand.MAIN_HAND, true);
 
-            if (world instanceof ServerLevel _level) {
-                _level.sendParticles(MountainsPoemModParticleTypes.SACRIFICE_P.get(), vec3.x, vec3.y, vec3.z, 5, 1, 1, 1, 1);
-                _level.sendParticles(MountainsPoemModParticleTypes.THE_UNDER_WORLD.get(), vec3.x, vec3.y, vec3.z, 5, 1, 1, 1, 1);
-            }
+            if (spawned) {
+                if (!player.isCreative()) {
+                    stack.hurtAndBreak(1, player, broken -> broken.broadcastBreakEvent(event.getHand()));
+                }
+                if (world instanceof ServerLevel _level) {
+                    _level.sendParticles(MountainsPoemModParticleTypes.SACRIFICE_P.get(), vec3.x, vec3.y, vec3.z, 5, 1, 1, 1, 1);
+                    _level.sendParticles(MountainsPoemModParticleTypes.THE_UNDER_WORLD.get(), vec3.x, vec3.y, vec3.z, 5, 1, 1, 1, 1);
+                }
 
-            world.playSound(null, vec3.x, vec3.y, vec3.z, MountainsPoemModSounds.THE_UNDER_PORTAL_AMBIENT.get(), player.getSoundSource(), 1, 1);
+                world.playSound(null, vec3.x, vec3.y, vec3.z, MountainsPoemModSounds.THE_UNDER_PORTAL_AMBIENT.get(), player.getSoundSource(), 1, 1);
+            }
             event.setCanceled(true);
             return;
         }
@@ -327,13 +331,5 @@ public class ServerEvents {
             if (living.level() instanceof ServerLevel _level && _level.random.nextFloat() < 0.55F)
                 MountainsPoemModEntities.SOUL_SHARD.get().spawn(_level, living.blockPosition(), MobSpawnType.MOB_SUMMONED);
         }
-    }
-
-    @SubscribeEvent
-    public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-        if (event.phase == TickEvent.Phase.END)
-            ArmorAnimationFactory.animatedArmors(event.player);
-        if (event.phase == TickEvent.Phase.START)
-            ItemAnimationFactory.animatedItems(event.player);
     }
 }

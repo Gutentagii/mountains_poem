@@ -1,0 +1,32 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.ritual.table.name",
+  "icon": "mountains_poem:sacrificial_table",
+  "category": "mountains_poem:ritual",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:sacrificial_table",
+      "title": "book.mountains_poem.mountains_book.entry.ritual.table.page.0.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.ritual.table.page.0.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.ritual.table.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.ritual.table.page.1.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.ritual.table.page.2.title",
+      "entries": [
+        "mountains_poem:ritual/simple_ritual",
+        "mountains_poem:ritual/gods"
+      ]
+    }
+  ]
+}

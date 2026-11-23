@@ -1,0 +1,38 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.jufu.name",
+  "icon": "mountains_poem:jufu_humerus",
+  "category": "mountains_poem:creatures",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:jufu",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.jufu.page.3.title",
+      "entries": [
+        "mountains_poem:creatures/gu_eagle",
+        "mountains_poem:crafts/blood_copper"
+      ]
+    }
+  ]
+}

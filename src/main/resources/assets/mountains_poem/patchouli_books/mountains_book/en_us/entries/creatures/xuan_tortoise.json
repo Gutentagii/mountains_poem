@@ -1,0 +1,47 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.name",
+  "icon": "mountains_poem:xuan_shells",
+  "category": "mountains_poem:creatures",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:xuan_tortoise",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.2.title"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:xuan_shells",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.3.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.3.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.xuan_tortoise.page.4.title",
+      "entries": [
+        "mountains_poem:crafts/xuan_shells",
+        "mountains_poem:ritual/blessings"
+      ]
+    }
+  ]
+}

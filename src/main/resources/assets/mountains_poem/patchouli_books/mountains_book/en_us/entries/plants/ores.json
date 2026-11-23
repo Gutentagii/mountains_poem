@@ -1,0 +1,39 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.plants.ores.name",
+  "icon": "mountains_poem:blood_copper_ingot",
+  "category": "mountains_poem:plants",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.ores.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.plants.ores.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.ores.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.plants.ores.page.1.title"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:blood_copper_ingot",
+      "title": "book.mountains_poem.mountains_book.entry.plants.ores.page.2.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.ores.page.2.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.plants.ores.page.3.title",
+      "entries": [
+        "mountains_poem:crafts/blood_copper",
+        "mountains_poem:underworld/under_iron"
+      ]
+    }
+  ]
+}

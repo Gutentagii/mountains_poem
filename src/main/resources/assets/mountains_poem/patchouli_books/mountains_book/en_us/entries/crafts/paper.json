@@ -1,0 +1,44 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.crafts.paper.name",
+  "icon": "minecraft:paper",
+  "category": "mountains_poem:crafts",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.paper.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.crafts.paper.page.0.title"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:papermaking_board",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.paper.page.1.text"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:mesh_2",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.paper.page.2.text"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:drying_boards",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.paper.page.3.text"
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.crafts.paper.page.4.title",
+      "entries": [
+        "mountains_poem:ritual/blessings",
+        "mountains_poem:crafts/xuan_shells"
+      ]
+    }
+  ]
+}

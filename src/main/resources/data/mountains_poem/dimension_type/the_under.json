@@ -11,8 +11,8 @@
   "ambient_light": 0.5,
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": 0,
-  "height": 256,
-  "logical_height": 256,
+  "height": 384,
+  "logical_height": 384,
   "monster_spawn_light_level": 11,
   "monster_spawn_block_light_limit": 15,
   "effects": "mountains_poem:the_under"

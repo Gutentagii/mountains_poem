@@ -1,0 +1,46 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.crafts.mooncake.name",
+  "icon": "mountains_poem:mooncake_egg_yolk",
+  "category": "mountains_poem:crafts",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:mooncake_egg_yolk",
+      "title": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.0.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.0.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.1.title"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:item_mooncake_crust",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.2.text"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:item_mooncake_egg_yolk",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.3.text"
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.crafts.mooncake.page.4.title",
+      "entries": [
+        "mountains_poem:plants/crops",
+        "mountains_poem:ritual/gods"
+      ]
+    }
+  ]
+}

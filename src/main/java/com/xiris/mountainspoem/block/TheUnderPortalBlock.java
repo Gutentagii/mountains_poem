@@ -1,6 +1,5 @@
 package com.xiris.mountainspoem.block;
 
-import com.xiris.mountainspoem.MountainsPoemMod;
 import com.xiris.mountainspoem.init.MountainsPoemModBlocks;
 import com.xiris.mountainspoem.init.MountainsPoemModParticleTypes;
 import com.xiris.mountainspoem.init.MountainsPoemModSounds;
@@ -31,69 +30,105 @@ import java.util.Objects;
 import java.util.Optional;
 
 public class TheUnderPortalBlock extends NetherPortalBlock {
+    private static final ResourceKey<Level> THE_UNDER = ResourceKey.create(
+            Registries.DIMENSION,
+            ResourceLocation.fromNamespaceAndPath("mountains_poem", "the_under")
+    );
+
     public TheUnderPortalBlock() {
-        super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noLootTable());
+        super(BlockBehaviour.Properties.of()
+                .noCollission()
+                .randomTicks()
+                .pushReaction(PushReaction.BLOCK)
+                .strength(-1.0F)
+                .sound(SoundType.GLASS)
+                .lightLevel(s -> 0)
+                .noLootTable());
     }
 
     @Override
-    public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+    public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+        // Keep the_under portal blocks from spawning vanilla nether mobs.
     }
 
-    public static void portalSpawn(Level world, BlockPos pos) {
-        Optional<TheUnderPortalShape> optional = TheUnderPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
-        if (optional.isPresent()) {
-            optional.get().createPortalBlocks();
+    public static boolean portalSpawn(Level level, BlockPos pos) {
+        Optional<TheUnderPortalShape> optional = TheUnderPortalShape.findEmptyPortalShape(level, pos, Direction.Axis.X);
+        if (optional.isEmpty()) {
+            return false;
         }
+        optional.get().createPortalBlocks();
+        return true;
     }
 
     @Override
-    public BlockState updateShape(BlockState p_54928_, Direction p_54929_, BlockState p_54930_, LevelAccessor p_54931_, BlockPos p_54932_, BlockPos p_54933_) {
-        Direction.Axis direction$axis = p_54929_.getAxis();
-        Direction.Axis direction$axis1 = p_54928_.getValue(AXIS);
-        boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
-        return !flag && !p_54930_.is(this) && !(new TheUnderPortalShape(p_54931_, p_54932_, direction$axis1)).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(p_54928_, p_54929_, p_54930_, p_54931_, p_54932_, p_54933_);
+    public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState,
+                                  LevelAccessor level, BlockPos pos, BlockPos neighborPos) {
+        Direction.Axis changedAxis = direction.getAxis();
+        Direction.Axis portalAxis = state.getValue(AXIS);
+        boolean horizontalMismatch = portalAxis != changedAxis && changedAxis.isHorizontal();
+        if (!horizontalMismatch && !neighborState.is(this)
+                && !(new TheUnderPortalShape(level, pos, portalAxis)).isComplete()) {
+            return Blocks.AIR.defaultBlockState();
+        }
+        // Do not call NetherPortalBlock.updateShape here: it checks the vanilla
+        // obsidian/nether_portal shape and would delete our portal blocks.
+        return state;
     }
 
     @OnlyIn(Dist.CLIENT)
     @Override
-    public void animateTick(BlockState state, Level world, BlockPos pos, RandomSource random) {
+    public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
         for (int i = 0; i < 4; i++) {
             double px = pos.getX() + random.nextFloat();
             double py = pos.getY() + random.nextFloat();
             double pz = pos.getZ() + random.nextFloat();
-            double vx = (random.nextFloat() - 0.5) / 2.;
-            double vy = (random.nextFloat() - 0.5) / 2.;
-            double vz = (random.nextFloat() - 0.5) / 2.;
+            double vx = (random.nextFloat() - 0.5D) / 2.0D;
+            double vy = (random.nextFloat() - 0.5D) / 2.0D;
+            double vz = (random.nextFloat() - 0.5D) / 2.0D;
             int j = random.nextInt(4) - 1;
-            if (world.getBlockState(pos.west()).getBlock() != this && world.getBlockState(pos.east()).getBlock() != this) {
-                px = pos.getX() + 0.5 + 0.25 * j;
-                vx = random.nextFloat() * 2 * j;
+            if (level.getBlockState(pos.west()).getBlock() != this
+                    && level.getBlockState(pos.east()).getBlock() != this) {
+                px = pos.getX() + 0.5D + 0.25D * j;
+                vx = random.nextFloat() * 2.0D * j;
             } else {
-                pz = pos.getZ() + 0.5 + 0.25 * j;
-                vz = random.nextFloat() * 2 * j;
+                pz = pos.getZ() + 0.5D + 0.25D * j;
+                vz = random.nextFloat() * 2.0D * j;
             }
-            world.addParticle(MountainsPoemModParticleTypes.THE_UNDER_WORLD.get(), px, py, pz, vx, vy, vz);
+            level.addParticle(MountainsPoemModParticleTypes.THE_UNDER_WORLD.get(), px, py, pz, vx, vy, vz);
         }
-        if (random.nextInt(110) == 0)
-            world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, Objects.requireNonNull(ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.fromNamespaceAndPath("minecraft", "block.portal.ambient"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);
+        if (random.nextInt(110) == 0) {
+            level.playSound(null, pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D,
+                    Objects.requireNonNull(ForgeRegistries.SOUND_EVENTS.getValue(
+                            ResourceLocation.fromNamespaceAndPath("minecraft", "block.portal.ambient"))),
+                    SoundSource.BLOCKS, 0.5F, random.nextFloat() * 0.4F + 0.8F);
+        }
     }
 
     @Override
-    public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-        if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
-            if (entity.isOnPortalCooldown()) {
-                entity.setPortalCooldown();
-            } else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, ResourceLocation.fromNamespaceAndPath("mountains_poem","the_under"))) {
-                entity.setPortalCooldown();
-                teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, ResourceLocation.fromNamespaceAndPath("mountains_poem","the_under")));
-            } else {
-                entity.setPortalCooldown();
-                teleportToDimension(entity, pos, Level.OVERWORLD);
-            }
+    public void entityInside(BlockState state, Level level, BlockPos pos, Entity entity) {
+        if (level.isClientSide || !entity.canChangeDimensions()) {
+            return;
         }
-    }
+        if (entity.isOnPortalCooldown()) {
+            entity.setPortalCooldown();
+            return;
+        }
 
-    private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
-        entity.changeDimension(entity.getServer().getLevel(destinationType), new TheUnderTeleporter(entity.getServer().getLevel(destinationType), pos));
+        if (!(level instanceof ServerLevel serverLevel)) {
+            return;
+        }
+
+        ResourceKey<Level> destinationKey = serverLevel.dimension() == THE_UNDER
+                ? Level.OVERWORLD
+                : THE_UNDER;
+        ServerLevel destination = serverLevel.getServer().getLevel(destinationKey);
+        if (destination == null) {
+            return;
+        }
+
+        // Nether-portal-like behaviour: one portal pair, linked by the
+        // destination portal search/creation in TheUnderTeleporter.
+        entity.setPortalCooldown();
+        entity.changeDimension(destination, new TheUnderTeleporter(destination, pos));
     }
 }

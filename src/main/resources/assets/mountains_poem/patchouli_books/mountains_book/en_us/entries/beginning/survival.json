@@ -1,0 +1,39 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.beginning.survival.name",
+  "icon": "mountains_poem:cooked_rice",
+  "category": "mountains_poem:beginning",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.survival.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.survival.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.survival.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.survival.page.1.title"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:cooked_rice",
+      "title": "book.mountains_poem.mountains_book.entry.beginning.survival.page.2.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.survival.page.2.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.beginning.survival.page.3.title",
+      "entries": [
+        "mountains_poem:beginning/journey",
+        "mountains_poem:plants/crops"
+      ]
+    }
+  ]
+}

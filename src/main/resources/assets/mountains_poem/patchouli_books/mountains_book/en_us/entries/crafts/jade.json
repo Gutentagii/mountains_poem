@@ -1,0 +1,46 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.crafts.jade.name",
+  "icon": "mountains_poem:jade_paste",
+  "category": "mountains_poem:crafts",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:jade_paste",
+      "title": "book.mountains_poem.mountains_book.entry.crafts.jade.page.0.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.jade.page.0.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.jade.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.crafts.jade.page.1.title"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:jade_carvers",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.jade.page.2.text"
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mountains_poem:jader",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.crafts.jade.page.3.text"
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.crafts.jade.page.4.title",
+      "entries": [
+        "mountains_poem:ritual/simple_ritual",
+        "mountains_poem:ritual/gods"
+      ]
+    }
+  ]
+}

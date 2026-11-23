@@ -28,7 +28,6 @@
   "item.mountains_poem.unbaked_mooncake_fruits": "未炊月餤",
   "entity.mountains_poem.min_qu_bird": "鸣渠",
   "item.mountains_poem.golden_yan_fruit": "金棪实",
-
   "death.attack.sanguine_thorn_stung.item": "中毒%1$s被%2$s使用%3$s击杀了",
   "item.mountains_poem.scarlet_twilight_engraved_xuan_shells": "赤暮雕纹旋龟甲",
   "item.mountains_poem.lei_meat_sauce": "类肉酱",
@@ -960,6 +959,5 @@
   "item.mountains_poem.blood_copper_hoe": "赤铜锄",
   "item.mountains_poem.blood_copper_pickaxe": "赤铜镐",
   "item.mountains_poem.blood_copper_shovel": "赤铜锹",
-
   "text.mountains_poem.alpha": "§l§a[Mountains Poem]§r§l§2 您当前运行的为§b§n公测测试版§r§l§2 如果有任何bug请联系我们并提供报错日志以便我们修复mod （。＾▽＾）"
 }

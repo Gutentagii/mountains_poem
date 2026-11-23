@@ -26,7 +26,7 @@ public class WhitejadeItem extends Item {
             if (!ap.isDone())
                 for (String criteria : ap.getRemainingCriteria())
                     player.getAdvancements().award(advancement, criteria);
-            player.awardRecipesByKey(new ResourceLocation[]{ResourceLocation.fromNamespaceAndPath(MountainsPoemMod.MOD_ID,"mountains_book")});
+            player.awardRecipesByKey(new ResourceLocation[]{ResourceLocation.fromNamespaceAndPath(MountainsPoemMod.MOD_ID,"guide_book")});
         }
     }
 }

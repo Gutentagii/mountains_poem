@@ -1,6 +1,10 @@
 {
-  "name": "item.mountains_poem.mountains_book",
-  "landing_text": "book.mountains_poem.landing",
+  "name": "book.mountains_poem.mountains_book.name",
+  "landing_text": "book.mountains_poem.mountains_book.landing",
   "version": "1.0",
-  "use_resource_pack": true
+  "creative_tab": "mountains_poem:mountains_poem",
+  "model": "minecraft:book",
+  "index_icon": "minecraft:book",
+  "use_resource_pack": true,
+  "i18n": true
 }

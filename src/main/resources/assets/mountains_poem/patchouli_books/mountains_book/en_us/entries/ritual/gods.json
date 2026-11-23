@@ -1,0 +1,38 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.ritual.gods.name",
+  "icon": "mountains_poem:the_second_southern_mountain_jade_pendant",
+  "category": "mountains_poem:ritual",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.ritual.gods.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.ritual.gods.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.ritual.gods.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.ritual.gods.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.ritual.gods.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.ritual.gods.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.ritual.gods.page.3.title",
+      "entries": [
+        "mountains_poem:ritual/south_god",
+        "mountains_poem:ritual/second_god",
+        "mountains_poem:ritual/loong_god"
+      ]
+    }
+  ]
+}

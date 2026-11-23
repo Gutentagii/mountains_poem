@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.name",
+  "icon": "mountains_poem:spooky_bronze_devourer_statue_piece",
+  "category": "mountains_poem:creatures",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:bronze_devourer",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.bronze_devourer.page.3.title",
+      "entries": [
+        "mountains_poem:crafts/bronze"
+      ]
+    }
+  ]
+}

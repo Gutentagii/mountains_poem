@@ -1,0 +1,37 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.name",
+  "icon": "mountains_poem:plague_horn",
+  "category": "mountains_poem:creatures",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:fei_bull",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.fei_bull.page.3.title",
+      "entries": [
+        "mountains_poem:ritual/blessings"
+      ]
+    }
+  ]
+}

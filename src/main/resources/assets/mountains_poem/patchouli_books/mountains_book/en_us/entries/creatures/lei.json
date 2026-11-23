@@ -1,0 +1,38 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.creatures.lei.name",
+  "icon": "mountains_poem:lei_mane",
+  "category": "mountains_poem:creatures",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mountains_poem:lei",
+      "scale": 0.8,
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.lei.page.0.text"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.lei.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.lei.page.1.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.creatures.lei.page.2.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.creatures.lei.page.2.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.creatures.lei.page.3.title",
+      "entries": [
+        "mountains_poem:crafts/hanfu",
+        "mountains_poem:creatures/nine_tailed_fox"
+      ]
+    }
+  ]
+}

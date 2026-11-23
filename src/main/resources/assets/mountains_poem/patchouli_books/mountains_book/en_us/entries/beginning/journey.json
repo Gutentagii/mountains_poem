@@ -1,0 +1,31 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.beginning.journey.name",
+  "icon": "minecraft:compass",
+  "category": "mountains_poem:beginning",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.journey.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.journey.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.beginning.journey.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.beginning.journey.page.1.title"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.beginning.journey.page.2.title",
+      "entries": [
+        "mountains_poem:crafts/blood_copper",
+        "mountains_poem:ritual/table",
+        "mountains_poem:underworld/portal"
+      ]
+    }
+  ]
+}

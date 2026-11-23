@@ -1,0 +1,39 @@
+{
+  "name": "book.mountains_poem.mountains_book.entry.plants.woods.name",
+  "icon": "mountains_poem:yan_fruit",
+  "category": "mountains_poem:plants",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.woods.page.0.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.plants.woods.page.0.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.woods.page.1.text"
+      },
+      "title": "book.mountains_poem.mountains_book.entry.plants.woods.page.1.title"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mountains_poem:yan_fruit",
+      "title": "book.mountains_poem.mountains_book.entry.plants.woods.page.2.title",
+      "text": {
+        "translate": "book.mountains_poem.mountains_book.entry.plants.woods.page.2.text"
+      },
+      "scale": 1.0
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "book.mountains_poem.mountains_book.entry.plants.woods.page.3.title",
+      "entries": [
+        "mountains_poem:plants/crops",
+        "mountains_poem:creatures/white_ape"
+      ]
+    }
+  ]
+}
