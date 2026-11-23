@@ -1416,9 +1416,9 @@
 					"rotation": {
 						"vector": [-2.5, 3, -5]
 					},
-					"scale": {
-						"vector": ["variable.state == 1 ? 0 : 1", "variable.state == 1 ? 0 : 1", "variable.state == 1 ? 0 : 1"]
-					}
+                    "scale": {
+                        "vector": ["!(variable.state == 1)", "!(variable.state == 1)", "!(variable.state == 1)"]
+                    }
 				},
 				"right_closed_wing": {
 					"rotation": {

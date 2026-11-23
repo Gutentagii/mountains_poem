@@ -5,5 +5,5 @@
     "particle": "mountains_poem:block/bronze_devourer_statue",
     "0": "mountains_poem:block/bronze_devourer_statue"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

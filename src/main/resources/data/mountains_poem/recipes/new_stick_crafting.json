@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 4,
   "ingredient": {
-    "tag": "mpoems:newjiang_woods"
+    "tag": "mpoems:jiang_woods"
   },
-  "result": "mountains_poem:newjiangstick"
+  "result": "mountains_poem:jiang_stick"
 }

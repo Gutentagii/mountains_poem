@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:white_ape_curved_nails"
+    },
+    {
+      "item": "mountains_poem:white_ape_curved_nails"
+    },
+    {
+      "item": "mountains_poem:white_ape_curved_nails"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:white_ape_climbing_hook"
+  }
+}

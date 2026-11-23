@@ -57,7 +57,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mountains_poem:bloodcoppersword",
+          "name": "mountains_poem:blood_copper_sword",
           "weight": 1,
           "functions": [
             {

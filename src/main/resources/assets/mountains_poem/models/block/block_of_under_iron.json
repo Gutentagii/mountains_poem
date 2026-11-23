@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/block_of_under_iron",
+    "up": "mountains_poem:block/block_of_under_iron",
+    "north": "mountains_poem:block/block_of_under_iron",
+    "east": "mountains_poem:block/block_of_under_iron",
+    "south": "mountains_poem:block/block_of_under_iron",
+    "west": "mountains_poem:block/block_of_under_iron",
+    "particle": "mountains_poem:block/block_of_under_iron"
+  },
+  "render_type": "solid"
+}

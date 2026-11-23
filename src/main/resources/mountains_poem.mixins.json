@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.xiris.mountainspoem.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [],
+  "mixins": [
+    "AxeItemAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

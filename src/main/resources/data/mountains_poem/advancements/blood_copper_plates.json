@@ -35,10 +35,10 @@
   "rewards": {
     "experience": 0,
     "recipes": [
-      "mountains_poem:the_blood_copper_armor_helmet_recipe",
-      "mountains_poem:the_blood_copper_armor_chestplate_recipe",
-      "mountains_poem:the_blood_copper_armor_leggings_recipe",
-      "mountains_poem:the_blood_copper_armor_boots_recipe",
+      "mountains_poem:blood_copper_helmet_recipe",
+      "mountains_poem:blood_copper_chestplate_recipe",
+      "mountains_poem:blood_copper_leggings_recipe",
+      "mountains_poem:blood_copper_boots_recipe",
       "mountains_poem:blood_copper_114514",
       "mountains_poem:konwuswords"
     ]

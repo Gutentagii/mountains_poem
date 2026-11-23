@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mountains_poem:white_ape_climbing_hook"
+    },
+    "title": {
+      "translate": "advancements.white_ape_climbing_hook.title"
+    },
+    "description": {
+      "translate": "advancements.white_ape_climbing_hook.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_climbing_hooks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mountains_poem:white_ape_climbing_hook"
+      }
+    }
+  },
+  "parent": "mountains_poem:monkeys"
+}

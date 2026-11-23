@@ -8,7 +8,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "mountains_poem:yanleaves",
+            "Name": "mountains_poem:yan_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",

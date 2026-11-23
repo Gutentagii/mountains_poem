@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mountains_poem:block/newjiang_leaves",
-    "particle": "mountains_poem:block/newjiang_leaves"
-  }
-}

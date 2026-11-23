@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "particle": "mountains_poem:block/newjiang_planks",
-    "texture": "mountains_poem:block/newjiang_planks"
-  },
-  "render_type": "solid"
-}

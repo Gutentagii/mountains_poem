@@ -19,8 +19,8 @@
     "mountains_poem:copper_small_ding",
     "mountains_poem:deepslate_blood_copper_ore",
     "mountains_poem:deepslate_jade_ore",
-    "mountains_poem:the_blood_copper_block",
-    "mountains_poem:under_iron_block",
+    "mountains_poem:block_of_blood_copper",
+    "mountains_poem:block_of_under_iron",
     "mountains_poem:copper_zun_bottle",
     "mountains_poem:white_jian_grass_mat_covered_sacrificial_table",
     "mountains_poem:under_rock_brick_fence",
@@ -39,7 +39,7 @@
     "mountains_poem:under_rock_bricks",
     "mountains_poem:under_rock",
     "mountains_poem:jade_ore",
-    "mountains_poem:bloodcopperore",
+    "mountains_poem:blood_copper_ore",
     "mountains_poem:gilded_copper_block"
   ]
 }

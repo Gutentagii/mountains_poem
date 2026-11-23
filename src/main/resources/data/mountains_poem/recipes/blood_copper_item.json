@@ -4,7 +4,7 @@
   "experience": 10,
   "cookingtime": 400,
   "ingredient": {
-    "item": "mountains_poem:bloodcopperore"
+    "item": "mountains_poem:blood_copper_ore"
   },
   "result": "mountains_poem:bloodcopper"
 }

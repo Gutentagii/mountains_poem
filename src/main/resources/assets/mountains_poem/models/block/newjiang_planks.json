@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mountains_poem:block/newjiang_planks",
-    "particle": "mountains_poem:block/newjiang_planks"
-  },
-  "render_type": "solid"
-}

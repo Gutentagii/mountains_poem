@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "mountains_poem:stripped_newjiang_log"
+      "item": "mountains_poem:stripped_jiang_log"
     }
   },
   "result": {
-    "item": "mountains_poem:stripped_newjiang_wood",
+    "item": "mountains_poem:stripped_jiang_wood",
     "count": 3
   }
 }

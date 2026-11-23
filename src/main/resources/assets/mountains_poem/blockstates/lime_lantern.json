@@ -1,9 +1,9 @@
 {
   "variants": {
-    "blockstate=0": {
+    "lit=true": {
       "model": "mountains_poem:block/lime_lantern"
     },
-    "blockstate=1": {
+    "lit=false": {
       "model": "mountains_poem:block/lime_lantern_1_blockstate_0"
     }
   }

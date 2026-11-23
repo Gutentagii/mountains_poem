@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "mountains_poem:deepslate_blood_copper_ore",
-    "mountains_poem:under_iron_block",
-    "mountains_poem:bloodcopperore"
+    "mountains_poem:block_of_under_iron",
+    "mountains_poem:blood_copper_ore"
   ]
 }

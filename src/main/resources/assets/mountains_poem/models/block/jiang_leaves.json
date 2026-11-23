@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "all": "mountains_poem:block/newjiang_leaves",
+    "particle": "mountains_poem:block/newjiang_leaves"
+  }
+}

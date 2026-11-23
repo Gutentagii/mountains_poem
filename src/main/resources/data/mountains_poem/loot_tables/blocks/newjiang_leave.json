@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mountains_poem:newjiangstick",
+          "name": "mountains_poem:jiang_stick",
           "weight": 1,
           "conditions": [
             {
@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mountains_poem:newjiangleave",
+          "name": "mountains_poem:jiang_leaves",
           "weight": 1,
           "conditions": [
             {

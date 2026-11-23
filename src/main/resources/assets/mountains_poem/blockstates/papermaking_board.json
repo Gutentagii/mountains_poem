@@ -1,9 +1,9 @@
 {
   "variants": {
-    "blockstate=0": {
+    "blockstate=false": {
       "model": "mountains_poem:block/papermaking_board"
     },
-    "blockstate=1": {
+    "blockstate=true": {
       "model": "mountains_poem:block/papermaking_blockstate_0"
     }
   }

@@ -1,7 +1,7 @@
 {
-  "parent": "mountains_poem:custom/copper_ge",
+  "parent": "mountains_poem:custom/blood_copper_dagger_axe",
   "textures": {
-    "0": "mountains_poem:block/blood_copper_bamboo_side",
-    "particle": "mountains_poem:item/the_copper_sword"
+    "0": "mountains_poem:block/blood_copper_dagger_axe",
+    "particle": "mountains_poem:block/blood_copper_dagger_axe"
   }
 }

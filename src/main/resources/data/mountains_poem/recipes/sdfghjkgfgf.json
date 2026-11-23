@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "mountains_poem:newjiang_planks"
+      "item": "mountains_poem:jiang_planks"
     }
   },
   "result": {
-    "item": "mountains_poem:newjiang_trapdoor",
+    "item": "mountains_poem:jiang_trapdoor",
     "count": 2
   }
 }

@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "mountains_poem:newjianglog"
+      "item": "mountains_poem:jiang_log"
     }
   },
   "result": {
-    "item": "mountains_poem:newjiang_wood",
+    "item": "mountains_poem:jiang_wood",
     "count": 3
   }
 }

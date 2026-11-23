@@ -14,14 +14,14 @@
       "item": "mountains_poem:red_cloth_piece"
     },
     "c": {
-      "item": "mountains_poem:newjiangstick"
+      "item": "mountains_poem:jiang_stick"
     },
     "d": {
       "item": "mountains_poem:jadepiece"
     }
   },
   "result": {
-    "item": "mountains_poem:bloodcoppersword",
+    "item": "mountains_poem:blood_copper_sword",
     "count": 1
   }
 }

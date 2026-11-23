@@ -513,22 +513,30 @@
 					"rotation": [-55, 0, 0],
 					"position": [0, -1, 0]
 				},
-				"left_closed_wing": {
-					"rotation": [-2.5, 3, -5],
-					"scale": "variable.state == 1 ? 0 : 1"
-				},
-				"right_closed_wing": {
-					"rotation": [-2.5, -3, 5],
-					"scale": "variable.state == 1 ? 0 : 1"
-				},
-				"leftwing1": {
-					"rotation": [0, 0, -25],
-					"scale": "variable.state == 1 ? 1 : 0"
-				},
-				"rightwing1": {
-					"rotation": [0, 0, 25],
-					"scale": "variable.state == 1 ? 1 : 0"
-				},
+                "left_closed_wing": {
+                  "rotation": [-2.5, 3, -5],
+                  "scale": {
+                    "vector": ["!(variable.state == 1)", "!(variable.state == 1)", "!(variable.state == 1)"]
+                  }
+                },
+                "right_closed_wing": {
+                  "rotation": [-2.5, -3, 5],
+                  "scale": {
+                    "vector": ["!(variable.state == 1)", "!(variable.state == 1)", "!(variable.state == 1)"]
+                  }
+                },
+                "leftwing1": {
+                  "rotation": [0, 0, -25],
+                  "scale": {
+                    "vector": ["variable.state == 1", "variable.state == 1", "variable.state == 1"]
+                  }
+                },
+                "rightwing1": {
+                  "rotation": [0, 0, 25],
+                  "scale": {
+                    "vector": ["variable.state == 1", "variable.state == 1", "variable.state == 1"]
+                  }
+                },
 				"rightwing3": {
 					"rotation": [0, -20, 0]
 				},

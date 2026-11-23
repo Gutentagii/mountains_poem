@@ -10,13 +10,13 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "mountains_poem:newjiangleave"
+        "Name": "mountains_poem:jiang_leaves"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "mountains_poem:newjianglog"
+        "Name": "mountains_poem:jiang_log"
       }
     },
     "force_dirt": false,

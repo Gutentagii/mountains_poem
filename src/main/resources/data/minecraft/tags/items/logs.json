@@ -7,14 +7,14 @@
     "mountains_poem:stripped_pan_log",
     "mountains_poem:stripped_yan_wood",
     "mountains_poem:stripped_huang_guan_wood",
-    "mountains_poem:stripped_newjiang_wood",
+    "mountains_poem:stripped_jiang_wood",
     "mountains_poem:stripped_sha_tang_wood",
     "mountains_poem:stripped_pan_wood",
     "mountains_poem:stripped_peach_blossom_wood",
     "mountains_poem:stripped_huang_guan_log",
     "mountains_poem:stripped_yan_log",
     "mountains_poem:stripped_shatang_log",
-    "mountains_poem:stripped_newjiang_log",
+    "mountains_poem:stripped_jiang_log",
     "mountains_poem:dark_spruce_log",
     "mountains_poem:pan_log",
     "mountains_poem:pan_wood",
@@ -22,9 +22,9 @@
     "mountains_poem:shatang_wood",
     "mountains_poem:huang_guan_log",
     "mountains_poem:huang_guan_wood",
-    "mountains_poem:newjianglog",
-    "mountains_poem:newjiang_wood",
-    "mountains_poem:yanlog",
-    "mountains_poem:yanwood"
+    "mountains_poem:jiang_log",
+    "mountains_poem:jiang_wood",
+    "mountains_poem:yan_log",
+    "mountains_poem:yan_wood"
   ]
 }

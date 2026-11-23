@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mountains_poem:block/jiang_slab"
+    },
+    "type=top": {
+      "model": "mountains_poem:block/jiang_slab_top"
+    },
+    "type=double": {
+      "model": "mountains_poem:block/jiang_slab_full"
+    }
+  }
+}

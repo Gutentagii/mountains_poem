@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mountains_poem:ao_yin_fur"
+    },
+    {
+      "item": "mountains_poem:ao_yin_fur"
+    },
+    {
+      "item": "mountains_poem:ao_yin_fur"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "mountains_poem:ao_yin_fur_coat"
+  }
+}

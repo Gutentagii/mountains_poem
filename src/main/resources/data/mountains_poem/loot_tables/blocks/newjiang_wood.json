@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "mountains_poem:blocks/newjiang_wood",
+  "random_sequence": "mountains_poem:blocks/jiang_wood",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mountains_poem:newjiang_wood"
+          "name": "mountains_poem:jiang_wood"
         }
       ]
     }

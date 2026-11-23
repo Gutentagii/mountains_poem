@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mountains_poem:block/block_of_blood_copper",
+    "up": "mountains_poem:block/block_of_blood_copper",
+    "north": "mountains_poem:block/block_of_blood_copper",
+    "east": "mountains_poem:block/block_of_blood_copper",
+    "south": "mountains_poem:block/block_of_blood_copper",
+    "west": "mountains_poem:block/block_of_blood_copper",
+    "particle": "mountains_poem:block/block_of_blood_copper"
+  },
+  "render_type": "solid"
+}
